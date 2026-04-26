@@ -1,36 +1,125 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Calgary Council Values Matcher
 
-## Getting Started
+A civic transparency platform that helps Calgarians compare elected officials by actual voting records instead of campaign promises.
 
-First, run the development server:
+This project uses Calgary City Council voting records and the 7 sustainability domains from Sustainable Calgary’s *State of Our City* framework to show which councillors align most closely with a user's values.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## Core Idea
+
+Users rank the following 7 sustainability domains based on personal importance:
+
+1. Economy
+2. Education
+3. Natural Environment
+4. Resource Use
+5. Wellness
+6. Governance
+7. Community
+
+The platform then compares those priorities against council voting behavior to answer one question:
+
+**Which politician aligns most closely with your values through their voting record?**
+
+## Philosophy
+
+This project is built around one principle:
+
+**Actions over promises.**
+
+No campaign slogans.
+No political spin.
+Just public voting records and transparent civic accountability.
+
+## Current Stack
+
+* Next.js 16
+* React
+* TypeScript
+* Tailwind CSS
+* PM2 (production process management)
+* Hosted on Ubuntu server
+
+## Preview
+
+[![Calgary Council Values Matcher Preview](https://i.imgur.com/ekUJtSl.png)](https://imgur.com/a/ekUJtSl)
+
+## Current Features (V1)
+
+* Hero landing page
+* Ranked values interface
+* Drag-to-prioritize domain cards
+* Step-based user flow
+* Results section with councillor alignment preview
+* PM2 production deployment
+
+## Planned Features
+
+### Phase 2
+
+* Real councillor dataset (full council roster)
+* Dynamic scoring based on ranked priorities
+* Domain-based alignment engine
+* Individual councillor vote breakdowns
+
+### Phase 3
+
+* Vote receipt drawer (“show me the votes”)
+* Full council voting record integration
+* Domain classification engine for council motions
+* Better transparency reporting
+
+### Phase 4
+
+* Ward map + councillor profiles
+* Shareable values profile
+* Public-facing production deployment
+* Open civic transparency dashboard
+
+## Project Structure
+
+```text
+app/
+  page.tsx          Main homepage and values matcher UI
+public/
+README.md
+package.json
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Local Development
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+cd /var/www/calgary-council-values
+npm install
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+App runs locally at:
 
-## Learn More
+```text
+http://localhost:3000
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Production Deployment
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Build production:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+npm run build
+```
 
-## Deploy on Vercel
+Restart PM2:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+pm2 restart calgary-council-values
+pm2 save
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Repository Purpose
+
+This is not a campaign tool.
+
+It is a public civic utility designed to help residents make clearer decisions using public information and transparent governance data.
+
+The goal is simple:
+
+**Help people vote with evidence.**
