@@ -41,7 +41,7 @@ Just public voting records and transparent civic accountability.
 
 ## Preview
 
-[![Calgary Council Values Matcher Preview](https://i.imgur.com/ekUJtSl.png)](https://imgur.com/a/ekUJtSl)
+[![Calgary Council Values Matcher Preview](https://i.imgur.com/buRe8FV.png)](https://imgur.com/buRe8FV)
 
 ## Current Features (V1)
 
