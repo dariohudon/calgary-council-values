@@ -39,3 +39,5 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+data/GOLD_STANDARD_REVIEW.backup-before-batch.csv
+data/GOLD_STANDARD_REVIEW_FILLED.csv
