@@ -1,6 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import Link from "next/link";
 
 type Domain = {
   name: string;
@@ -65,7 +66,12 @@ export default function HomePage() {
   }
 
   return (
-    <main className="min-h-screen bg-[#070B18] text-white">
+
+  <main className="min-h-screen bg-[#070B18] text-white">
+
+
+
+
       <section className="border-b border-white/10">
         <div className="mx-auto max-w-7xl px-6 py-20">
           <p className="mb-4 text-sm uppercase tracking-[0.24em] text-red-300">
@@ -257,6 +263,6 @@ export default function HomePage() {
           </p>
         </div>
       </section>
-    </main>
-  );
+    </main>  
+);
 }
