@@ -55,15 +55,26 @@ function formatDate(dateStr: string): string {
   return `${months[m - 1]} ${d}, ${y}`;
 }
 
+// Used only when the notes field is empty — takes the first readable fragment
+// of the resolution text as a fallback summary.
+function resolutionExcerpt(resolution: string): string {
+  const clean = resolution.replace(/\s+/g, " ").trim();
+  if (clean.length <= 160) return clean;
+  const cut = clean.slice(0, 160);
+  const lastSpace = cut.lastIndexOf(" ");
+  return cut.slice(0, lastSpace > 0 ? lastSpace : 160) + "…";
+}
+
 export default function ReceiptDrawer({
   councillorName,
   reviewedVotesMatched,
   receipts,
   onClose,
 }: Props) {
-  const [expanded, setExpanded] = useState<Set<number>>(new Set());
+  // Tracks which receipts have their full motion text expanded.
+  // Default is collapsed — motion text is secondary.
+  const [motionExpanded, setMotionExpanded] = useState<Set<number>>(new Set());
 
-  // Escape key closes drawer
   useEffect(() => {
     function handleKey(e: KeyboardEvent) {
       if (e.key === "Escape") onClose();
@@ -72,7 +83,6 @@ export default function ReceiptDrawer({
     return () => document.removeEventListener("keydown", handleKey);
   }, [onClose]);
 
-  // Prevent body scroll while open
   useEffect(() => {
     document.body.style.overflow = "hidden";
     return () => {
@@ -80,8 +90,8 @@ export default function ReceiptDrawer({
     };
   }, []);
 
-  function toggleExpand(index: number) {
-    setExpanded((prev) => {
+  function toggleMotion(index: number) {
+    setMotionExpanded((prev) => {
       const next = new Set(prev);
       if (next.has(index)) {
         next.delete(index);
@@ -154,8 +164,16 @@ export default function ReceiptDrawer({
                 key={i}
                 className="rounded-xl border border-white/[0.08] bg-white/[0.03] p-5"
               >
-                {/* Meta row */}
-                <div className="flex flex-wrap items-center gap-x-3 gap-y-1">
+
+                {/* 1. WHAT THIS VOTE WAS ABOUT
+                    Notes from the gold standard review are the plain-language
+                    summary. If absent, fall back to a resolution excerpt. */}
+                <p className="text-sm font-medium leading-relaxed text-slate-200">
+                  {receipt.notes || resolutionExcerpt(receipt.resolution)}
+                </p>
+
+                {/* 2. CONTEXT — date, domain, vote type, confidence */}
+                <div className="mt-3 flex flex-wrap items-center gap-x-3 gap-y-1">
                   {receipt.date && (
                     <span className="text-xs text-slate-500">
                       {formatDate(receipt.date)}
@@ -172,54 +190,65 @@ export default function ReceiptDrawer({
                     </span>
                   )}
                   {receipt.confidence && (
-                    <span
-                      className={`text-xs ${confidenceStyle(receipt.confidence)}`}
-                    >
+                    <span className={`text-xs ${confidenceStyle(receipt.confidence)}`}>
                       {receipt.confidence} confidence
                     </span>
                   )}
                 </div>
 
-                {/* Resolution text */}
-                <div className="mt-3">
-                  <p className="text-sm leading-relaxed text-slate-300">
-                    {expanded.has(i) || receipt.resolution.length <= 200
-                      ? receipt.resolution
-                      : receipt.resolution.slice(0, 200) + "…"}
+                {/* 3. HOW THE COUNCILLOR VOTED */}
+                <div className="mt-4 border-t border-white/[0.06] pt-4">
+                  <div className="flex flex-wrap items-center gap-3">
+                    <div className="flex items-center gap-2">
+                      <span className="text-xs text-slate-500">Voted</span>
+                      <span className="rounded bg-white/[0.09] px-2.5 py-1 text-sm font-semibold text-slate-100">
+                        {receipt.vote}
+                      </span>
+                    </div>
+                    <span className="text-xs text-slate-400">
+                      {receipt.alignmentLabel}
+                    </span>
+                  </div>
+                  <p className="mt-1.5 text-xs text-slate-600">
+                    Reviewed direction: {receipt.direction}
                   </p>
-                  {receipt.resolution.length > 200 && (
-                    <button
-                      onClick={() => toggleExpand(i)}
-                      className="mt-1 text-xs text-red-400 underline underline-offset-2 hover:text-red-300"
+                </div>
+
+                {/* 4. FULL MOTION TEXT — collapsed by default
+                    The formal council resolution text is preserved for
+                    auditability but does not lead the receipt. */}
+                <div className="mt-4 border-t border-white/[0.04] pt-3">
+                  <button
+                    onClick={() => toggleMotion(i)}
+                    className="flex items-center gap-1.5 text-xs text-slate-600 transition-colors hover:text-slate-400"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="12"
+                      height="12"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      aria-hidden="true"
+                      className={`transition-transform ${motionExpanded.has(i) ? "rotate-180" : ""}`}
                     >
-                      {expanded.has(i) ? "Show less" : "Show full motion text"}
-                    </button>
+                      <polyline points="6 9 12 15 18 9" />
+                    </svg>
+                    {motionExpanded.has(i)
+                      ? "Hide motion text"
+                      : "View full motion text"}
+                  </button>
+
+                  {motionExpanded.has(i) && (
+                    <p className="mt-3 text-xs leading-relaxed text-slate-500">
+                      {receipt.resolution}
+                    </p>
                   )}
                 </div>
 
-                {/* Vote and alignment */}
-                <div className="mt-4 flex flex-wrap items-center gap-3 border-t border-white/[0.06] pt-3">
-                  <div className="flex items-center gap-2 text-xs">
-                    <span className="text-slate-500">Vote:</span>
-                    <span className="rounded bg-white/[0.07] px-2 py-0.5 font-medium text-slate-200">
-                      {receipt.vote}
-                    </span>
-                  </div>
-                  <div className="flex items-center gap-2 text-xs">
-                    <span className="text-slate-500">Direction:</span>
-                    <span className="text-slate-300">{receipt.direction}</span>
-                  </div>
-                  <span className="text-xs text-slate-500">
-                    {receipt.alignmentLabel}
-                  </span>
-                </div>
-
-                {/* Reviewer note */}
-                {receipt.notes && (
-                  <p className="mt-3 text-xs leading-relaxed text-slate-600">
-                    Note: {receipt.notes}
-                  </p>
-                )}
               </div>
             ))}
           </div>
