@@ -1,11 +1,26 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import ReceiptDrawer, { type ReceiptEntry } from "./ReceiptDrawer";
 
 type Domain = {
   name: string;
   description: string;
 };
+
+type ReceiptsApiResponse = {
+  councillorName: string;
+  reviewedVotesMatched: number;
+  receipts: ReceiptEntry[];
+};
+
+function nameToSlug(name: string): string {
+  return name
+    .toLowerCase()
+    .replace(/[^a-z0-9]/g, "-")
+    .replace(/-+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
 
 export type CouncillorScore = {
   name: string;
@@ -33,6 +48,8 @@ export default function HomeClient({
 }) {
   const [domains, setDomains] = useState<Domain[]>(initialDomains);
   const [draggedIndex, setDraggedIndex] = useState<number | null>(null);
+  const [loadingFor, setLoadingFor] = useState<string | null>(null);
+  const [drawerData, setDrawerData] = useState<ReceiptsApiResponse | null>(null);
 
   const eligibleCouncillors = useMemo(
     () =>
@@ -52,6 +69,25 @@ export default function HomeClient({
     const [moved] = next.splice(fromIndex, 1);
     next.splice(toIndex, 0, moved);
     setDomains(next);
+  }
+
+  async function handleShowReceipts(name: string) {
+    setLoadingFor(name);
+    try {
+      const slug = nameToSlug(name);
+      const res = await fetch(`/api/receipts/${slug}`);
+      if (!res.ok) throw new Error("Failed to load reviewed votes");
+      const data: ReceiptsApiResponse = await res.json();
+      setDrawerData(data);
+    } catch {
+      // Loading silently fails — button returns to default state
+    } finally {
+      setLoadingFor(null);
+    }
+  }
+
+  function handleDrawerClose() {
+    setDrawerData(null);
   }
 
   function handleFindMatch() {
@@ -221,6 +257,16 @@ export default function HomeClient({
                   Score based on public voting record across reviewed votes and
                   7-domain methodology.
                 </p>
+
+                <button
+                  onClick={() => handleShowReceipts(person.name)}
+                  disabled={loadingFor === person.name}
+                  className="mt-5 text-sm font-semibold text-red-300 underline underline-offset-4 transition-colors hover:text-red-200 disabled:opacity-50"
+                >
+                  {loadingFor === person.name
+                    ? "Loading…"
+                    : "Show receipts →"}
+                </button>
               </div>
             ))}
           </div>
@@ -269,6 +315,15 @@ export default function HomeClient({
           </p>
         </div>
       </section>
+
+      {drawerData && (
+        <ReceiptDrawer
+          councillorName={drawerData.councillorName}
+          reviewedVotesMatched={drawerData.reviewedVotesMatched}
+          receipts={drawerData.receipts}
+          onClose={handleDrawerClose}
+        />
+      )}
     </main>
   );
 }
