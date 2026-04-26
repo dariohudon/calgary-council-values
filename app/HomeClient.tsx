@@ -22,6 +22,12 @@ function nameToSlug(name: string): string {
     .replace(/^-+|-+$/g, "");
 }
 
+export type ScoringVote = {
+  domain: string;
+  alignment: number;
+  cvFactor: number;
+};
+
 export type CouncillorScore = {
   name: string;
   reviewedVotesMatched: number;
@@ -29,17 +35,42 @@ export type CouncillorScore = {
   isEligibleForPublicScore: boolean;
   alignmentScore: number | null;
   scoreStatus: string;
+  scoringVotes: ScoringVote[] | null;
 };
 
+// Order matches DOMAIN_ORDER in calculate-alignment-score.mjs so that
+// on first load the displayed scores equal the stored alignmentScore.
 const initialDomains: Domain[] = [
-  { name: "Resource Use", description: "Transit, utilities, infrastructure" },
-  { name: "Economy", description: "Taxes, affordability, investment" },
-  { name: "Education", description: "Youth, learning, opportunity" },
-  { name: "Natural Environment", description: "Climate, parks, resilience" },
   { name: "Wellness", description: "Housing, safety, health" },
-  { name: "Governance", description: "Transparency, accountability" },
   { name: "Community", description: "Neighbourhoods, belonging" },
+  { name: "Economy", description: "Taxes, affordability, investment" },
+  { name: "Natural Environment", description: "Climate, parks, resilience" },
+  { name: "Resource Use", description: "Transit, utilities, infrastructure" },
+  { name: "Governance", description: "Transparency, accountability" },
+  { name: "Education", description: "Youth, learning, opportunity" },
 ];
+
+// Replicates the scoring formula from calculate-alignment-score.mjs.
+// Only the domainWeights vary per user — cvFactor and alignment are fixed
+// by the reviewed gold standard and cannot be changed from the client.
+function computePersonalizedScore(
+  scoringVotes: ScoringVote[],
+  domainWeights: Record<string, number>
+): number {
+  let totalEarned = 0;
+  let totalPossible = 0;
+  for (const v of scoringVotes) {
+    const dw = domainWeights[v.domain] ?? 1;
+    const sw = dw * v.cvFactor;
+    const earned =
+      v.alignment === 1 ? sw : v.alignment === -1 ? 0 : sw * 0.5;
+    totalEarned += earned;
+    totalPossible += sw;
+  }
+  return totalPossible > 0 ? (totalEarned / totalPossible) * 100 : 0;
+}
+
+type ScoredCouncillor = CouncillorScore & { personalizedScore: number };
 
 export default function HomeClient({
   councillorData,
@@ -51,13 +82,19 @@ export default function HomeClient({
   const [loadingFor, setLoadingFor] = useState<string | null>(null);
   const [drawerData, setDrawerData] = useState<ReceiptsApiResponse | null>(null);
 
-  const eligibleCouncillors = useMemo(
-    () =>
-      councillorData
-        .filter((c) => c.isEligibleForPublicScore)
-        .sort((a, b) => (b.alignmentScore ?? 0) - (a.alignmentScore ?? 0)),
-    [councillorData]
-  );
+  const rankedEligible = useMemo((): ScoredCouncillor[] => {
+    const weights: Record<string, number> = {};
+    domains.forEach((d, i) => {
+      weights[d.name] = 7 - i;
+    });
+    return councillorData
+      .filter((c) => c.isEligibleForPublicScore && c.scoringVotes !== null)
+      .map((c) => ({
+        ...c,
+        personalizedScore: computePersonalizedScore(c.scoringVotes!, weights),
+      }))
+      .sort((a, b) => b.personalizedScore - a.personalizedScore);
+  }, [domains, councillorData]);
 
   const withheldCouncillors = useMemo(
     () => councillorData.filter((c) => !c.isEligibleForPublicScore),
@@ -131,8 +168,9 @@ export default function HomeClient({
               </p>
               <h2 className="text-3xl font-semibold">Rank Your Values</h2>
               <p className="mt-3 max-w-3xl text-slate-400">
-                Explore how the seven civic domains are used in the methodology.
-                Personalized weighting is a planned next step.
+                Drag to reorder. Your ranking changes the weight applied to
+                each domain — higher position means greater emphasis in the
+                alignment calculation below.
               </p>
             </div>
 
@@ -220,15 +258,16 @@ export default function HomeClient({
             <h2 className="text-3xl font-semibold">Alignment Results</h2>
 
             <p className="mt-4 text-slate-400">
-              Current public alignment scores based on reviewed public voting
-              records. Scores use default methodology weighting across all 7
-              domains. Personalized weighting is a planned next step.
+              Alignment scores are calculated from reviewed public votes,
+              weighted by your current domain ranking above. The same reviewed
+              votes are used regardless of ordering — only the domain emphasis
+              changes.
             </p>
           </div>
 
-          {/* Eligible councillors with public scores */}
+          {/* Eligible councillors — scores live-recalculate on domain reorder */}
           <div className="grid gap-6 md:grid-cols-3">
-            {eligibleCouncillors.map((person) => (
+            {rankedEligible.map((person) => (
               <div
                 key={person.name}
                 className="rounded-2xl border border-white/10 bg-white/[0.04] p-6"
@@ -242,20 +281,20 @@ export default function HomeClient({
                 <div className="mt-6">
                   <p className="text-sm text-slate-400">Alignment Score</p>
                   <p className="text-5xl font-bold">
-                    {Math.round(person.alignmentScore!)}%
+                    {Math.round(person.personalizedScore)}%
                   </p>
                 </div>
 
                 <div className="mt-5 h-2 overflow-hidden rounded-full bg-white/10">
                   <div
                     className="h-full rounded-full bg-red-400"
-                    style={{ width: `${Math.round(person.alignmentScore!)}%` }}
+                    style={{ width: `${Math.round(person.personalizedScore)}%` }}
                   />
                 </div>
 
                 <p className="mt-6 text-sm leading-relaxed text-slate-400">
-                  Score based on public voting record across reviewed votes and
-                  7-domain methodology.
+                  Alignment uses reviewed public votes, weighted to your
+                  current domain priorities.
                 </p>
 
                 <button
