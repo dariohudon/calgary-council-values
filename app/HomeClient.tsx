@@ -148,10 +148,6 @@ export default function HomeClient({
     <main className="min-h-screen bg-[#070B18] text-white">
       <section className="border-b border-white/10">
         <div className="mx-auto max-w-7xl px-6 py-20">
-          <p className="mb-4 text-sm uppercase tracking-[0.24em] text-red-300">
-            Calgary Council Values Matcher
-          </p>
-
           <h1 className="max-w-5xl text-5xl font-semibold leading-tight md:text-7xl">
             Vote Records.
             <br />
@@ -318,8 +314,11 @@ export default function HomeClient({
               <p className="mb-1 text-xs font-semibold uppercase tracking-[0.2em] text-emerald-500">
                 Verified Score
               </p>
-              <p className="mb-6 text-xs text-slate-500">
+              <p className="mb-1 text-xs text-slate-500">
                 15 or more reviewed votes matched.
+              </p>
+              <p className="mb-6 text-xs text-slate-500">
+                These councillors have a longer reviewed public voting record based on prior and current council terms.
               </p>
               <div className="grid gap-6 md:grid-cols-3">
                 {rankedVerified.map((person) => (
@@ -371,11 +370,11 @@ export default function HomeClient({
               <p className="mb-1 text-xs font-semibold uppercase tracking-[0.2em] text-amber-600">
                 Preliminary Score
               </p>
-              <p className="mb-2 text-sm text-slate-400">
-                Preliminary scores are based on a smaller number of reviewed votes and may change as more council voting records are reviewed.
-              </p>
-              <p className="mb-6 text-xs text-slate-600">
+              <p className="mb-1 text-xs text-slate-500">
                 5–14 reviewed votes matched.
+              </p>
+              <p className="mb-6 text-sm text-slate-500">
+                Most councillors below were newly elected in Calgary's 2025 municipal election and currently have a smaller reviewed voting record available. Their scores reflect early voting patterns and may become clearer as more council votes are reviewed over time.
               </p>
               <div className="grid gap-4 md:grid-cols-3">
                 {rankedPreliminary.map((person) => (

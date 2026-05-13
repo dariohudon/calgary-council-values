@@ -1,125 +1,197 @@
-# Calgary Council Values Matcher
+# Calgary Council Values
 
-A civic transparency platform that helps Calgarians compare elected officials by actual voting records instead of campaign promises.
+A civic transparency project that visualizes Calgary council voting records through explainable public-interest scoring.
 
-This project uses Calgary City Council voting records and the 7 sustainability domains from Sustainable Calgary’s *State of Our City* framework to show which councillors align most closely with a user's values.
+Calgary Council Values helps residents compare elected officials using reviewed public voting records — not campaign promises, speeches, interviews, or political branding.
 
-## Core Idea
+The platform asks a simple question first:
 
-Users rank the following 7 sustainability domains based on personal importance:
+> What matters most to you?
 
-1. Economy
-2. Education
-3. Natural Environment
-4. Resource Use
-5. Wellness
-6. Governance
-7. Community
+Residents rank 7 civic domains based on personal priorities. Those priorities are then compared against reviewed public council voting records to visualize alignment between civic values and actual voting behaviour.
 
-The platform then compares those priorities against council voting behavior to answer one question:
-
-**Which politician aligns most closely with your values through their voting record?**
-
-## Philosophy
-
-This project is built around one principle:
-
-**Actions over promises.**
-
-No campaign slogans.
-No political spin.
-Just public voting records and transparent civic accountability.
-
-## Current Stack
-
-* Next.js 16
-* React
-* TypeScript
-* Tailwind CSS
-* PM2 (production process management)
-* Hosted on Ubuntu server
+---
 
 ## Preview
 
-[![Calgary Council Values Matcher Preview](https://i.imgur.com/buRe8FV.png)](https://imgur.com/buRe8FV)
+[![Calgary Council Values Preview](https://i.imgur.com/buRe8FV.png)](https://imgur.com/buRe8FV)
 
-## Current Features (V1)
+---
 
-* Hero landing page
-* Ranked values interface
-* Drag-to-prioritize domain cards
-* Step-based user flow
-* Results section with councillor alignment preview
-* PM2 production deployment
+# Why This Exists
 
-## Planned Features
+Calgary’s council voting records are public — but public does not always mean understandable.
 
-### Phase 2
+Most voting data exists across legislative records, meeting minutes, amendments, procedural motions, committee reports, and raw voting exports that are difficult for residents to navigate in practice without significant civic-process familiarity.
 
-* Real councillor dataset (full council roster)
-* Dynamic scoring based on ranked priorities
-* Domain-based alignment engine
-* Individual councillor vote breakdowns
+This project exists to help organize, classify, and visualize that information in a more understandable and transparent way.
 
-### Phase 3
+The goal is not to tell people what to believe.
 
-* Vote receipt drawer (“show me the votes”)
-* Full council voting record integration
-* Domain classification engine for council motions
-* Better transparency reporting
+The goal is to help residents better understand how elected officials vote once they are in office.
 
-### Phase 4
+---
 
-* Ward map + councillor profiles
-* Shareable values profile
-* Public-facing production deployment
-* Open civic transparency dashboard
+# Core Principles
 
-## Project Structure
+## Actions over promises
 
-```text
-app/
-  page.tsx          Main homepage and values matcher UI
-public/
-README.md
-package.json
-```
+The system evaluates public voting behaviour — not campaign messaging.
 
-## Local Development
+## Receipts-first transparency
 
-```bash
-cd /var/www/calgary-council-values
+Every score should eventually connect back to:
+- the original motion
+- meeting dates
+- recorded votes
+- domain classifications
+- confidence tiers
+
+## Explainable methodology
+
+Scores are intentionally built using visible, inspectable logic rather than black-box political scoring.
+
+## Conservative classification
+
+Only reviewed public votes with meaningful civic impact are included in scoring.
+
+## Independent civic analysis
+
+The project is independent and non-partisan.
+
+---
+
+# Current Methodology
+
+The current scoring framework includes:
+
+- 7 civic domains
+- weighted user priorities
+- reviewed public voting records
+- manual vote classification
+- directional vote analysis
+- confidence tiers
+- receipt-based transparency
+
+The system currently classifies reviewed council decisions into:
+
+1. Community
+2. Economy
+3. Education
+4. Wellness
+5. Natural Environment
+6. Resource Use
+7. Governance
+
+Votes are manually reviewed before entering the scoring system.
+
+Procedural noise, duplicate records, and low-signal administrative motions are generally excluded.
+
+---
+
+# Score Confidence Tiers
+
+Public scores are displayed using confidence tiers based on reviewed matched vote history.
+
+| Tier | Meaning |
+|---|---|
+| Verified Score | 15+ reviewed matched votes |
+| Preliminary Signal | 5–14 reviewed matched votes |
+| Insufficient Data | Fewer than 5 reviewed matched votes |
+
+Preliminary signals are intentionally displayed with reduced visual confidence because newer councillors have limited reviewed voting history available so far.
+
+---
+
+# Current Scope & Limitations
+
+The project currently focuses on reviewed Calgary council voting records from the available dataset.
+
+Additional votes continue to be reviewed and classified over time.
+
+Some civic domains currently contain fewer reviewed votes than others. For example, Education-related municipal votes are presently underrepresented due to the limited role municipalities play in education governance compared to provincial governments.
+
+The methodology intentionally prioritizes:
+- transparency
+- explainability
+- auditability
+- conservative classification
+
+over aggressive political scoring.
+
+---
+
+# Independence
+
+Calgary Council Values is an independent civic visualization project.
+
+It is not affiliated with:
+- The City of Calgary
+- Sustainable Calgary
+- any political party
+- any campaign
+- any elected official
+- any advocacy organization
+
+The domain framework used in this project is an independent adaptation designed specifically for transparent civic analysis and public accountability visualization.
+
+---
+
+# Technology Stack
+
+- Next.js 16
+- React
+- TypeScript
+- Tailwind CSS
+- PM2
+- Static JSON scoring pipeline
+
+---
+
+# Local Development
+
+Clone the repository:
+
+\`\`\`bash
+git clone https://github.com/dariohudon/calgary-council-values
+cd calgary-council-values
+\`\`\`
+
+Install dependencies:
+
+\`\`\`bash
 npm install
+\`\`\`
+
+Run locally:
+
+\`\`\`bash
 npm run dev
-```
+\`\`\`
 
-App runs locally at:
+---
 
-```text
-http://localhost:3000
-```
+# Production Deployment
 
-## Production Deployment
+Build production assets:
 
-Build production:
-
-```bash
+\`\`\`bash
 npm run build
-```
+\`\`\`
 
 Restart PM2:
 
-```bash
+\`\`\`bash
 pm2 restart calgary-council-values
 pm2 save
-```
+\`\`\`
 
-## Repository Purpose
+---
 
-This is not a campaign tool.
+# Repository Purpose
 
-It is a public civic utility designed to help residents make clearer decisions using public information and transparent governance data.
+This repository documents the ongoing development of a public civic transparency tool focused on explainable council voting analysis.
 
-The goal is simple:
+The project is built around one principle:
 
-**Help people vote with evidence.**
+> Public accountability should be understandable.
