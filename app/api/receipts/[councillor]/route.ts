@@ -119,6 +119,7 @@ type CouncillorRaw = {
   reviewedVotesMatched: number;
   minimumVotesRequired: number;
   isEligibleForPublicScore: boolean;
+  scoreConfidence: "verified" | "preliminary" | "insufficient";
   alignmentScore: number | null;
   scoreStatus: string;
 };
@@ -164,13 +165,6 @@ export async function GET(
 
   if (!match) {
     return Response.json({ error: "Councillor not found" }, { status: 404 });
-  }
-
-  if (!match.isEligibleForPublicScore) {
-    return Response.json(
-      { error: "Score withheld pending sufficient reviewed vote history" },
-      { status: 404 }
-    );
   }
 
   const enrichmentMap = loadEnrichmentMap();

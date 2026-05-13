@@ -55,13 +55,28 @@ export default function MethodologyPage() {
           </div>
 
           <div>
-            <h2 className="text-3xl font-bold text-white">Why some scores are withheld</h2>
+            <h2 className="text-3xl font-bold text-white">Score confidence tiers</h2>
             <p className="mt-4 leading-8">
-              A councillor must have at least 15 reviewed matched votes before a
-              public alignment score is shown. If there are fewer than 15, the
-              score is withheld pending sufficient reviewed vote history. Their
-              vote receipts can still be shown, but they are not ranked beside
-              councillors with stronger sample coverage.
+              Not all scores carry equal confidence. The number of reviewed matched votes determines the tier:
+            </p>
+            <ul className="mt-4 space-y-3 text-slate-300">
+              <li>
+                <span className="font-semibold text-emerald-400">Verified Score</span> — 15 or more reviewed votes matched.
+                The sample is large enough to support a public ranking with reasonable confidence.
+              </li>
+              <li>
+                <span className="font-semibold text-amber-400">Preliminary Score</span> — 5 to 14 reviewed votes matched.
+                A score is shown but marked as early-stage. The direction may shift as more votes are reviewed.
+                Preliminary scores are ranked separately from Verified scores.
+              </li>
+              <li>
+                <span className="font-semibold text-slate-400">Insufficient Data</span> — fewer than 5 reviewed votes matched.
+                No score is generated. The councillor appears on the page but is not ranked.
+              </li>
+            </ul>
+            <p className="mt-4 leading-8">
+              Vote receipts are available for all councillors regardless of tier.
+              Scores automatically promote to a higher tier as more votes are reviewed and added to the dataset.
             </p>
           </div>
 

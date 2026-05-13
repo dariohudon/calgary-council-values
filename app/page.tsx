@@ -33,6 +33,7 @@ export default function HomePage() {
     reviewedVotesMatched: number;
     minimumVotesRequired: number;
     isEligibleForPublicScore: boolean;
+    scoreConfidence: "verified" | "preliminary" | "insufficient";
     alignmentScore: number | null;
     scoreStatus: string;
     matchedVotes: Array<{
@@ -49,16 +50,15 @@ export default function HomePage() {
     reviewedVotesMatched: c.reviewedVotesMatched,
     minimumVotesRequired: c.minimumVotesRequired,
     isEligibleForPublicScore: c.isEligibleForPublicScore,
+    scoreConfidence: c.scoreConfidence,
     alignmentScore: c.alignmentScore,
     scoreStatus: c.scoreStatus,
-    // Eligible only: slim scoring summary for client-side re-weighting.
-    // Withheld councillors receive null — no scoring data crosses the boundary.
-    scoringVotes: c.isEligibleForPublicScore
+    // Verified + Preliminary receive scoringVotes for personalized re-weighting.
+    // Insufficient receives null — no score to display or re-weight.
+    scoringVotes: c.scoreConfidence !== "insufficient"
       ? c.matchedVotes.map((v) => ({
           domain: v.domain,
           alignment: v.alignment,
-          // cvFactor = confidenceWeight × voteTypeWeight (domain-agnostic multiplier).
-          // Derived here so the client never sees raw possible/earned values.
           cvFactor: v.possible / (DOMAIN_WEIGHTS[v.domain] ?? 1),
         }))
       : null,

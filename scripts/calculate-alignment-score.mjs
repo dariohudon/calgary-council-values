@@ -179,11 +179,20 @@ async function main() {
   console.log("Loading raw council votes...");
   const councillors = await loadRawVotes(reviewed);
 
+const PRELIMINARY_MIN_VOTES = 5;
+
 const results = Object.values(councillors)
   .map((c) => {
     const reviewedVotesMatched = c.matchedVotes.length;
     const isEligibleForPublicScore =
       reviewedVotesMatched >= MINIMUM_PUBLIC_VOTES;
+
+    const scoreConfidence =
+      reviewedVotesMatched >= MINIMUM_PUBLIC_VOTES
+        ? "verified"
+        : reviewedVotesMatched >= PRELIMINARY_MIN_VOTES
+        ? "preliminary"
+        : "insufficient";
 
     const calculatedScore =
       c.totalPossible > 0
@@ -200,12 +209,15 @@ const results = Object.values(councillors)
       reviewedVotesMatched,
       minimumVotesRequired: MINIMUM_PUBLIC_VOTES,
       isEligibleForPublicScore,
-      alignmentScore: isEligibleForPublicScore
+      scoreConfidence,
+      alignmentScore: scoreConfidence !== "insufficient"
         ? calculatedScore
         : null,
-      scoreStatus: isEligibleForPublicScore
-        ? "Eligible for public ranking"
-        : "Score withheld pending sufficient reviewed vote history",
+      scoreStatus: scoreConfidence === "verified"
+        ? "Verified Score"
+        : scoreConfidence === "preliminary"
+        ? "Preliminary Score"
+        : "Insufficient Data",
     };
   })
   .sort((a, b) => {

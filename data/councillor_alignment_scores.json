@@ -208,8 +208,102 @@
     "reviewedVotesMatched": 20,
     "minimumVotesRequired": 15,
     "isEligibleForPublicScore": true,
+    "scoreConfidence": "verified",
     "alignmentScore": 100,
-    "scoreStatus": "Eligible for public ranking"
+    "scoreStatus": "Verified Score"
+  },
+  {
+    "name": "Nathaniel Schmidt",
+    "totalScore": 40.4,
+    "totalPossible": 40.4,
+    "matchedVotes": [
+      {
+        "resolution": "That with respect to Report C2025-0901, the following amendment be adopted: That a new sub-bullet be inserted under Recommendation 1, as follows: With respect to Transit Fares, approving the following changes and using the $12.8 million in savings to reduce the $14.0 million ongoing operating costs to Increasing Transit Frequency on Key Routes as referenced on page 15 in attachment 2 and reduce the property tax increase accordingly: iii. Reverse the 2023 fare freeze and increase fares in addition to the previously approved increase to transit fares in 2026 ($4.0 million) and Approve Distribution 2, User Fee Table",
+        "date": "2025/11/10",
+        "domain": "Wellness",
+        "vote": "No",
+        "direction": "Oppose",
+        "alignment": 1,
+        "earned": 7,
+        "possible": 7
+      },
+      {
+        "resolution": "That with respect to Report C2025-0901, the following amendment be adopted: ;\nThat a new sub-bullet be inserted under Recommendation 1, as follows: ;\nAllocating ;$9.0 ;million in one-time operating funding to Community Services in 2026, to be funded from Fiscal Stability Reserve for the purpose of improving transit safety, and direct Administration to: ;\ni. Focus security enhancements on C-Train stations during afternoon rush hour (4 PM  8 PM), based on incident data;\nii. Implement Tiered Security Model as outlined in the Public Transit Safety Strategy:\n\n\n\n\n\nTransit Peace Officers (TPOs): Mobile patrols, enforcement, complex calls; provide rapid response and support to static guards;\nCorporate Security: Fixed posts at priority stations for observation, reporting, and customer assistance;\nContracted security guards: Scalable resource for ;additional ;fixed posts during expansion ;phase; ;\n\n\n\n\n\niii. Use phased approach to deploy security staff until additional peace officers are hired (aligned with growth strategy from 2024);\niv. Increase community outreach activities by adding six officers to the Community Outreach Team; and\nv. Report back to Council Q3 2026 with results to determine if public perceived C-train was safer as a result",
+        "date": "2025/12/02",
+        "domain": "Wellness",
+        "vote": "Yes",
+        "direction": "Support",
+        "alignment": 1,
+        "earned": 7,
+        "possible": 7
+      },
+      {
+        "resolution": "That with respect to Notice of Motion EC2025-0995, the following Motion Arising be adopted: WHEREAS City Council has directed Administration to prepare an amending bylaw to restore the Land Use Bylaw Districts in Bylaw 1P2007 and the land use designation of affected parcels to their state prior to third reading of Bylaw 21P2024, with defined exemptions, reporting timelines, and a return to Public Hearing in March 2026; AND WHEREAS City Council recognizes that maintaining housing supply and affordability requires continuity in housing approvals capacity and processing timelines, and that any repeal or modification of zoning regulations should be accompanied by appropriate transitional measures to ensure no net loss in housing approvals during the period of regulatory transition; AND WHEREAS additional direction is required to provide clarity on how Councils adopted amendments to city-wide residential rezoning will be implemented in a manner that maintains compliance with the requirements of federal housing and infrastructure funding programs, including the Housing Accelerator Fund and other applicable granting streams; THEREFORE BE IT RESOLVED THAT Administration be directed to develop and return to Council no later than Q2 2026 with a comprehensive Multi-Tool Zoning and Housing Enablement Framework that: Identifies and evaluates alternative zoning, planning, and approvals-based mechanisms capable of enabling missing-middle, multi-unit, and affordable housing at a scale sufficient to meet or exceed the Citys objectives in the Home is Here: The City of Calgarys Housing Strategy 2024-2030, including the delivery of affordable homes across all housing categories; Demonstrates how the proposed mechanisms will maintain Calgarys eligibility and compliance with funding programs offered by other orders of government, including housing supply outcomes, approvals-streamlining commitments, and growth-enabling regulatory reforms; Identifies any required amendments to the Municipal Development Plan, Land Use Bylaw 1P2007, Local Area Plans, or administrative processes necessary to implement the Framework; Provides Council with a comprehensive analysis of the housing supply, financial, legal, and intergovernmental implications of the Framework, including formal engagement with the Canada Mortgage and Housing Corporation (CMHC) and Housing, Infrastructure and Communities Canada (HICC) to confirm that the proposed mechanisms satisfy funding programs performance requirements; and Identifies any interim resourcing, capital, or programmatic requirements required to maintain housing supply momentum during the transition period between any repeal or modification of existing zoning regulations and the implementation of the Multi-Tool Zoning and Housing Enablement Framework, including the potential use of non-market and non-profit housing delivery mechanisms. Identifies any additional resourcing, staffing, or capital requirements necessary to accelerate implementation of non-Rezoning for Housing housing supply actions already approved within the Home is Here: The City of Calgarys Housing Strategy 20242030, including initiatives related to approvals streamlining, non-market housing delivery, and alternative housing forms. AND FURTHER BE IT RESOLVED THAT Administration undertake direct engagement with CMHC, HICC, the Government of Alberta and the Government of Canada during the development of the Framework and report back to Council on any conditions, amendments, or flexibilities required to support Calgarys continued participation in the Housing Accelerator Fund and other grant streams offered by other orders of government that enable housing supply.",
+        "date": "2025/12/15",
+        "domain": "Community",
+        "vote": "Yes",
+        "direction": "Support",
+        "alignment": 1,
+        "earned": 3,
+        "possible": 3
+      },
+      {
+        "resolution": "With respect to Report C2025-0901, the following amendment be adopted: That a new sub-bullet be inserted under Recommendation 1, as follows: Removing $6.0 million in ongoing operating funding from the Mental Health and Addictions Program under Community Services, and allocating $6.0 million in one-time operating funding to Community Services in 2026 for the Mental Health and Addictions Program, drawing from the Fiscal Stability Reserve",
+        "date": "2025/11/10",
+        "domain": "Wellness",
+        "vote": "No",
+        "direction": "Oppose",
+        "alignment": 1,
+        "earned": 7,
+        "possible": 7
+      },
+      {
+        "resolution": "That with respect to Notice of Motion EC2025-0995, the Recommendations be amended by adding the following as new Recommendations: AND FURTHER BE IT RESOLVED that Administration be directed to prepare amendments to Bylaw 1P2007 land use maps to allow R-CG, R-G or H-GO zoning in Major and Community Activity Centres and within 600m of the Primary Transit Network as defined in the Municipal Development Plan.",
+        "date": "2025/12/15",
+        "domain": "Community",
+        "vote": "Yes",
+        "direction": "Support",
+        "alignment": 1,
+        "earned": 5.4,
+        "possible": 5.4
+      },
+      {
+        "resolution": "That with respect to Report C2025-0901, the following amendment be adopted: That a new sub-bullet be inserted under Recommendation 1, as follows: With respect to Transit Fares, approving the following changes and using the $12.8 million in savings to reduce the $14.0 million ongoing operating costs to Increasing Transit Frequency on Key Routes as referenced on page 15 in attachment 2 and reduce the property tax increase accordingly: Eliminate the Free Fares for Children 12 and Under program ($3.6 million), to take effect July 1, 2026;",
+        "date": "2025/11/10",
+        "domain": "Wellness",
+        "vote": "No",
+        "direction": "Oppose",
+        "alignment": 1,
+        "earned": 7,
+        "possible": 7
+      },
+      {
+        "resolution": "That with respect to Notice of Motion EC2026-0039, the following be adopted:\nNOW THEREFORE BE IT RESOLVED that Council amend Council Policy CP2016-03 on the Governance and Appointments of Boards, Commissions and Committees by inserting the following as a new section 5.9.8:\n5.9.8 ; ; ; In order to be eligible for appointment as Public Members, Applicants must not have been employed in the Administration of The City of Calgary within the year prior to the date of their application, unless otherwise specified by the BCCs Governance Documents.",
+        "date": "2026/02/24",
+        "domain": "Governance",
+        "vote": "Yes",
+        "direction": "Support",
+        "alignment": 1,
+        "earned": 2,
+        "possible": 2
+      },
+      {
+        "resolution": "That with respect to Notice of Motion EC2026-0124, the following be adopted:\nNOW THEREFORE BE IT RESOLVED that Council direct Administration to come back to Council, through Executive Committee, no later than June 2026, and provide a proposed stable renewal funding mechanism (e.g. an infrastructure improvement fee, levy or other funding mechanism) to address the Citys immediate infrastructure funding deficit and support predictable, long-term renewal and risk reduction across Calgarys infrastructure assets, as identified in the Q1/Q2 2026 asset conditions, risk and capital needs reporting.",
+        "date": "2026/02/24",
+        "domain": "Governance",
+        "vote": "Yes",
+        "direction": "Support",
+        "alignment": 1,
+        "earned": 2,
+        "possible": 2
+      }
+    ],
+    "reviewedVotesMatched": 8,
+    "minimumVotesRequired": 15,
+    "isEligibleForPublicScore": false,
+    "scoreConfidence": "preliminary",
+    "alignmentScore": 100,
+    "scoreStatus": "Preliminary Score"
   },
   {
     "name": "Jasmine Mian",
@@ -420,8 +514,9 @@
     "reviewedVotesMatched": 20,
     "minimumVotesRequired": 15,
     "isEligibleForPublicScore": true,
+    "scoreConfidence": "verified",
     "alignmentScore": 91.8,
-    "scoreStatus": "Eligible for public ranking"
+    "scoreStatus": "Verified Score"
   },
   {
     "name": "Gian-Carlo Carra",
@@ -632,8 +727,102 @@
     "reviewedVotesMatched": 20,
     "minimumVotesRequired": 15,
     "isEligibleForPublicScore": true,
+    "scoreConfidence": "verified",
     "alignmentScore": 90.5,
-    "scoreStatus": "Eligible for public ranking"
+    "scoreStatus": "Verified Score"
+  },
+  {
+    "name": "Harrison Clark",
+    "totalScore": 35,
+    "totalPossible": 40.4,
+    "matchedVotes": [
+      {
+        "resolution": "That with respect to Report C2025-0901, the following amendment be adopted: ;\nThat a new sub-bullet be inserted under Recommendation 1, as follows: ;\nAllocating ;$9.0 ;million in one-time operating funding to Community Services in 2026, to be funded from Fiscal Stability Reserve for the purpose of improving transit safety, and direct Administration to: ;\ni. Focus security enhancements on C-Train stations during afternoon rush hour (4 PM  8 PM), based on incident data;\nii. Implement Tiered Security Model as outlined in the Public Transit Safety Strategy:\n\n\n\n\n\nTransit Peace Officers (TPOs): Mobile patrols, enforcement, complex calls; provide rapid response and support to static guards;\nCorporate Security: Fixed posts at priority stations for observation, reporting, and customer assistance;\nContracted security guards: Scalable resource for ;additional ;fixed posts during expansion ;phase; ;\n\n\n\n\n\niii. Use phased approach to deploy security staff until additional peace officers are hired (aligned with growth strategy from 2024);\niv. Increase community outreach activities by adding six officers to the Community Outreach Team; and\nv. Report back to Council Q3 2026 with results to determine if public perceived C-train was safer as a result",
+        "date": "2025/12/02",
+        "domain": "Wellness",
+        "vote": "Yes",
+        "direction": "Support",
+        "alignment": 1,
+        "earned": 7,
+        "possible": 7
+      },
+      {
+        "resolution": "That with respect to Notice of Motion EC2025-0995, the Recommendations be amended by adding the following as new Recommendations: AND FURTHER BE IT RESOLVED that Administration be directed to prepare amendments to Bylaw 1P2007 land use maps to allow R-CG, R-G or H-GO zoning in Major and Community Activity Centres and within 600m of the Primary Transit Network as defined in the Municipal Development Plan.",
+        "date": "2025/12/15",
+        "domain": "Community",
+        "vote": "No",
+        "direction": "Support",
+        "alignment": -1,
+        "earned": 0,
+        "possible": 5.4
+      },
+      {
+        "resolution": "With respect to Report C2025-0901, the following amendment be adopted: That a new sub-bullet be inserted under Recommendation 1, as follows: Removing $6.0 million in ongoing operating funding from the Mental Health and Addictions Program under Community Services, and allocating $6.0 million in one-time operating funding to Community Services in 2026 for the Mental Health and Addictions Program, drawing from the Fiscal Stability Reserve",
+        "date": "2025/11/10",
+        "domain": "Wellness",
+        "vote": "No",
+        "direction": "Oppose",
+        "alignment": 1,
+        "earned": 7,
+        "possible": 7
+      },
+      {
+        "resolution": "That with respect to Report C2025-0901, the following amendment be adopted: That a new sub-bullet be inserted under Recommendation 1, as follows: With respect to Transit Fares, approving the following changes and using the $12.8 million in savings to reduce the $14.0 million ongoing operating costs to Increasing Transit Frequency on Key Routes as referenced on page 15 in attachment 2 and reduce the property tax increase accordingly: Eliminate the Free Fares for Children 12 and Under program ($3.6 million), to take effect July 1, 2026;",
+        "date": "2025/11/10",
+        "domain": "Wellness",
+        "vote": "No",
+        "direction": "Oppose",
+        "alignment": 1,
+        "earned": 7,
+        "possible": 7
+      },
+      {
+        "resolution": "That with respect to Notice of Motion EC2025-0995, the following Motion Arising be adopted: WHEREAS City Council has directed Administration to prepare an amending bylaw to restore the Land Use Bylaw Districts in Bylaw 1P2007 and the land use designation of affected parcels to their state prior to third reading of Bylaw 21P2024, with defined exemptions, reporting timelines, and a return to Public Hearing in March 2026; AND WHEREAS City Council recognizes that maintaining housing supply and affordability requires continuity in housing approvals capacity and processing timelines, and that any repeal or modification of zoning regulations should be accompanied by appropriate transitional measures to ensure no net loss in housing approvals during the period of regulatory transition; AND WHEREAS additional direction is required to provide clarity on how Councils adopted amendments to city-wide residential rezoning will be implemented in a manner that maintains compliance with the requirements of federal housing and infrastructure funding programs, including the Housing Accelerator Fund and other applicable granting streams; THEREFORE BE IT RESOLVED THAT Administration be directed to develop and return to Council no later than Q2 2026 with a comprehensive Multi-Tool Zoning and Housing Enablement Framework that: Identifies and evaluates alternative zoning, planning, and approvals-based mechanisms capable of enabling missing-middle, multi-unit, and affordable housing at a scale sufficient to meet or exceed the Citys objectives in the Home is Here: The City of Calgarys Housing Strategy 2024-2030, including the delivery of affordable homes across all housing categories; Demonstrates how the proposed mechanisms will maintain Calgarys eligibility and compliance with funding programs offered by other orders of government, including housing supply outcomes, approvals-streamlining commitments, and growth-enabling regulatory reforms; Identifies any required amendments to the Municipal Development Plan, Land Use Bylaw 1P2007, Local Area Plans, or administrative processes necessary to implement the Framework; Provides Council with a comprehensive analysis of the housing supply, financial, legal, and intergovernmental implications of the Framework, including formal engagement with the Canada Mortgage and Housing Corporation (CMHC) and Housing, Infrastructure and Communities Canada (HICC) to confirm that the proposed mechanisms satisfy funding programs performance requirements; and Identifies any interim resourcing, capital, or programmatic requirements required to maintain housing supply momentum during the transition period between any repeal or modification of existing zoning regulations and the implementation of the Multi-Tool Zoning and Housing Enablement Framework, including the potential use of non-market and non-profit housing delivery mechanisms. Identifies any additional resourcing, staffing, or capital requirements necessary to accelerate implementation of non-Rezoning for Housing housing supply actions already approved within the Home is Here: The City of Calgarys Housing Strategy 20242030, including initiatives related to approvals streamlining, non-market housing delivery, and alternative housing forms. AND FURTHER BE IT RESOLVED THAT Administration undertake direct engagement with CMHC, HICC, the Government of Alberta and the Government of Canada during the development of the Framework and report back to Council on any conditions, amendments, or flexibilities required to support Calgarys continued participation in the Housing Accelerator Fund and other grant streams offered by other orders of government that enable housing supply.",
+        "date": "2025/12/15",
+        "domain": "Community",
+        "vote": "Yes",
+        "direction": "Support",
+        "alignment": 1,
+        "earned": 3,
+        "possible": 3
+      },
+      {
+        "resolution": "That with respect to Report C2025-0901, the following amendment be adopted: That a new sub-bullet be inserted under Recommendation 1, as follows: With respect to Transit Fares, approving the following changes and using the $12.8 million in savings to reduce the $14.0 million ongoing operating costs to Increasing Transit Frequency on Key Routes as referenced on page 15 in attachment 2 and reduce the property tax increase accordingly: iii. Reverse the 2023 fare freeze and increase fares in addition to the previously approved increase to transit fares in 2026 ($4.0 million) and Approve Distribution 2, User Fee Table",
+        "date": "2025/11/10",
+        "domain": "Wellness",
+        "vote": "No",
+        "direction": "Oppose",
+        "alignment": 1,
+        "earned": 7,
+        "possible": 7
+      },
+      {
+        "resolution": "That with respect to Notice of Motion EC2026-0124, the following be adopted:\nNOW THEREFORE BE IT RESOLVED that Council direct Administration to come back to Council, through Executive Committee, no later than June 2026, and provide a proposed stable renewal funding mechanism (e.g. an infrastructure improvement fee, levy or other funding mechanism) to address the Citys immediate infrastructure funding deficit and support predictable, long-term renewal and risk reduction across Calgarys infrastructure assets, as identified in the Q1/Q2 2026 asset conditions, risk and capital needs reporting.",
+        "date": "2026/02/24",
+        "domain": "Governance",
+        "vote": "Yes",
+        "direction": "Support",
+        "alignment": 1,
+        "earned": 2,
+        "possible": 2
+      },
+      {
+        "resolution": "That with respect to Notice of Motion EC2026-0039, the following be adopted:\nNOW THEREFORE BE IT RESOLVED that Council amend Council Policy CP2016-03 on the Governance and Appointments of Boards, Commissions and Committees by inserting the following as a new section 5.9.8:\n5.9.8 ; ; ; In order to be eligible for appointment as Public Members, Applicants must not have been employed in the Administration of The City of Calgary within the year prior to the date of their application, unless otherwise specified by the BCCs Governance Documents.",
+        "date": "2026/02/24",
+        "domain": "Governance",
+        "vote": "Yes",
+        "direction": "Support",
+        "alignment": 1,
+        "earned": 2,
+        "possible": 2
+      }
+    ],
+    "reviewedVotesMatched": 8,
+    "minimumVotesRequired": 15,
+    "isEligibleForPublicScore": false,
+    "scoreConfidence": "preliminary",
+    "alignmentScore": 86.6,
+    "scoreStatus": "Preliminary Score"
   },
   {
     "name": "Mayor J. Gondek",
@@ -824,8 +1013,9 @@
     "reviewedVotesMatched": 18,
     "minimumVotesRequired": 15,
     "isEligibleForPublicScore": true,
+    "scoreConfidence": "verified",
     "alignmentScore": 84.9,
-    "scoreStatus": "Eligible for public ranking"
+    "scoreStatus": "Verified Score"
   },
   {
     "name": "Kourtney Penner",
@@ -1036,8 +1226,9 @@
     "reviewedVotesMatched": 20,
     "minimumVotesRequired": 15,
     "isEligibleForPublicScore": true,
+    "scoreConfidence": "verified",
     "alignmentScore": 84.8,
-    "scoreStatus": "Eligible for public ranking"
+    "scoreStatus": "Verified Score"
   },
   {
     "name": "Rajdeep Dhaliwal",
@@ -1318,8 +1509,9 @@
     "reviewedVotesMatched": 27,
     "minimumVotesRequired": 15,
     "isEligibleForPublicScore": true,
+    "scoreConfidence": "verified",
     "alignmentScore": 83.7,
-    "scoreStatus": "Eligible for public ranking"
+    "scoreStatus": "Verified Score"
   },
   {
     "name": "Courtney Walcott",
@@ -1530,8 +1722,102 @@
     "reviewedVotesMatched": 20,
     "minimumVotesRequired": 15,
     "isEligibleForPublicScore": true,
+    "scoreConfidence": "verified",
     "alignmentScore": 82.3,
-    "scoreStatus": "Eligible for public ranking"
+    "scoreStatus": "Verified Score"
+  },
+  {
+    "name": "Myke Atkinson",
+    "totalScore": 33,
+    "totalPossible": 40.4,
+    "matchedVotes": [
+      {
+        "resolution": "That with respect to Notice of Motion EC2025-0995, the Recommendations be amended by adding the following as new Recommendations: AND FURTHER BE IT RESOLVED that Administration be directed to prepare amendments to Bylaw 1P2007 land use maps to allow R-CG, R-G or H-GO zoning in Major and Community Activity Centres and within 600m of the Primary Transit Network as defined in the Municipal Development Plan.",
+        "date": "2025/12/15",
+        "domain": "Community",
+        "vote": "No",
+        "direction": "Support",
+        "alignment": -1,
+        "earned": 0,
+        "possible": 5.4
+      },
+      {
+        "resolution": "That with respect to Report C2025-0901, the following amendment be adopted: ;\nThat a new sub-bullet be inserted under Recommendation 1, as follows: ;\nAllocating ;$9.0 ;million in one-time operating funding to Community Services in 2026, to be funded from Fiscal Stability Reserve for the purpose of improving transit safety, and direct Administration to: ;\ni. Focus security enhancements on C-Train stations during afternoon rush hour (4 PM  8 PM), based on incident data;\nii. Implement Tiered Security Model as outlined in the Public Transit Safety Strategy:\n\n\n\n\n\nTransit Peace Officers (TPOs): Mobile patrols, enforcement, complex calls; provide rapid response and support to static guards;\nCorporate Security: Fixed posts at priority stations for observation, reporting, and customer assistance;\nContracted security guards: Scalable resource for ;additional ;fixed posts during expansion ;phase; ;\n\n\n\n\n\niii. Use phased approach to deploy security staff until additional peace officers are hired (aligned with growth strategy from 2024);\niv. Increase community outreach activities by adding six officers to the Community Outreach Team; and\nv. Report back to Council Q3 2026 with results to determine if public perceived C-train was safer as a result",
+        "date": "2025/12/02",
+        "domain": "Wellness",
+        "vote": "Yes",
+        "direction": "Support",
+        "alignment": 1,
+        "earned": 7,
+        "possible": 7
+      },
+      {
+        "resolution": "That with respect to Report C2025-0901, the following amendment be adopted: That a new sub-bullet be inserted under Recommendation 1, as follows: With respect to Transit Fares, approving the following changes and using the $12.8 million in savings to reduce the $14.0 million ongoing operating costs to Increasing Transit Frequency on Key Routes as referenced on page 15 in attachment 2 and reduce the property tax increase accordingly: Eliminate the Free Fares for Children 12 and Under program ($3.6 million), to take effect July 1, 2026;",
+        "date": "2025/11/10",
+        "domain": "Wellness",
+        "vote": "No",
+        "direction": "Oppose",
+        "alignment": 1,
+        "earned": 7,
+        "possible": 7
+      },
+      {
+        "resolution": "With respect to Report C2025-0901, the following amendment be adopted: That a new sub-bullet be inserted under Recommendation 1, as follows: Removing $6.0 million in ongoing operating funding from the Mental Health and Addictions Program under Community Services, and allocating $6.0 million in one-time operating funding to Community Services in 2026 for the Mental Health and Addictions Program, drawing from the Fiscal Stability Reserve",
+        "date": "2025/11/10",
+        "domain": "Wellness",
+        "vote": "No",
+        "direction": "Oppose",
+        "alignment": 1,
+        "earned": 7,
+        "possible": 7
+      },
+      {
+        "resolution": "That with respect to Report C2025-0901, the following amendment be adopted: That a new sub-bullet be inserted under Recommendation 1, as follows: With respect to Transit Fares, approving the following changes and using the $12.8 million in savings to reduce the $14.0 million ongoing operating costs to Increasing Transit Frequency on Key Routes as referenced on page 15 in attachment 2 and reduce the property tax increase accordingly: iii. Reverse the 2023 fare freeze and increase fares in addition to the previously approved increase to transit fares in 2026 ($4.0 million) and Approve Distribution 2, User Fee Table",
+        "date": "2025/11/10",
+        "domain": "Wellness",
+        "vote": "No",
+        "direction": "Oppose",
+        "alignment": 1,
+        "earned": 7,
+        "possible": 7
+      },
+      {
+        "resolution": "That with respect to Notice of Motion EC2025-0995, the following Motion Arising be adopted: WHEREAS City Council has directed Administration to prepare an amending bylaw to restore the Land Use Bylaw Districts in Bylaw 1P2007 and the land use designation of affected parcels to their state prior to third reading of Bylaw 21P2024, with defined exemptions, reporting timelines, and a return to Public Hearing in March 2026; AND WHEREAS City Council recognizes that maintaining housing supply and affordability requires continuity in housing approvals capacity and processing timelines, and that any repeal or modification of zoning regulations should be accompanied by appropriate transitional measures to ensure no net loss in housing approvals during the period of regulatory transition; AND WHEREAS additional direction is required to provide clarity on how Councils adopted amendments to city-wide residential rezoning will be implemented in a manner that maintains compliance with the requirements of federal housing and infrastructure funding programs, including the Housing Accelerator Fund and other applicable granting streams; THEREFORE BE IT RESOLVED THAT Administration be directed to develop and return to Council no later than Q2 2026 with a comprehensive Multi-Tool Zoning and Housing Enablement Framework that: Identifies and evaluates alternative zoning, planning, and approvals-based mechanisms capable of enabling missing-middle, multi-unit, and affordable housing at a scale sufficient to meet or exceed the Citys objectives in the Home is Here: The City of Calgarys Housing Strategy 2024-2030, including the delivery of affordable homes across all housing categories; Demonstrates how the proposed mechanisms will maintain Calgarys eligibility and compliance with funding programs offered by other orders of government, including housing supply outcomes, approvals-streamlining commitments, and growth-enabling regulatory reforms; Identifies any required amendments to the Municipal Development Plan, Land Use Bylaw 1P2007, Local Area Plans, or administrative processes necessary to implement the Framework; Provides Council with a comprehensive analysis of the housing supply, financial, legal, and intergovernmental implications of the Framework, including formal engagement with the Canada Mortgage and Housing Corporation (CMHC) and Housing, Infrastructure and Communities Canada (HICC) to confirm that the proposed mechanisms satisfy funding programs performance requirements; and Identifies any interim resourcing, capital, or programmatic requirements required to maintain housing supply momentum during the transition period between any repeal or modification of existing zoning regulations and the implementation of the Multi-Tool Zoning and Housing Enablement Framework, including the potential use of non-market and non-profit housing delivery mechanisms. Identifies any additional resourcing, staffing, or capital requirements necessary to accelerate implementation of non-Rezoning for Housing housing supply actions already approved within the Home is Here: The City of Calgarys Housing Strategy 20242030, including initiatives related to approvals streamlining, non-market housing delivery, and alternative housing forms. AND FURTHER BE IT RESOLVED THAT Administration undertake direct engagement with CMHC, HICC, the Government of Alberta and the Government of Canada during the development of the Framework and report back to Council on any conditions, amendments, or flexibilities required to support Calgarys continued participation in the Housing Accelerator Fund and other grant streams offered by other orders of government that enable housing supply.",
+        "date": "2025/12/15",
+        "domain": "Community",
+        "vote": "Yes",
+        "direction": "Support",
+        "alignment": 1,
+        "earned": 3,
+        "possible": 3
+      },
+      {
+        "resolution": "That with respect to Notice of Motion EC2026-0124, the following be adopted:\nNOW THEREFORE BE IT RESOLVED that Council direct Administration to come back to Council, through Executive Committee, no later than June 2026, and provide a proposed stable renewal funding mechanism (e.g. an infrastructure improvement fee, levy or other funding mechanism) to address the Citys immediate infrastructure funding deficit and support predictable, long-term renewal and risk reduction across Calgarys infrastructure assets, as identified in the Q1/Q2 2026 asset conditions, risk and capital needs reporting.",
+        "date": "2026/02/24",
+        "domain": "Governance",
+        "vote": "No",
+        "direction": "Support",
+        "alignment": -1,
+        "earned": 0,
+        "possible": 2
+      },
+      {
+        "resolution": "That with respect to Notice of Motion EC2026-0039, the following be adopted:\nNOW THEREFORE BE IT RESOLVED that Council amend Council Policy CP2016-03 on the Governance and Appointments of Boards, Commissions and Committees by inserting the following as a new section 5.9.8:\n5.9.8 ; ; ; In order to be eligible for appointment as Public Members, Applicants must not have been employed in the Administration of The City of Calgary within the year prior to the date of their application, unless otherwise specified by the BCCs Governance Documents.",
+        "date": "2026/02/24",
+        "domain": "Governance",
+        "vote": "Yes",
+        "direction": "Support",
+        "alignment": 1,
+        "earned": 2,
+        "possible": 2
+      }
+    ],
+    "reviewedVotesMatched": 8,
+    "minimumVotesRequired": 15,
+    "isEligibleForPublicScore": false,
+    "scoreConfidence": "preliminary",
+    "alignmentScore": 81.7,
+    "scoreStatus": "Preliminary Score"
   },
   {
     "name": "John (Richard) Pootmans",
@@ -1722,8 +2008,9 @@
     "reviewedVotesMatched": 18,
     "minimumVotesRequired": 15,
     "isEligibleForPublicScore": true,
+    "scoreConfidence": "verified",
     "alignmentScore": 79.6,
-    "scoreStatus": "Eligible for public ranking"
+    "scoreStatus": "Verified Score"
   },
   {
     "name": "Peter Demong",
@@ -1924,8 +2211,9 @@
     "reviewedVotesMatched": 19,
     "minimumVotesRequired": 15,
     "isEligibleForPublicScore": true,
+    "scoreConfidence": "verified",
     "alignmentScore": 74.4,
-    "scoreStatus": "Eligible for public ranking"
+    "scoreStatus": "Verified Score"
   },
   {
     "name": "Terry Wong",
@@ -2116,8 +2404,288 @@
     "reviewedVotesMatched": 18,
     "minimumVotesRequired": 15,
     "isEligibleForPublicScore": true,
+    "scoreConfidence": "verified",
     "alignmentScore": 66.2,
-    "scoreStatus": "Eligible for public ranking"
+    "scoreStatus": "Verified Score"
+  },
+  {
+    "name": "DJ Kelly",
+    "totalScore": 26.4,
+    "totalPossible": 40.4,
+    "matchedVotes": [
+      {
+        "resolution": "That with respect to Notice of Motion EC2025-0995, the Recommendations be amended by adding the following as new Recommendations: AND FURTHER BE IT RESOLVED that Administration be directed to prepare amendments to Bylaw 1P2007 land use maps to allow R-CG, R-G or H-GO zoning in Major and Community Activity Centres and within 600m of the Primary Transit Network as defined in the Municipal Development Plan.",
+        "date": "2025/12/15",
+        "domain": "Community",
+        "vote": "Yes",
+        "direction": "Support",
+        "alignment": 1,
+        "earned": 5.4,
+        "possible": 5.4
+      },
+      {
+        "resolution": "That with respect to Report C2025-0901, the following amendment be adopted: ;\nThat a new sub-bullet be inserted under Recommendation 1, as follows: ;\nAllocating ;$9.0 ;million in one-time operating funding to Community Services in 2026, to be funded from Fiscal Stability Reserve for the purpose of improving transit safety, and direct Administration to: ;\ni. Focus security enhancements on C-Train stations during afternoon rush hour (4 PM  8 PM), based on incident data;\nii. Implement Tiered Security Model as outlined in the Public Transit Safety Strategy:\n\n\n\n\n\nTransit Peace Officers (TPOs): Mobile patrols, enforcement, complex calls; provide rapid response and support to static guards;\nCorporate Security: Fixed posts at priority stations for observation, reporting, and customer assistance;\nContracted security guards: Scalable resource for ;additional ;fixed posts during expansion ;phase; ;\n\n\n\n\n\niii. Use phased approach to deploy security staff until additional peace officers are hired (aligned with growth strategy from 2024);\niv. Increase community outreach activities by adding six officers to the Community Outreach Team; and\nv. Report back to Council Q3 2026 with results to determine if public perceived C-train was safer as a result",
+        "date": "2025/12/02",
+        "domain": "Wellness",
+        "vote": "Yes",
+        "direction": "Support",
+        "alignment": 1,
+        "earned": 7,
+        "possible": 7
+      },
+      {
+        "resolution": "With respect to Report C2025-0901, the following amendment be adopted: That a new sub-bullet be inserted under Recommendation 1, as follows: Removing $6.0 million in ongoing operating funding from the Mental Health and Addictions Program under Community Services, and allocating $6.0 million in one-time operating funding to Community Services in 2026 for the Mental Health and Addictions Program, drawing from the Fiscal Stability Reserve",
+        "date": "2025/11/10",
+        "domain": "Wellness",
+        "vote": "Yes",
+        "direction": "Oppose",
+        "alignment": -1,
+        "earned": 0,
+        "possible": 7
+      },
+      {
+        "resolution": "That with respect to Report C2025-0901, the following amendment be adopted: That a new sub-bullet be inserted under Recommendation 1, as follows: With respect to Transit Fares, approving the following changes and using the $12.8 million in savings to reduce the $14.0 million ongoing operating costs to Increasing Transit Frequency on Key Routes as referenced on page 15 in attachment 2 and reduce the property tax increase accordingly: Eliminate the Free Fares for Children 12 and Under program ($3.6 million), to take effect July 1, 2026;",
+        "date": "2025/11/10",
+        "domain": "Wellness",
+        "vote": "No",
+        "direction": "Oppose",
+        "alignment": 1,
+        "earned": 7,
+        "possible": 7
+      },
+      {
+        "resolution": "That with respect to Report C2025-0901, the following amendment be adopted: That a new sub-bullet be inserted under Recommendation 1, as follows: With respect to Transit Fares, approving the following changes and using the $12.8 million in savings to reduce the $14.0 million ongoing operating costs to Increasing Transit Frequency on Key Routes as referenced on page 15 in attachment 2 and reduce the property tax increase accordingly: iii. Reverse the 2023 fare freeze and increase fares in addition to the previously approved increase to transit fares in 2026 ($4.0 million) and Approve Distribution 2, User Fee Table",
+        "date": "2025/11/10",
+        "domain": "Wellness",
+        "vote": "Yes",
+        "direction": "Oppose",
+        "alignment": -1,
+        "earned": 0,
+        "possible": 7
+      },
+      {
+        "resolution": "That with respect to Notice of Motion EC2025-0995, the following Motion Arising be adopted: WHEREAS City Council has directed Administration to prepare an amending bylaw to restore the Land Use Bylaw Districts in Bylaw 1P2007 and the land use designation of affected parcels to their state prior to third reading of Bylaw 21P2024, with defined exemptions, reporting timelines, and a return to Public Hearing in March 2026; AND WHEREAS City Council recognizes that maintaining housing supply and affordability requires continuity in housing approvals capacity and processing timelines, and that any repeal or modification of zoning regulations should be accompanied by appropriate transitional measures to ensure no net loss in housing approvals during the period of regulatory transition; AND WHEREAS additional direction is required to provide clarity on how Councils adopted amendments to city-wide residential rezoning will be implemented in a manner that maintains compliance with the requirements of federal housing and infrastructure funding programs, including the Housing Accelerator Fund and other applicable granting streams; THEREFORE BE IT RESOLVED THAT Administration be directed to develop and return to Council no later than Q2 2026 with a comprehensive Multi-Tool Zoning and Housing Enablement Framework that: Identifies and evaluates alternative zoning, planning, and approvals-based mechanisms capable of enabling missing-middle, multi-unit, and affordable housing at a scale sufficient to meet or exceed the Citys objectives in the Home is Here: The City of Calgarys Housing Strategy 2024-2030, including the delivery of affordable homes across all housing categories; Demonstrates how the proposed mechanisms will maintain Calgarys eligibility and compliance with funding programs offered by other orders of government, including housing supply outcomes, approvals-streamlining commitments, and growth-enabling regulatory reforms; Identifies any required amendments to the Municipal Development Plan, Land Use Bylaw 1P2007, Local Area Plans, or administrative processes necessary to implement the Framework; Provides Council with a comprehensive analysis of the housing supply, financial, legal, and intergovernmental implications of the Framework, including formal engagement with the Canada Mortgage and Housing Corporation (CMHC) and Housing, Infrastructure and Communities Canada (HICC) to confirm that the proposed mechanisms satisfy funding programs performance requirements; and Identifies any interim resourcing, capital, or programmatic requirements required to maintain housing supply momentum during the transition period between any repeal or modification of existing zoning regulations and the implementation of the Multi-Tool Zoning and Housing Enablement Framework, including the potential use of non-market and non-profit housing delivery mechanisms. Identifies any additional resourcing, staffing, or capital requirements necessary to accelerate implementation of non-Rezoning for Housing housing supply actions already approved within the Home is Here: The City of Calgarys Housing Strategy 20242030, including initiatives related to approvals streamlining, non-market housing delivery, and alternative housing forms. AND FURTHER BE IT RESOLVED THAT Administration undertake direct engagement with CMHC, HICC, the Government of Alberta and the Government of Canada during the development of the Framework and report back to Council on any conditions, amendments, or flexibilities required to support Calgarys continued participation in the Housing Accelerator Fund and other grant streams offered by other orders of government that enable housing supply.",
+        "date": "2025/12/15",
+        "domain": "Community",
+        "vote": "Yes",
+        "direction": "Support",
+        "alignment": 1,
+        "earned": 3,
+        "possible": 3
+      },
+      {
+        "resolution": "That with respect to Notice of Motion EC2026-0039, the following be adopted:\nNOW THEREFORE BE IT RESOLVED that Council amend Council Policy CP2016-03 on the Governance and Appointments of Boards, Commissions and Committees by inserting the following as a new section 5.9.8:\n5.9.8 ; ; ; In order to be eligible for appointment as Public Members, Applicants must not have been employed in the Administration of The City of Calgary within the year prior to the date of their application, unless otherwise specified by the BCCs Governance Documents.",
+        "date": "2026/02/24",
+        "domain": "Governance",
+        "vote": "Yes",
+        "direction": "Support",
+        "alignment": 1,
+        "earned": 2,
+        "possible": 2
+      },
+      {
+        "resolution": "That with respect to Notice of Motion EC2026-0124, the following be adopted:\nNOW THEREFORE BE IT RESOLVED that Council direct Administration to come back to Council, through Executive Committee, no later than June 2026, and provide a proposed stable renewal funding mechanism (e.g. an infrastructure improvement fee, levy or other funding mechanism) to address the Citys immediate infrastructure funding deficit and support predictable, long-term renewal and risk reduction across Calgarys infrastructure assets, as identified in the Q1/Q2 2026 asset conditions, risk and capital needs reporting.",
+        "date": "2026/02/24",
+        "domain": "Governance",
+        "vote": "Yes",
+        "direction": "Support",
+        "alignment": 1,
+        "earned": 2,
+        "possible": 2
+      }
+    ],
+    "reviewedVotesMatched": 8,
+    "minimumVotesRequired": 15,
+    "isEligibleForPublicScore": false,
+    "scoreConfidence": "preliminary",
+    "alignmentScore": 65.3,
+    "scoreStatus": "Preliminary Score"
+  },
+  {
+    "name": "Mayor J. Farkas",
+    "totalScore": 26,
+    "totalPossible": 40.4,
+    "matchedVotes": [
+      {
+        "resolution": "That with respect to Report C2025-0901, the following amendment be adopted: That a new sub-bullet be inserted under Recommendation 1, as follows: With respect to Transit Fares, approving the following changes and using the $12.8 million in savings to reduce the $14.0 million ongoing operating costs to Increasing Transit Frequency on Key Routes as referenced on page 15 in attachment 2 and reduce the property tax increase accordingly: Eliminate the Free Fares for Children 12 and Under program ($3.6 million), to take effect July 1, 2026;",
+        "date": "2025/11/10",
+        "domain": "Wellness",
+        "vote": "Yes",
+        "direction": "Oppose",
+        "alignment": -1,
+        "earned": 0,
+        "possible": 7
+      },
+      {
+        "resolution": "That with respect to Report C2025-0901, the following amendment be adopted: That a new sub-bullet be inserted under Recommendation 1, as follows: With respect to Transit Fares, approving the following changes and using the $12.8 million in savings to reduce the $14.0 million ongoing operating costs to Increasing Transit Frequency on Key Routes as referenced on page 15 in attachment 2 and reduce the property tax increase accordingly: iii. Reverse the 2023 fare freeze and increase fares in addition to the previously approved increase to transit fares in 2026 ($4.0 million) and Approve Distribution 2, User Fee Table",
+        "date": "2025/11/10",
+        "domain": "Wellness",
+        "vote": "No",
+        "direction": "Oppose",
+        "alignment": 1,
+        "earned": 7,
+        "possible": 7
+      },
+      {
+        "resolution": "With respect to Report C2025-0901, the following amendment be adopted: That a new sub-bullet be inserted under Recommendation 1, as follows: Removing $6.0 million in ongoing operating funding from the Mental Health and Addictions Program under Community Services, and allocating $6.0 million in one-time operating funding to Community Services in 2026 for the Mental Health and Addictions Program, drawing from the Fiscal Stability Reserve",
+        "date": "2025/11/10",
+        "domain": "Wellness",
+        "vote": "No",
+        "direction": "Oppose",
+        "alignment": 1,
+        "earned": 7,
+        "possible": 7
+      },
+      {
+        "resolution": "That with respect to Report C2025-0901, the following amendment be adopted: ;\nThat a new sub-bullet be inserted under Recommendation 1, as follows: ;\nAllocating ;$9.0 ;million in one-time operating funding to Community Services in 2026, to be funded from Fiscal Stability Reserve for the purpose of improving transit safety, and direct Administration to: ;\ni. Focus security enhancements on C-Train stations during afternoon rush hour (4 PM  8 PM), based on incident data;\nii. Implement Tiered Security Model as outlined in the Public Transit Safety Strategy:\n\n\n\n\n\nTransit Peace Officers (TPOs): Mobile patrols, enforcement, complex calls; provide rapid response and support to static guards;\nCorporate Security: Fixed posts at priority stations for observation, reporting, and customer assistance;\nContracted security guards: Scalable resource for ;additional ;fixed posts during expansion ;phase; ;\n\n\n\n\n\niii. Use phased approach to deploy security staff until additional peace officers are hired (aligned with growth strategy from 2024);\niv. Increase community outreach activities by adding six officers to the Community Outreach Team; and\nv. Report back to Council Q3 2026 with results to determine if public perceived C-train was safer as a result",
+        "date": "2025/12/02",
+        "domain": "Wellness",
+        "vote": "Yes",
+        "direction": "Support",
+        "alignment": 1,
+        "earned": 7,
+        "possible": 7
+      },
+      {
+        "resolution": "That with respect to Notice of Motion EC2025-0995, the following Motion Arising be adopted: WHEREAS City Council has directed Administration to prepare an amending bylaw to restore the Land Use Bylaw Districts in Bylaw 1P2007 and the land use designation of affected parcels to their state prior to third reading of Bylaw 21P2024, with defined exemptions, reporting timelines, and a return to Public Hearing in March 2026; AND WHEREAS City Council recognizes that maintaining housing supply and affordability requires continuity in housing approvals capacity and processing timelines, and that any repeal or modification of zoning regulations should be accompanied by appropriate transitional measures to ensure no net loss in housing approvals during the period of regulatory transition; AND WHEREAS additional direction is required to provide clarity on how Councils adopted amendments to city-wide residential rezoning will be implemented in a manner that maintains compliance with the requirements of federal housing and infrastructure funding programs, including the Housing Accelerator Fund and other applicable granting streams; THEREFORE BE IT RESOLVED THAT Administration be directed to develop and return to Council no later than Q2 2026 with a comprehensive Multi-Tool Zoning and Housing Enablement Framework that: Identifies and evaluates alternative zoning, planning, and approvals-based mechanisms capable of enabling missing-middle, multi-unit, and affordable housing at a scale sufficient to meet or exceed the Citys objectives in the Home is Here: The City of Calgarys Housing Strategy 2024-2030, including the delivery of affordable homes across all housing categories; Demonstrates how the proposed mechanisms will maintain Calgarys eligibility and compliance with funding programs offered by other orders of government, including housing supply outcomes, approvals-streamlining commitments, and growth-enabling regulatory reforms; Identifies any required amendments to the Municipal Development Plan, Land Use Bylaw 1P2007, Local Area Plans, or administrative processes necessary to implement the Framework; Provides Council with a comprehensive analysis of the housing supply, financial, legal, and intergovernmental implications of the Framework, including formal engagement with the Canada Mortgage and Housing Corporation (CMHC) and Housing, Infrastructure and Communities Canada (HICC) to confirm that the proposed mechanisms satisfy funding programs performance requirements; and Identifies any interim resourcing, capital, or programmatic requirements required to maintain housing supply momentum during the transition period between any repeal or modification of existing zoning regulations and the implementation of the Multi-Tool Zoning and Housing Enablement Framework, including the potential use of non-market and non-profit housing delivery mechanisms. Identifies any additional resourcing, staffing, or capital requirements necessary to accelerate implementation of non-Rezoning for Housing housing supply actions already approved within the Home is Here: The City of Calgarys Housing Strategy 20242030, including initiatives related to approvals streamlining, non-market housing delivery, and alternative housing forms. AND FURTHER BE IT RESOLVED THAT Administration undertake direct engagement with CMHC, HICC, the Government of Alberta and the Government of Canada during the development of the Framework and report back to Council on any conditions, amendments, or flexibilities required to support Calgarys continued participation in the Housing Accelerator Fund and other grant streams offered by other orders of government that enable housing supply.",
+        "date": "2025/12/15",
+        "domain": "Community",
+        "vote": "Yes",
+        "direction": "Support",
+        "alignment": 1,
+        "earned": 3,
+        "possible": 3
+      },
+      {
+        "resolution": "That with respect to Notice of Motion EC2025-0995, the Recommendations be amended by adding the following as new Recommendations: AND FURTHER BE IT RESOLVED that Administration be directed to prepare amendments to Bylaw 1P2007 land use maps to allow R-CG, R-G or H-GO zoning in Major and Community Activity Centres and within 600m of the Primary Transit Network as defined in the Municipal Development Plan.",
+        "date": "2025/12/15",
+        "domain": "Community",
+        "vote": "No",
+        "direction": "Support",
+        "alignment": -1,
+        "earned": 0,
+        "possible": 5.4
+      },
+      {
+        "resolution": "That with respect to Notice of Motion EC2026-0124, the following be adopted:\nNOW THEREFORE BE IT RESOLVED that Council direct Administration to come back to Council, through Executive Committee, no later than June 2026, and provide a proposed stable renewal funding mechanism (e.g. an infrastructure improvement fee, levy or other funding mechanism) to address the Citys immediate infrastructure funding deficit and support predictable, long-term renewal and risk reduction across Calgarys infrastructure assets, as identified in the Q1/Q2 2026 asset conditions, risk and capital needs reporting.",
+        "date": "2026/02/24",
+        "domain": "Governance",
+        "vote": "Yes",
+        "direction": "Support",
+        "alignment": 1,
+        "earned": 2,
+        "possible": 2
+      },
+      {
+        "resolution": "That with respect to Notice of Motion EC2026-0039, the following be adopted:\nNOW THEREFORE BE IT RESOLVED that Council amend Council Policy CP2016-03 on the Governance and Appointments of Boards, Commissions and Committees by inserting the following as a new section 5.9.8:\n5.9.8 ; ; ; In order to be eligible for appointment as Public Members, Applicants must not have been employed in the Administration of The City of Calgary within the year prior to the date of their application, unless otherwise specified by the BCCs Governance Documents.",
+        "date": "2026/02/24",
+        "domain": "Governance",
+        "vote": "No",
+        "direction": "Support",
+        "alignment": -1,
+        "earned": 0,
+        "possible": 2
+      }
+    ],
+    "reviewedVotesMatched": 8,
+    "minimumVotesRequired": 15,
+    "isEligibleForPublicScore": false,
+    "scoreConfidence": "preliminary",
+    "alignmentScore": 64.4,
+    "scoreStatus": "Preliminary Score"
+  },
+  {
+    "name": "Andrew Yule",
+    "totalScore": 21,
+    "totalPossible": 40.4,
+    "matchedVotes": [
+      {
+        "resolution": "That with respect to Report C2025-0901, the following amendment be adopted: ;\nThat a new sub-bullet be inserted under Recommendation 1, as follows: ;\nAllocating ;$9.0 ;million in one-time operating funding to Community Services in 2026, to be funded from Fiscal Stability Reserve for the purpose of improving transit safety, and direct Administration to: ;\ni. Focus security enhancements on C-Train stations during afternoon rush hour (4 PM  8 PM), based on incident data;\nii. Implement Tiered Security Model as outlined in the Public Transit Safety Strategy:\n\n\n\n\n\nTransit Peace Officers (TPOs): Mobile patrols, enforcement, complex calls; provide rapid response and support to static guards;\nCorporate Security: Fixed posts at priority stations for observation, reporting, and customer assistance;\nContracted security guards: Scalable resource for ;additional ;fixed posts during expansion ;phase; ;\n\n\n\n\n\niii. Use phased approach to deploy security staff until additional peace officers are hired (aligned with growth strategy from 2024);\niv. Increase community outreach activities by adding six officers to the Community Outreach Team; and\nv. Report back to Council Q3 2026 with results to determine if public perceived C-train was safer as a result",
+        "date": "2025/12/02",
+        "domain": "Wellness",
+        "vote": "Yes",
+        "direction": "Support",
+        "alignment": 1,
+        "earned": 7,
+        "possible": 7
+      },
+      {
+        "resolution": "That with respect to Report C2025-0901, the following amendment be adopted: That a new sub-bullet be inserted under Recommendation 1, as follows: With respect to Transit Fares, approving the following changes and using the $12.8 million in savings to reduce the $14.0 million ongoing operating costs to Increasing Transit Frequency on Key Routes as referenced on page 15 in attachment 2 and reduce the property tax increase accordingly: iii. Reverse the 2023 fare freeze and increase fares in addition to the previously approved increase to transit fares in 2026 ($4.0 million) and Approve Distribution 2, User Fee Table",
+        "date": "2025/11/10",
+        "domain": "Wellness",
+        "vote": "Yes",
+        "direction": "Oppose",
+        "alignment": -1,
+        "earned": 0,
+        "possible": 7
+      },
+      {
+        "resolution": "That with respect to Notice of Motion EC2025-0995, the Recommendations be amended by adding the following as new Recommendations: AND FURTHER BE IT RESOLVED that Administration be directed to prepare amendments to Bylaw 1P2007 land use maps to allow R-CG, R-G or H-GO zoning in Major and Community Activity Centres and within 600m of the Primary Transit Network as defined in the Municipal Development Plan.",
+        "date": "2025/12/15",
+        "domain": "Community",
+        "vote": "No",
+        "direction": "Support",
+        "alignment": -1,
+        "earned": 0,
+        "possible": 5.4
+      },
+      {
+        "resolution": "With respect to Report C2025-0901, the following amendment be adopted: That a new sub-bullet be inserted under Recommendation 1, as follows: Removing $6.0 million in ongoing operating funding from the Mental Health and Addictions Program under Community Services, and allocating $6.0 million in one-time operating funding to Community Services in 2026 for the Mental Health and Addictions Program, drawing from the Fiscal Stability Reserve",
+        "date": "2025/11/10",
+        "domain": "Wellness",
+        "vote": "Yes",
+        "direction": "Oppose",
+        "alignment": -1,
+        "earned": 0,
+        "possible": 7
+      },
+      {
+        "resolution": "That with respect to Report C2025-0901, the following amendment be adopted: That a new sub-bullet be inserted under Recommendation 1, as follows: With respect to Transit Fares, approving the following changes and using the $12.8 million in savings to reduce the $14.0 million ongoing operating costs to Increasing Transit Frequency on Key Routes as referenced on page 15 in attachment 2 and reduce the property tax increase accordingly: Eliminate the Free Fares for Children 12 and Under program ($3.6 million), to take effect July 1, 2026;",
+        "date": "2025/11/10",
+        "domain": "Wellness",
+        "vote": "No",
+        "direction": "Oppose",
+        "alignment": 1,
+        "earned": 7,
+        "possible": 7
+      },
+      {
+        "resolution": "That with respect to Notice of Motion EC2025-0995, the following Motion Arising be adopted: WHEREAS City Council has directed Administration to prepare an amending bylaw to restore the Land Use Bylaw Districts in Bylaw 1P2007 and the land use designation of affected parcels to their state prior to third reading of Bylaw 21P2024, with defined exemptions, reporting timelines, and a return to Public Hearing in March 2026; AND WHEREAS City Council recognizes that maintaining housing supply and affordability requires continuity in housing approvals capacity and processing timelines, and that any repeal or modification of zoning regulations should be accompanied by appropriate transitional measures to ensure no net loss in housing approvals during the period of regulatory transition; AND WHEREAS additional direction is required to provide clarity on how Councils adopted amendments to city-wide residential rezoning will be implemented in a manner that maintains compliance with the requirements of federal housing and infrastructure funding programs, including the Housing Accelerator Fund and other applicable granting streams; THEREFORE BE IT RESOLVED THAT Administration be directed to develop and return to Council no later than Q2 2026 with a comprehensive Multi-Tool Zoning and Housing Enablement Framework that: Identifies and evaluates alternative zoning, planning, and approvals-based mechanisms capable of enabling missing-middle, multi-unit, and affordable housing at a scale sufficient to meet or exceed the Citys objectives in the Home is Here: The City of Calgarys Housing Strategy 2024-2030, including the delivery of affordable homes across all housing categories; Demonstrates how the proposed mechanisms will maintain Calgarys eligibility and compliance with funding programs offered by other orders of government, including housing supply outcomes, approvals-streamlining commitments, and growth-enabling regulatory reforms; Identifies any required amendments to the Municipal Development Plan, Land Use Bylaw 1P2007, Local Area Plans, or administrative processes necessary to implement the Framework; Provides Council with a comprehensive analysis of the housing supply, financial, legal, and intergovernmental implications of the Framework, including formal engagement with the Canada Mortgage and Housing Corporation (CMHC) and Housing, Infrastructure and Communities Canada (HICC) to confirm that the proposed mechanisms satisfy funding programs performance requirements; and Identifies any interim resourcing, capital, or programmatic requirements required to maintain housing supply momentum during the transition period between any repeal or modification of existing zoning regulations and the implementation of the Multi-Tool Zoning and Housing Enablement Framework, including the potential use of non-market and non-profit housing delivery mechanisms. Identifies any additional resourcing, staffing, or capital requirements necessary to accelerate implementation of non-Rezoning for Housing housing supply actions already approved within the Home is Here: The City of Calgarys Housing Strategy 20242030, including initiatives related to approvals streamlining, non-market housing delivery, and alternative housing forms. AND FURTHER BE IT RESOLVED THAT Administration undertake direct engagement with CMHC, HICC, the Government of Alberta and the Government of Canada during the development of the Framework and report back to Council on any conditions, amendments, or flexibilities required to support Calgarys continued participation in the Housing Accelerator Fund and other grant streams offered by other orders of government that enable housing supply.",
+        "date": "2025/12/15",
+        "domain": "Community",
+        "vote": "Yes",
+        "direction": "Support",
+        "alignment": 1,
+        "earned": 3,
+        "possible": 3
+      },
+      {
+        "resolution": "That with respect to Notice of Motion EC2026-0124, the following be adopted:\nNOW THEREFORE BE IT RESOLVED that Council direct Administration to come back to Council, through Executive Committee, no later than June 2026, and provide a proposed stable renewal funding mechanism (e.g. an infrastructure improvement fee, levy or other funding mechanism) to address the Citys immediate infrastructure funding deficit and support predictable, long-term renewal and risk reduction across Calgarys infrastructure assets, as identified in the Q1/Q2 2026 asset conditions, risk and capital needs reporting.",
+        "date": "2026/02/24",
+        "domain": "Governance",
+        "vote": "Yes",
+        "direction": "Support",
+        "alignment": 1,
+        "earned": 2,
+        "possible": 2
+      },
+      {
+        "resolution": "That with respect to Notice of Motion EC2026-0039, the following be adopted:\nNOW THEREFORE BE IT RESOLVED that Council amend Council Policy CP2016-03 on the Governance and Appointments of Boards, Commissions and Committees by inserting the following as a new section 5.9.8:\n5.9.8 ; ; ; In order to be eligible for appointment as Public Members, Applicants must not have been employed in the Administration of The City of Calgary within the year prior to the date of their application, unless otherwise specified by the BCCs Governance Documents.",
+        "date": "2026/02/24",
+        "domain": "Governance",
+        "vote": "Yes",
+        "direction": "Support",
+        "alignment": 1,
+        "earned": 2,
+        "possible": 2
+      }
+    ],
+    "reviewedVotesMatched": 8,
+    "minimumVotesRequired": 15,
+    "isEligibleForPublicScore": false,
+    "scoreConfidence": "preliminary",
+    "alignmentScore": 52,
+    "scoreStatus": "Preliminary Score"
   },
   {
     "name": "Sonya Sharp",
@@ -2328,8 +2896,9 @@
     "reviewedVotesMatched": 20,
     "minimumVotesRequired": 15,
     "isEligibleForPublicScore": true,
+    "scoreConfidence": "verified",
     "alignmentScore": 44.4,
-    "scoreStatus": "Eligible for public ranking"
+    "scoreStatus": "Verified Score"
   },
   {
     "name": "Jennifer Wyness",
@@ -2610,8 +3179,195 @@
     "reviewedVotesMatched": 27,
     "minimumVotesRequired": 15,
     "isEligibleForPublicScore": true,
+    "scoreConfidence": "verified",
     "alignmentScore": 41.2,
-    "scoreStatus": "Eligible for public ranking"
+    "scoreStatus": "Verified Score"
+  },
+  {
+    "name": "John Pantazopoulos",
+    "totalScore": 16,
+    "totalPossible": 40.4,
+    "matchedVotes": [
+      {
+        "resolution": "That with respect to Report C2025-0901, the following amendment be adopted: That a new sub-bullet be inserted under Recommendation 1, as follows: With respect to Transit Fares, approving the following changes and using the $12.8 million in savings to reduce the $14.0 million ongoing operating costs to Increasing Transit Frequency on Key Routes as referenced on page 15 in attachment 2 and reduce the property tax increase accordingly: Eliminate the Free Fares for Children 12 and Under program ($3.6 million), to take effect July 1, 2026;",
+        "date": "2025/11/10",
+        "domain": "Wellness",
+        "vote": "Yes",
+        "direction": "Oppose",
+        "alignment": -1,
+        "earned": 0,
+        "possible": 7
+      },
+      {
+        "resolution": "That with respect to Report C2025-0901, the following amendment be adopted: ;\nThat a new sub-bullet be inserted under Recommendation 1, as follows: ;\nAllocating ;$9.0 ;million in one-time operating funding to Community Services in 2026, to be funded from Fiscal Stability Reserve for the purpose of improving transit safety, and direct Administration to: ;\ni. Focus security enhancements on C-Train stations during afternoon rush hour (4 PM  8 PM), based on incident data;\nii. Implement Tiered Security Model as outlined in the Public Transit Safety Strategy:\n\n\n\n\n\nTransit Peace Officers (TPOs): Mobile patrols, enforcement, complex calls; provide rapid response and support to static guards;\nCorporate Security: Fixed posts at priority stations for observation, reporting, and customer assistance;\nContracted security guards: Scalable resource for ;additional ;fixed posts during expansion ;phase; ;\n\n\n\n\n\niii. Use phased approach to deploy security staff until additional peace officers are hired (aligned with growth strategy from 2024);\niv. Increase community outreach activities by adding six officers to the Community Outreach Team; and\nv. Report back to Council Q3 2026 with results to determine if public perceived C-train was safer as a result",
+        "date": "2025/12/02",
+        "domain": "Wellness",
+        "vote": "Yes",
+        "direction": "Support",
+        "alignment": 1,
+        "earned": 7,
+        "possible": 7
+      },
+      {
+        "resolution": "That with respect to Notice of Motion EC2025-0995, the following Motion Arising be adopted: WHEREAS City Council has directed Administration to prepare an amending bylaw to restore the Land Use Bylaw Districts in Bylaw 1P2007 and the land use designation of affected parcels to their state prior to third reading of Bylaw 21P2024, with defined exemptions, reporting timelines, and a return to Public Hearing in March 2026; AND WHEREAS City Council recognizes that maintaining housing supply and affordability requires continuity in housing approvals capacity and processing timelines, and that any repeal or modification of zoning regulations should be accompanied by appropriate transitional measures to ensure no net loss in housing approvals during the period of regulatory transition; AND WHEREAS additional direction is required to provide clarity on how Councils adopted amendments to city-wide residential rezoning will be implemented in a manner that maintains compliance with the requirements of federal housing and infrastructure funding programs, including the Housing Accelerator Fund and other applicable granting streams; THEREFORE BE IT RESOLVED THAT Administration be directed to develop and return to Council no later than Q2 2026 with a comprehensive Multi-Tool Zoning and Housing Enablement Framework that: Identifies and evaluates alternative zoning, planning, and approvals-based mechanisms capable of enabling missing-middle, multi-unit, and affordable housing at a scale sufficient to meet or exceed the Citys objectives in the Home is Here: The City of Calgarys Housing Strategy 2024-2030, including the delivery of affordable homes across all housing categories; Demonstrates how the proposed mechanisms will maintain Calgarys eligibility and compliance with funding programs offered by other orders of government, including housing supply outcomes, approvals-streamlining commitments, and growth-enabling regulatory reforms; Identifies any required amendments to the Municipal Development Plan, Land Use Bylaw 1P2007, Local Area Plans, or administrative processes necessary to implement the Framework; Provides Council with a comprehensive analysis of the housing supply, financial, legal, and intergovernmental implications of the Framework, including formal engagement with the Canada Mortgage and Housing Corporation (CMHC) and Housing, Infrastructure and Communities Canada (HICC) to confirm that the proposed mechanisms satisfy funding programs performance requirements; and Identifies any interim resourcing, capital, or programmatic requirements required to maintain housing supply momentum during the transition period between any repeal or modification of existing zoning regulations and the implementation of the Multi-Tool Zoning and Housing Enablement Framework, including the potential use of non-market and non-profit housing delivery mechanisms. Identifies any additional resourcing, staffing, or capital requirements necessary to accelerate implementation of non-Rezoning for Housing housing supply actions already approved within the Home is Here: The City of Calgarys Housing Strategy 20242030, including initiatives related to approvals streamlining, non-market housing delivery, and alternative housing forms. AND FURTHER BE IT RESOLVED THAT Administration undertake direct engagement with CMHC, HICC, the Government of Alberta and the Government of Canada during the development of the Framework and report back to Council on any conditions, amendments, or flexibilities required to support Calgarys continued participation in the Housing Accelerator Fund and other grant streams offered by other orders of government that enable housing supply.",
+        "date": "2025/12/15",
+        "domain": "Community",
+        "vote": "No",
+        "direction": "Support",
+        "alignment": -1,
+        "earned": 0,
+        "possible": 3
+      },
+      {
+        "resolution": "That with respect to Report C2025-0901, the following amendment be adopted: That a new sub-bullet be inserted under Recommendation 1, as follows: With respect to Transit Fares, approving the following changes and using the $12.8 million in savings to reduce the $14.0 million ongoing operating costs to Increasing Transit Frequency on Key Routes as referenced on page 15 in attachment 2 and reduce the property tax increase accordingly: iii. Reverse the 2023 fare freeze and increase fares in addition to the previously approved increase to transit fares in 2026 ($4.0 million) and Approve Distribution 2, User Fee Table",
+        "date": "2025/11/10",
+        "domain": "Wellness",
+        "vote": "Yes",
+        "direction": "Oppose",
+        "alignment": -1,
+        "earned": 0,
+        "possible": 7
+      },
+      {
+        "resolution": "That with respect to Notice of Motion EC2025-0995, the Recommendations be amended by adding the following as new Recommendations: AND FURTHER BE IT RESOLVED that Administration be directed to prepare amendments to Bylaw 1P2007 land use maps to allow R-CG, R-G or H-GO zoning in Major and Community Activity Centres and within 600m of the Primary Transit Network as defined in the Municipal Development Plan.",
+        "date": "2025/12/15",
+        "domain": "Community",
+        "vote": "No",
+        "direction": "Support",
+        "alignment": -1,
+        "earned": 0,
+        "possible": 5.4
+      },
+      {
+        "resolution": "With respect to Report C2025-0901, the following amendment be adopted: That a new sub-bullet be inserted under Recommendation 1, as follows: Removing $6.0 million in ongoing operating funding from the Mental Health and Addictions Program under Community Services, and allocating $6.0 million in one-time operating funding to Community Services in 2026 for the Mental Health and Addictions Program, drawing from the Fiscal Stability Reserve",
+        "date": "2025/11/10",
+        "domain": "Wellness",
+        "vote": "No",
+        "direction": "Oppose",
+        "alignment": 1,
+        "earned": 7,
+        "possible": 7
+      },
+      {
+        "resolution": "That with respect to Notice of Motion EC2026-0039, the following be adopted:\nNOW THEREFORE BE IT RESOLVED that Council amend Council Policy CP2016-03 on the Governance and Appointments of Boards, Commissions and Committees by inserting the following as a new section 5.9.8:\n5.9.8 ; ; ; In order to be eligible for appointment as Public Members, Applicants must not have been employed in the Administration of The City of Calgary within the year prior to the date of their application, unless otherwise specified by the BCCs Governance Documents.",
+        "date": "2026/02/24",
+        "domain": "Governance",
+        "vote": "No",
+        "direction": "Support",
+        "alignment": -1,
+        "earned": 0,
+        "possible": 2
+      },
+      {
+        "resolution": "That with respect to Notice of Motion EC2026-0124, the following be adopted:\nNOW THEREFORE BE IT RESOLVED that Council direct Administration to come back to Council, through Executive Committee, no later than June 2026, and provide a proposed stable renewal funding mechanism (e.g. an infrastructure improvement fee, levy or other funding mechanism) to address the Citys immediate infrastructure funding deficit and support predictable, long-term renewal and risk reduction across Calgarys infrastructure assets, as identified in the Q1/Q2 2026 asset conditions, risk and capital needs reporting.",
+        "date": "2026/02/24",
+        "domain": "Governance",
+        "vote": "Yes",
+        "direction": "Support",
+        "alignment": 1,
+        "earned": 2,
+        "possible": 2
+      }
+    ],
+    "reviewedVotesMatched": 8,
+    "minimumVotesRequired": 15,
+    "isEligibleForPublicScore": false,
+    "scoreConfidence": "preliminary",
+    "alignmentScore": 39.6,
+    "scoreStatus": "Preliminary Score"
+  },
+  {
+    "name": "Kim Tyers",
+    "totalScore": 14,
+    "totalPossible": 40.4,
+    "matchedVotes": [
+      {
+        "resolution": "That with respect to Notice of Motion EC2025-0995, the Recommendations be amended by adding the following as new Recommendations: AND FURTHER BE IT RESOLVED that Administration be directed to prepare amendments to Bylaw 1P2007 land use maps to allow R-CG, R-G or H-GO zoning in Major and Community Activity Centres and within 600m of the Primary Transit Network as defined in the Municipal Development Plan.",
+        "date": "2025/12/15",
+        "domain": "Community",
+        "vote": "No",
+        "direction": "Support",
+        "alignment": -1,
+        "earned": 0,
+        "possible": 5.4
+      },
+      {
+        "resolution": "That with respect to Report C2025-0901, the following amendment be adopted: ;\nThat a new sub-bullet be inserted under Recommendation 1, as follows: ;\nAllocating ;$9.0 ;million in one-time operating funding to Community Services in 2026, to be funded from Fiscal Stability Reserve for the purpose of improving transit safety, and direct Administration to: ;\ni. Focus security enhancements on C-Train stations during afternoon rush hour (4 PM  8 PM), based on incident data;\nii. Implement Tiered Security Model as outlined in the Public Transit Safety Strategy:\n\n\n\n\n\nTransit Peace Officers (TPOs): Mobile patrols, enforcement, complex calls; provide rapid response and support to static guards;\nCorporate Security: Fixed posts at priority stations for observation, reporting, and customer assistance;\nContracted security guards: Scalable resource for ;additional ;fixed posts during expansion ;phase; ;\n\n\n\n\n\niii. Use phased approach to deploy security staff until additional peace officers are hired (aligned with growth strategy from 2024);\niv. Increase community outreach activities by adding six officers to the Community Outreach Team; and\nv. Report back to Council Q3 2026 with results to determine if public perceived C-train was safer as a result",
+        "date": "2025/12/02",
+        "domain": "Wellness",
+        "vote": "No",
+        "direction": "Support",
+        "alignment": -1,
+        "earned": 0,
+        "possible": 7
+      },
+      {
+        "resolution": "With respect to Report C2025-0901, the following amendment be adopted: That a new sub-bullet be inserted under Recommendation 1, as follows: Removing $6.0 million in ongoing operating funding from the Mental Health and Addictions Program under Community Services, and allocating $6.0 million in one-time operating funding to Community Services in 2026 for the Mental Health and Addictions Program, drawing from the Fiscal Stability Reserve",
+        "date": "2025/11/10",
+        "domain": "Wellness",
+        "vote": "Yes",
+        "direction": "Oppose",
+        "alignment": -1,
+        "earned": 0,
+        "possible": 7
+      },
+      {
+        "resolution": "That with respect to Report C2025-0901, the following amendment be adopted: That a new sub-bullet be inserted under Recommendation 1, as follows: With respect to Transit Fares, approving the following changes and using the $12.8 million in savings to reduce the $14.0 million ongoing operating costs to Increasing Transit Frequency on Key Routes as referenced on page 15 in attachment 2 and reduce the property tax increase accordingly: iii. Reverse the 2023 fare freeze and increase fares in addition to the previously approved increase to transit fares in 2026 ($4.0 million) and Approve Distribution 2, User Fee Table",
+        "date": "2025/11/10",
+        "domain": "Wellness",
+        "vote": "No",
+        "direction": "Oppose",
+        "alignment": 1,
+        "earned": 7,
+        "possible": 7
+      },
+      {
+        "resolution": "That with respect to Notice of Motion EC2025-0995, the following Motion Arising be adopted: WHEREAS City Council has directed Administration to prepare an amending bylaw to restore the Land Use Bylaw Districts in Bylaw 1P2007 and the land use designation of affected parcels to their state prior to third reading of Bylaw 21P2024, with defined exemptions, reporting timelines, and a return to Public Hearing in March 2026; AND WHEREAS City Council recognizes that maintaining housing supply and affordability requires continuity in housing approvals capacity and processing timelines, and that any repeal or modification of zoning regulations should be accompanied by appropriate transitional measures to ensure no net loss in housing approvals during the period of regulatory transition; AND WHEREAS additional direction is required to provide clarity on how Councils adopted amendments to city-wide residential rezoning will be implemented in a manner that maintains compliance with the requirements of federal housing and infrastructure funding programs, including the Housing Accelerator Fund and other applicable granting streams; THEREFORE BE IT RESOLVED THAT Administration be directed to develop and return to Council no later than Q2 2026 with a comprehensive Multi-Tool Zoning and Housing Enablement Framework that: Identifies and evaluates alternative zoning, planning, and approvals-based mechanisms capable of enabling missing-middle, multi-unit, and affordable housing at a scale sufficient to meet or exceed the Citys objectives in the Home is Here: The City of Calgarys Housing Strategy 2024-2030, including the delivery of affordable homes across all housing categories; Demonstrates how the proposed mechanisms will maintain Calgarys eligibility and compliance with funding programs offered by other orders of government, including housing supply outcomes, approvals-streamlining commitments, and growth-enabling regulatory reforms; Identifies any required amendments to the Municipal Development Plan, Land Use Bylaw 1P2007, Local Area Plans, or administrative processes necessary to implement the Framework; Provides Council with a comprehensive analysis of the housing supply, financial, legal, and intergovernmental implications of the Framework, including formal engagement with the Canada Mortgage and Housing Corporation (CMHC) and Housing, Infrastructure and Communities Canada (HICC) to confirm that the proposed mechanisms satisfy funding programs performance requirements; and Identifies any interim resourcing, capital, or programmatic requirements required to maintain housing supply momentum during the transition period between any repeal or modification of existing zoning regulations and the implementation of the Multi-Tool Zoning and Housing Enablement Framework, including the potential use of non-market and non-profit housing delivery mechanisms. Identifies any additional resourcing, staffing, or capital requirements necessary to accelerate implementation of non-Rezoning for Housing housing supply actions already approved within the Home is Here: The City of Calgarys Housing Strategy 20242030, including initiatives related to approvals streamlining, non-market housing delivery, and alternative housing forms. AND FURTHER BE IT RESOLVED THAT Administration undertake direct engagement with CMHC, HICC, the Government of Alberta and the Government of Canada during the development of the Framework and report back to Council on any conditions, amendments, or flexibilities required to support Calgarys continued participation in the Housing Accelerator Fund and other grant streams offered by other orders of government that enable housing supply.",
+        "date": "2025/12/15",
+        "domain": "Community",
+        "vote": "No",
+        "direction": "Support",
+        "alignment": -1,
+        "earned": 0,
+        "possible": 3
+      },
+      {
+        "resolution": "That with respect to Report C2025-0901, the following amendment be adopted: That a new sub-bullet be inserted under Recommendation 1, as follows: With respect to Transit Fares, approving the following changes and using the $12.8 million in savings to reduce the $14.0 million ongoing operating costs to Increasing Transit Frequency on Key Routes as referenced on page 15 in attachment 2 and reduce the property tax increase accordingly: Eliminate the Free Fares for Children 12 and Under program ($3.6 million), to take effect July 1, 2026;",
+        "date": "2025/11/10",
+        "domain": "Wellness",
+        "vote": "No",
+        "direction": "Oppose",
+        "alignment": 1,
+        "earned": 7,
+        "possible": 7
+      },
+      {
+        "resolution": "That with respect to Notice of Motion EC2026-0039, the following be adopted:\nNOW THEREFORE BE IT RESOLVED that Council amend Council Policy CP2016-03 on the Governance and Appointments of Boards, Commissions and Committees by inserting the following as a new section 5.9.8:\n5.9.8 ; ; ; In order to be eligible for appointment as Public Members, Applicants must not have been employed in the Administration of The City of Calgary within the year prior to the date of their application, unless otherwise specified by the BCCs Governance Documents.",
+        "date": "2026/02/24",
+        "domain": "Governance",
+        "vote": "No",
+        "direction": "Support",
+        "alignment": -1,
+        "earned": 0,
+        "possible": 2
+      },
+      {
+        "resolution": "That with respect to Notice of Motion EC2026-0124, the following be adopted:\nNOW THEREFORE BE IT RESOLVED that Council direct Administration to come back to Council, through Executive Committee, no later than June 2026, and provide a proposed stable renewal funding mechanism (e.g. an infrastructure improvement fee, levy or other funding mechanism) to address the Citys immediate infrastructure funding deficit and support predictable, long-term renewal and risk reduction across Calgarys infrastructure assets, as identified in the Q1/Q2 2026 asset conditions, risk and capital needs reporting.",
+        "date": "2026/02/24",
+        "domain": "Governance",
+        "vote": "No",
+        "direction": "Support",
+        "alignment": -1,
+        "earned": 0,
+        "possible": 2
+      }
+    ],
+    "reviewedVotesMatched": 8,
+    "minimumVotesRequired": 15,
+    "isEligibleForPublicScore": false,
+    "scoreConfidence": "preliminary",
+    "alignmentScore": 34.7,
+    "scoreStatus": "Preliminary Score"
   },
   {
     "name": "Dan McLean",
@@ -2902,8 +3658,9 @@
     "reviewedVotesMatched": 28,
     "minimumVotesRequired": 15,
     "isEligibleForPublicScore": true,
+    "scoreConfidence": "verified",
     "alignmentScore": 21.1,
-    "scoreStatus": "Eligible for public ranking"
+    "scoreStatus": "Verified Score"
   },
   {
     "name": "Sean Chu",
@@ -3114,8 +3871,102 @@
     "reviewedVotesMatched": 20,
     "minimumVotesRequired": 15,
     "isEligibleForPublicScore": true,
+    "scoreConfidence": "verified",
     "alignmentScore": 19,
-    "scoreStatus": "Eligible for public ranking"
+    "scoreStatus": "Verified Score"
+  },
+  {
+    "name": "Rob Ward",
+    "totalScore": 7,
+    "totalPossible": 40.4,
+    "matchedVotes": [
+      {
+        "resolution": "With respect to Report C2025-0901, the following amendment be adopted: That a new sub-bullet be inserted under Recommendation 1, as follows: Removing $6.0 million in ongoing operating funding from the Mental Health and Addictions Program under Community Services, and allocating $6.0 million in one-time operating funding to Community Services in 2026 for the Mental Health and Addictions Program, drawing from the Fiscal Stability Reserve",
+        "date": "2025/11/10",
+        "domain": "Wellness",
+        "vote": "Yes",
+        "direction": "Oppose",
+        "alignment": -1,
+        "earned": 0,
+        "possible": 7
+      },
+      {
+        "resolution": "That with respect to Report C2025-0901, the following amendment be adopted: ;\nThat a new sub-bullet be inserted under Recommendation 1, as follows: ;\nAllocating ;$9.0 ;million in one-time operating funding to Community Services in 2026, to be funded from Fiscal Stability Reserve for the purpose of improving transit safety, and direct Administration to: ;\ni. Focus security enhancements on C-Train stations during afternoon rush hour (4 PM  8 PM), based on incident data;\nii. Implement Tiered Security Model as outlined in the Public Transit Safety Strategy:\n\n\n\n\n\nTransit Peace Officers (TPOs): Mobile patrols, enforcement, complex calls; provide rapid response and support to static guards;\nCorporate Security: Fixed posts at priority stations for observation, reporting, and customer assistance;\nContracted security guards: Scalable resource for ;additional ;fixed posts during expansion ;phase; ;\n\n\n\n\n\niii. Use phased approach to deploy security staff until additional peace officers are hired (aligned with growth strategy from 2024);\niv. Increase community outreach activities by adding six officers to the Community Outreach Team; and\nv. Report back to Council Q3 2026 with results to determine if public perceived C-train was safer as a result",
+        "date": "2025/12/02",
+        "domain": "Wellness",
+        "vote": "No",
+        "direction": "Support",
+        "alignment": -1,
+        "earned": 0,
+        "possible": 7
+      },
+      {
+        "resolution": "That with respect to Notice of Motion EC2025-0995, the following Motion Arising be adopted: WHEREAS City Council has directed Administration to prepare an amending bylaw to restore the Land Use Bylaw Districts in Bylaw 1P2007 and the land use designation of affected parcels to their state prior to third reading of Bylaw 21P2024, with defined exemptions, reporting timelines, and a return to Public Hearing in March 2026; AND WHEREAS City Council recognizes that maintaining housing supply and affordability requires continuity in housing approvals capacity and processing timelines, and that any repeal or modification of zoning regulations should be accompanied by appropriate transitional measures to ensure no net loss in housing approvals during the period of regulatory transition; AND WHEREAS additional direction is required to provide clarity on how Councils adopted amendments to city-wide residential rezoning will be implemented in a manner that maintains compliance with the requirements of federal housing and infrastructure funding programs, including the Housing Accelerator Fund and other applicable granting streams; THEREFORE BE IT RESOLVED THAT Administration be directed to develop and return to Council no later than Q2 2026 with a comprehensive Multi-Tool Zoning and Housing Enablement Framework that: Identifies and evaluates alternative zoning, planning, and approvals-based mechanisms capable of enabling missing-middle, multi-unit, and affordable housing at a scale sufficient to meet or exceed the Citys objectives in the Home is Here: The City of Calgarys Housing Strategy 2024-2030, including the delivery of affordable homes across all housing categories; Demonstrates how the proposed mechanisms will maintain Calgarys eligibility and compliance with funding programs offered by other orders of government, including housing supply outcomes, approvals-streamlining commitments, and growth-enabling regulatory reforms; Identifies any required amendments to the Municipal Development Plan, Land Use Bylaw 1P2007, Local Area Plans, or administrative processes necessary to implement the Framework; Provides Council with a comprehensive analysis of the housing supply, financial, legal, and intergovernmental implications of the Framework, including formal engagement with the Canada Mortgage and Housing Corporation (CMHC) and Housing, Infrastructure and Communities Canada (HICC) to confirm that the proposed mechanisms satisfy funding programs performance requirements; and Identifies any interim resourcing, capital, or programmatic requirements required to maintain housing supply momentum during the transition period between any repeal or modification of existing zoning regulations and the implementation of the Multi-Tool Zoning and Housing Enablement Framework, including the potential use of non-market and non-profit housing delivery mechanisms. Identifies any additional resourcing, staffing, or capital requirements necessary to accelerate implementation of non-Rezoning for Housing housing supply actions already approved within the Home is Here: The City of Calgarys Housing Strategy 20242030, including initiatives related to approvals streamlining, non-market housing delivery, and alternative housing forms. AND FURTHER BE IT RESOLVED THAT Administration undertake direct engagement with CMHC, HICC, the Government of Alberta and the Government of Canada during the development of the Framework and report back to Council on any conditions, amendments, or flexibilities required to support Calgarys continued participation in the Housing Accelerator Fund and other grant streams offered by other orders of government that enable housing supply.",
+        "date": "2025/12/15",
+        "domain": "Community",
+        "vote": "No",
+        "direction": "Support",
+        "alignment": -1,
+        "earned": 0,
+        "possible": 3
+      },
+      {
+        "resolution": "That with respect to Notice of Motion EC2025-0995, the Recommendations be amended by adding the following as new Recommendations: AND FURTHER BE IT RESOLVED that Administration be directed to prepare amendments to Bylaw 1P2007 land use maps to allow R-CG, R-G or H-GO zoning in Major and Community Activity Centres and within 600m of the Primary Transit Network as defined in the Municipal Development Plan.",
+        "date": "2025/12/15",
+        "domain": "Community",
+        "vote": "No",
+        "direction": "Support",
+        "alignment": -1,
+        "earned": 0,
+        "possible": 5.4
+      },
+      {
+        "resolution": "That with respect to Report C2025-0901, the following amendment be adopted: That a new sub-bullet be inserted under Recommendation 1, as follows: With respect to Transit Fares, approving the following changes and using the $12.8 million in savings to reduce the $14.0 million ongoing operating costs to Increasing Transit Frequency on Key Routes as referenced on page 15 in attachment 2 and reduce the property tax increase accordingly: iii. Reverse the 2023 fare freeze and increase fares in addition to the previously approved increase to transit fares in 2026 ($4.0 million) and Approve Distribution 2, User Fee Table",
+        "date": "2025/11/10",
+        "domain": "Wellness",
+        "vote": "No",
+        "direction": "Oppose",
+        "alignment": 1,
+        "earned": 7,
+        "possible": 7
+      },
+      {
+        "resolution": "That with respect to Report C2025-0901, the following amendment be adopted: That a new sub-bullet be inserted under Recommendation 1, as follows: With respect to Transit Fares, approving the following changes and using the $12.8 million in savings to reduce the $14.0 million ongoing operating costs to Increasing Transit Frequency on Key Routes as referenced on page 15 in attachment 2 and reduce the property tax increase accordingly: Eliminate the Free Fares for Children 12 and Under program ($3.6 million), to take effect July 1, 2026;",
+        "date": "2025/11/10",
+        "domain": "Wellness",
+        "vote": "Yes",
+        "direction": "Oppose",
+        "alignment": -1,
+        "earned": 0,
+        "possible": 7
+      },
+      {
+        "resolution": "That with respect to Notice of Motion EC2026-0039, the following be adopted:\nNOW THEREFORE BE IT RESOLVED that Council amend Council Policy CP2016-03 on the Governance and Appointments of Boards, Commissions and Committees by inserting the following as a new section 5.9.8:\n5.9.8 ; ; ; In order to be eligible for appointment as Public Members, Applicants must not have been employed in the Administration of The City of Calgary within the year prior to the date of their application, unless otherwise specified by the BCCs Governance Documents.",
+        "date": "2026/02/24",
+        "domain": "Governance",
+        "vote": "No",
+        "direction": "Support",
+        "alignment": -1,
+        "earned": 0,
+        "possible": 2
+      },
+      {
+        "resolution": "That with respect to Notice of Motion EC2026-0124, the following be adopted:\nNOW THEREFORE BE IT RESOLVED that Council direct Administration to come back to Council, through Executive Committee, no later than June 2026, and provide a proposed stable renewal funding mechanism (e.g. an infrastructure improvement fee, levy or other funding mechanism) to address the Citys immediate infrastructure funding deficit and support predictable, long-term renewal and risk reduction across Calgarys infrastructure assets, as identified in the Q1/Q2 2026 asset conditions, risk and capital needs reporting.",
+        "date": "2026/02/24",
+        "domain": "Governance",
+        "vote": "No",
+        "direction": "Support",
+        "alignment": -1,
+        "earned": 0,
+        "possible": 2
+      }
+    ],
+    "reviewedVotesMatched": 8,
+    "minimumVotesRequired": 15,
+    "isEligibleForPublicScore": false,
+    "scoreConfidence": "preliminary",
+    "alignmentScore": 17.3,
+    "scoreStatus": "Preliminary Score"
   },
   {
     "name": "Andre Chabot",
@@ -3406,836 +4257,9 @@
     "reviewedVotesMatched": 28,
     "minimumVotesRequired": 15,
     "isEligibleForPublicScore": true,
+    "scoreConfidence": "verified",
     "alignmentScore": 8.8,
-    "scoreStatus": "Eligible for public ranking"
-  },
-  {
-    "name": "Harrison Clark",
-    "totalScore": 35,
-    "totalPossible": 40.4,
-    "matchedVotes": [
-      {
-        "resolution": "That with respect to Report C2025-0901, the following amendment be adopted: ;\nThat a new sub-bullet be inserted under Recommendation 1, as follows: ;\nAllocating ;$9.0 ;million in one-time operating funding to Community Services in 2026, to be funded from Fiscal Stability Reserve for the purpose of improving transit safety, and direct Administration to: ;\ni. Focus security enhancements on C-Train stations during afternoon rush hour (4 PM  8 PM), based on incident data;\nii. Implement Tiered Security Model as outlined in the Public Transit Safety Strategy:\n\n\n\n\n\nTransit Peace Officers (TPOs): Mobile patrols, enforcement, complex calls; provide rapid response and support to static guards;\nCorporate Security: Fixed posts at priority stations for observation, reporting, and customer assistance;\nContracted security guards: Scalable resource for ;additional ;fixed posts during expansion ;phase; ;\n\n\n\n\n\niii. Use phased approach to deploy security staff until additional peace officers are hired (aligned with growth strategy from 2024);\niv. Increase community outreach activities by adding six officers to the Community Outreach Team; and\nv. Report back to Council Q3 2026 with results to determine if public perceived C-train was safer as a result",
-        "date": "2025/12/02",
-        "domain": "Wellness",
-        "vote": "Yes",
-        "direction": "Support",
-        "alignment": 1,
-        "earned": 7,
-        "possible": 7
-      },
-      {
-        "resolution": "That with respect to Notice of Motion EC2025-0995, the Recommendations be amended by adding the following as new Recommendations: AND FURTHER BE IT RESOLVED that Administration be directed to prepare amendments to Bylaw 1P2007 land use maps to allow R-CG, R-G or H-GO zoning in Major and Community Activity Centres and within 600m of the Primary Transit Network as defined in the Municipal Development Plan.",
-        "date": "2025/12/15",
-        "domain": "Community",
-        "vote": "No",
-        "direction": "Support",
-        "alignment": -1,
-        "earned": 0,
-        "possible": 5.4
-      },
-      {
-        "resolution": "With respect to Report C2025-0901, the following amendment be adopted: That a new sub-bullet be inserted under Recommendation 1, as follows: Removing $6.0 million in ongoing operating funding from the Mental Health and Addictions Program under Community Services, and allocating $6.0 million in one-time operating funding to Community Services in 2026 for the Mental Health and Addictions Program, drawing from the Fiscal Stability Reserve",
-        "date": "2025/11/10",
-        "domain": "Wellness",
-        "vote": "No",
-        "direction": "Oppose",
-        "alignment": 1,
-        "earned": 7,
-        "possible": 7
-      },
-      {
-        "resolution": "That with respect to Report C2025-0901, the following amendment be adopted: That a new sub-bullet be inserted under Recommendation 1, as follows: With respect to Transit Fares, approving the following changes and using the $12.8 million in savings to reduce the $14.0 million ongoing operating costs to Increasing Transit Frequency on Key Routes as referenced on page 15 in attachment 2 and reduce the property tax increase accordingly: Eliminate the Free Fares for Children 12 and Under program ($3.6 million), to take effect July 1, 2026;",
-        "date": "2025/11/10",
-        "domain": "Wellness",
-        "vote": "No",
-        "direction": "Oppose",
-        "alignment": 1,
-        "earned": 7,
-        "possible": 7
-      },
-      {
-        "resolution": "That with respect to Notice of Motion EC2025-0995, the following Motion Arising be adopted: WHEREAS City Council has directed Administration to prepare an amending bylaw to restore the Land Use Bylaw Districts in Bylaw 1P2007 and the land use designation of affected parcels to their state prior to third reading of Bylaw 21P2024, with defined exemptions, reporting timelines, and a return to Public Hearing in March 2026; AND WHEREAS City Council recognizes that maintaining housing supply and affordability requires continuity in housing approvals capacity and processing timelines, and that any repeal or modification of zoning regulations should be accompanied by appropriate transitional measures to ensure no net loss in housing approvals during the period of regulatory transition; AND WHEREAS additional direction is required to provide clarity on how Councils adopted amendments to city-wide residential rezoning will be implemented in a manner that maintains compliance with the requirements of federal housing and infrastructure funding programs, including the Housing Accelerator Fund and other applicable granting streams; THEREFORE BE IT RESOLVED THAT Administration be directed to develop and return to Council no later than Q2 2026 with a comprehensive Multi-Tool Zoning and Housing Enablement Framework that: Identifies and evaluates alternative zoning, planning, and approvals-based mechanisms capable of enabling missing-middle, multi-unit, and affordable housing at a scale sufficient to meet or exceed the Citys objectives in the Home is Here: The City of Calgarys Housing Strategy 2024-2030, including the delivery of affordable homes across all housing categories; Demonstrates how the proposed mechanisms will maintain Calgarys eligibility and compliance with funding programs offered by other orders of government, including housing supply outcomes, approvals-streamlining commitments, and growth-enabling regulatory reforms; Identifies any required amendments to the Municipal Development Plan, Land Use Bylaw 1P2007, Local Area Plans, or administrative processes necessary to implement the Framework; Provides Council with a comprehensive analysis of the housing supply, financial, legal, and intergovernmental implications of the Framework, including formal engagement with the Canada Mortgage and Housing Corporation (CMHC) and Housing, Infrastructure and Communities Canada (HICC) to confirm that the proposed mechanisms satisfy funding programs performance requirements; and Identifies any interim resourcing, capital, or programmatic requirements required to maintain housing supply momentum during the transition period between any repeal or modification of existing zoning regulations and the implementation of the Multi-Tool Zoning and Housing Enablement Framework, including the potential use of non-market and non-profit housing delivery mechanisms. Identifies any additional resourcing, staffing, or capital requirements necessary to accelerate implementation of non-Rezoning for Housing housing supply actions already approved within the Home is Here: The City of Calgarys Housing Strategy 20242030, including initiatives related to approvals streamlining, non-market housing delivery, and alternative housing forms. AND FURTHER BE IT RESOLVED THAT Administration undertake direct engagement with CMHC, HICC, the Government of Alberta and the Government of Canada during the development of the Framework and report back to Council on any conditions, amendments, or flexibilities required to support Calgarys continued participation in the Housing Accelerator Fund and other grant streams offered by other orders of government that enable housing supply.",
-        "date": "2025/12/15",
-        "domain": "Community",
-        "vote": "Yes",
-        "direction": "Support",
-        "alignment": 1,
-        "earned": 3,
-        "possible": 3
-      },
-      {
-        "resolution": "That with respect to Report C2025-0901, the following amendment be adopted: That a new sub-bullet be inserted under Recommendation 1, as follows: With respect to Transit Fares, approving the following changes and using the $12.8 million in savings to reduce the $14.0 million ongoing operating costs to Increasing Transit Frequency on Key Routes as referenced on page 15 in attachment 2 and reduce the property tax increase accordingly: iii. Reverse the 2023 fare freeze and increase fares in addition to the previously approved increase to transit fares in 2026 ($4.0 million) and Approve Distribution 2, User Fee Table",
-        "date": "2025/11/10",
-        "domain": "Wellness",
-        "vote": "No",
-        "direction": "Oppose",
-        "alignment": 1,
-        "earned": 7,
-        "possible": 7
-      },
-      {
-        "resolution": "That with respect to Notice of Motion EC2026-0124, the following be adopted:\nNOW THEREFORE BE IT RESOLVED that Council direct Administration to come back to Council, through Executive Committee, no later than June 2026, and provide a proposed stable renewal funding mechanism (e.g. an infrastructure improvement fee, levy or other funding mechanism) to address the Citys immediate infrastructure funding deficit and support predictable, long-term renewal and risk reduction across Calgarys infrastructure assets, as identified in the Q1/Q2 2026 asset conditions, risk and capital needs reporting.",
-        "date": "2026/02/24",
-        "domain": "Governance",
-        "vote": "Yes",
-        "direction": "Support",
-        "alignment": 1,
-        "earned": 2,
-        "possible": 2
-      },
-      {
-        "resolution": "That with respect to Notice of Motion EC2026-0039, the following be adopted:\nNOW THEREFORE BE IT RESOLVED that Council amend Council Policy CP2016-03 on the Governance and Appointments of Boards, Commissions and Committees by inserting the following as a new section 5.9.8:\n5.9.8 ; ; ; In order to be eligible for appointment as Public Members, Applicants must not have been employed in the Administration of The City of Calgary within the year prior to the date of their application, unless otherwise specified by the BCCs Governance Documents.",
-        "date": "2026/02/24",
-        "domain": "Governance",
-        "vote": "Yes",
-        "direction": "Support",
-        "alignment": 1,
-        "earned": 2,
-        "possible": 2
-      }
-    ],
-    "reviewedVotesMatched": 8,
-    "minimumVotesRequired": 15,
-    "isEligibleForPublicScore": false,
-    "alignmentScore": null,
-    "scoreStatus": "Score withheld pending sufficient reviewed vote history"
-  },
-  {
-    "name": "Nathaniel Schmidt",
-    "totalScore": 40.4,
-    "totalPossible": 40.4,
-    "matchedVotes": [
-      {
-        "resolution": "That with respect to Report C2025-0901, the following amendment be adopted: That a new sub-bullet be inserted under Recommendation 1, as follows: With respect to Transit Fares, approving the following changes and using the $12.8 million in savings to reduce the $14.0 million ongoing operating costs to Increasing Transit Frequency on Key Routes as referenced on page 15 in attachment 2 and reduce the property tax increase accordingly: iii. Reverse the 2023 fare freeze and increase fares in addition to the previously approved increase to transit fares in 2026 ($4.0 million) and Approve Distribution 2, User Fee Table",
-        "date": "2025/11/10",
-        "domain": "Wellness",
-        "vote": "No",
-        "direction": "Oppose",
-        "alignment": 1,
-        "earned": 7,
-        "possible": 7
-      },
-      {
-        "resolution": "That with respect to Report C2025-0901, the following amendment be adopted: ;\nThat a new sub-bullet be inserted under Recommendation 1, as follows: ;\nAllocating ;$9.0 ;million in one-time operating funding to Community Services in 2026, to be funded from Fiscal Stability Reserve for the purpose of improving transit safety, and direct Administration to: ;\ni. Focus security enhancements on C-Train stations during afternoon rush hour (4 PM  8 PM), based on incident data;\nii. Implement Tiered Security Model as outlined in the Public Transit Safety Strategy:\n\n\n\n\n\nTransit Peace Officers (TPOs): Mobile patrols, enforcement, complex calls; provide rapid response and support to static guards;\nCorporate Security: Fixed posts at priority stations for observation, reporting, and customer assistance;\nContracted security guards: Scalable resource for ;additional ;fixed posts during expansion ;phase; ;\n\n\n\n\n\niii. Use phased approach to deploy security staff until additional peace officers are hired (aligned with growth strategy from 2024);\niv. Increase community outreach activities by adding six officers to the Community Outreach Team; and\nv. Report back to Council Q3 2026 with results to determine if public perceived C-train was safer as a result",
-        "date": "2025/12/02",
-        "domain": "Wellness",
-        "vote": "Yes",
-        "direction": "Support",
-        "alignment": 1,
-        "earned": 7,
-        "possible": 7
-      },
-      {
-        "resolution": "That with respect to Notice of Motion EC2025-0995, the following Motion Arising be adopted: WHEREAS City Council has directed Administration to prepare an amending bylaw to restore the Land Use Bylaw Districts in Bylaw 1P2007 and the land use designation of affected parcels to their state prior to third reading of Bylaw 21P2024, with defined exemptions, reporting timelines, and a return to Public Hearing in March 2026; AND WHEREAS City Council recognizes that maintaining housing supply and affordability requires continuity in housing approvals capacity and processing timelines, and that any repeal or modification of zoning regulations should be accompanied by appropriate transitional measures to ensure no net loss in housing approvals during the period of regulatory transition; AND WHEREAS additional direction is required to provide clarity on how Councils adopted amendments to city-wide residential rezoning will be implemented in a manner that maintains compliance with the requirements of federal housing and infrastructure funding programs, including the Housing Accelerator Fund and other applicable granting streams; THEREFORE BE IT RESOLVED THAT Administration be directed to develop and return to Council no later than Q2 2026 with a comprehensive Multi-Tool Zoning and Housing Enablement Framework that: Identifies and evaluates alternative zoning, planning, and approvals-based mechanisms capable of enabling missing-middle, multi-unit, and affordable housing at a scale sufficient to meet or exceed the Citys objectives in the Home is Here: The City of Calgarys Housing Strategy 2024-2030, including the delivery of affordable homes across all housing categories; Demonstrates how the proposed mechanisms will maintain Calgarys eligibility and compliance with funding programs offered by other orders of government, including housing supply outcomes, approvals-streamlining commitments, and growth-enabling regulatory reforms; Identifies any required amendments to the Municipal Development Plan, Land Use Bylaw 1P2007, Local Area Plans, or administrative processes necessary to implement the Framework; Provides Council with a comprehensive analysis of the housing supply, financial, legal, and intergovernmental implications of the Framework, including formal engagement with the Canada Mortgage and Housing Corporation (CMHC) and Housing, Infrastructure and Communities Canada (HICC) to confirm that the proposed mechanisms satisfy funding programs performance requirements; and Identifies any interim resourcing, capital, or programmatic requirements required to maintain housing supply momentum during the transition period between any repeal or modification of existing zoning regulations and the implementation of the Multi-Tool Zoning and Housing Enablement Framework, including the potential use of non-market and non-profit housing delivery mechanisms. Identifies any additional resourcing, staffing, or capital requirements necessary to accelerate implementation of non-Rezoning for Housing housing supply actions already approved within the Home is Here: The City of Calgarys Housing Strategy 20242030, including initiatives related to approvals streamlining, non-market housing delivery, and alternative housing forms. AND FURTHER BE IT RESOLVED THAT Administration undertake direct engagement with CMHC, HICC, the Government of Alberta and the Government of Canada during the development of the Framework and report back to Council on any conditions, amendments, or flexibilities required to support Calgarys continued participation in the Housing Accelerator Fund and other grant streams offered by other orders of government that enable housing supply.",
-        "date": "2025/12/15",
-        "domain": "Community",
-        "vote": "Yes",
-        "direction": "Support",
-        "alignment": 1,
-        "earned": 3,
-        "possible": 3
-      },
-      {
-        "resolution": "With respect to Report C2025-0901, the following amendment be adopted: That a new sub-bullet be inserted under Recommendation 1, as follows: Removing $6.0 million in ongoing operating funding from the Mental Health and Addictions Program under Community Services, and allocating $6.0 million in one-time operating funding to Community Services in 2026 for the Mental Health and Addictions Program, drawing from the Fiscal Stability Reserve",
-        "date": "2025/11/10",
-        "domain": "Wellness",
-        "vote": "No",
-        "direction": "Oppose",
-        "alignment": 1,
-        "earned": 7,
-        "possible": 7
-      },
-      {
-        "resolution": "That with respect to Notice of Motion EC2025-0995, the Recommendations be amended by adding the following as new Recommendations: AND FURTHER BE IT RESOLVED that Administration be directed to prepare amendments to Bylaw 1P2007 land use maps to allow R-CG, R-G or H-GO zoning in Major and Community Activity Centres and within 600m of the Primary Transit Network as defined in the Municipal Development Plan.",
-        "date": "2025/12/15",
-        "domain": "Community",
-        "vote": "Yes",
-        "direction": "Support",
-        "alignment": 1,
-        "earned": 5.4,
-        "possible": 5.4
-      },
-      {
-        "resolution": "That with respect to Report C2025-0901, the following amendment be adopted: That a new sub-bullet be inserted under Recommendation 1, as follows: With respect to Transit Fares, approving the following changes and using the $12.8 million in savings to reduce the $14.0 million ongoing operating costs to Increasing Transit Frequency on Key Routes as referenced on page 15 in attachment 2 and reduce the property tax increase accordingly: Eliminate the Free Fares for Children 12 and Under program ($3.6 million), to take effect July 1, 2026;",
-        "date": "2025/11/10",
-        "domain": "Wellness",
-        "vote": "No",
-        "direction": "Oppose",
-        "alignment": 1,
-        "earned": 7,
-        "possible": 7
-      },
-      {
-        "resolution": "That with respect to Notice of Motion EC2026-0039, the following be adopted:\nNOW THEREFORE BE IT RESOLVED that Council amend Council Policy CP2016-03 on the Governance and Appointments of Boards, Commissions and Committees by inserting the following as a new section 5.9.8:\n5.9.8 ; ; ; In order to be eligible for appointment as Public Members, Applicants must not have been employed in the Administration of The City of Calgary within the year prior to the date of their application, unless otherwise specified by the BCCs Governance Documents.",
-        "date": "2026/02/24",
-        "domain": "Governance",
-        "vote": "Yes",
-        "direction": "Support",
-        "alignment": 1,
-        "earned": 2,
-        "possible": 2
-      },
-      {
-        "resolution": "That with respect to Notice of Motion EC2026-0124, the following be adopted:\nNOW THEREFORE BE IT RESOLVED that Council direct Administration to come back to Council, through Executive Committee, no later than June 2026, and provide a proposed stable renewal funding mechanism (e.g. an infrastructure improvement fee, levy or other funding mechanism) to address the Citys immediate infrastructure funding deficit and support predictable, long-term renewal and risk reduction across Calgarys infrastructure assets, as identified in the Q1/Q2 2026 asset conditions, risk and capital needs reporting.",
-        "date": "2026/02/24",
-        "domain": "Governance",
-        "vote": "Yes",
-        "direction": "Support",
-        "alignment": 1,
-        "earned": 2,
-        "possible": 2
-      }
-    ],
-    "reviewedVotesMatched": 8,
-    "minimumVotesRequired": 15,
-    "isEligibleForPublicScore": false,
-    "alignmentScore": null,
-    "scoreStatus": "Score withheld pending sufficient reviewed vote history"
-  },
-  {
-    "name": "John Pantazopoulos",
-    "totalScore": 16,
-    "totalPossible": 40.4,
-    "matchedVotes": [
-      {
-        "resolution": "That with respect to Report C2025-0901, the following amendment be adopted: That a new sub-bullet be inserted under Recommendation 1, as follows: With respect to Transit Fares, approving the following changes and using the $12.8 million in savings to reduce the $14.0 million ongoing operating costs to Increasing Transit Frequency on Key Routes as referenced on page 15 in attachment 2 and reduce the property tax increase accordingly: Eliminate the Free Fares for Children 12 and Under program ($3.6 million), to take effect July 1, 2026;",
-        "date": "2025/11/10",
-        "domain": "Wellness",
-        "vote": "Yes",
-        "direction": "Oppose",
-        "alignment": -1,
-        "earned": 0,
-        "possible": 7
-      },
-      {
-        "resolution": "That with respect to Report C2025-0901, the following amendment be adopted: ;\nThat a new sub-bullet be inserted under Recommendation 1, as follows: ;\nAllocating ;$9.0 ;million in one-time operating funding to Community Services in 2026, to be funded from Fiscal Stability Reserve for the purpose of improving transit safety, and direct Administration to: ;\ni. Focus security enhancements on C-Train stations during afternoon rush hour (4 PM  8 PM), based on incident data;\nii. Implement Tiered Security Model as outlined in the Public Transit Safety Strategy:\n\n\n\n\n\nTransit Peace Officers (TPOs): Mobile patrols, enforcement, complex calls; provide rapid response and support to static guards;\nCorporate Security: Fixed posts at priority stations for observation, reporting, and customer assistance;\nContracted security guards: Scalable resource for ;additional ;fixed posts during expansion ;phase; ;\n\n\n\n\n\niii. Use phased approach to deploy security staff until additional peace officers are hired (aligned with growth strategy from 2024);\niv. Increase community outreach activities by adding six officers to the Community Outreach Team; and\nv. Report back to Council Q3 2026 with results to determine if public perceived C-train was safer as a result",
-        "date": "2025/12/02",
-        "domain": "Wellness",
-        "vote": "Yes",
-        "direction": "Support",
-        "alignment": 1,
-        "earned": 7,
-        "possible": 7
-      },
-      {
-        "resolution": "That with respect to Notice of Motion EC2025-0995, the following Motion Arising be adopted: WHEREAS City Council has directed Administration to prepare an amending bylaw to restore the Land Use Bylaw Districts in Bylaw 1P2007 and the land use designation of affected parcels to their state prior to third reading of Bylaw 21P2024, with defined exemptions, reporting timelines, and a return to Public Hearing in March 2026; AND WHEREAS City Council recognizes that maintaining housing supply and affordability requires continuity in housing approvals capacity and processing timelines, and that any repeal or modification of zoning regulations should be accompanied by appropriate transitional measures to ensure no net loss in housing approvals during the period of regulatory transition; AND WHEREAS additional direction is required to provide clarity on how Councils adopted amendments to city-wide residential rezoning will be implemented in a manner that maintains compliance with the requirements of federal housing and infrastructure funding programs, including the Housing Accelerator Fund and other applicable granting streams; THEREFORE BE IT RESOLVED THAT Administration be directed to develop and return to Council no later than Q2 2026 with a comprehensive Multi-Tool Zoning and Housing Enablement Framework that: Identifies and evaluates alternative zoning, planning, and approvals-based mechanisms capable of enabling missing-middle, multi-unit, and affordable housing at a scale sufficient to meet or exceed the Citys objectives in the Home is Here: The City of Calgarys Housing Strategy 2024-2030, including the delivery of affordable homes across all housing categories; Demonstrates how the proposed mechanisms will maintain Calgarys eligibility and compliance with funding programs offered by other orders of government, including housing supply outcomes, approvals-streamlining commitments, and growth-enabling regulatory reforms; Identifies any required amendments to the Municipal Development Plan, Land Use Bylaw 1P2007, Local Area Plans, or administrative processes necessary to implement the Framework; Provides Council with a comprehensive analysis of the housing supply, financial, legal, and intergovernmental implications of the Framework, including formal engagement with the Canada Mortgage and Housing Corporation (CMHC) and Housing, Infrastructure and Communities Canada (HICC) to confirm that the proposed mechanisms satisfy funding programs performance requirements; and Identifies any interim resourcing, capital, or programmatic requirements required to maintain housing supply momentum during the transition period between any repeal or modification of existing zoning regulations and the implementation of the Multi-Tool Zoning and Housing Enablement Framework, including the potential use of non-market and non-profit housing delivery mechanisms. Identifies any additional resourcing, staffing, or capital requirements necessary to accelerate implementation of non-Rezoning for Housing housing supply actions already approved within the Home is Here: The City of Calgarys Housing Strategy 20242030, including initiatives related to approvals streamlining, non-market housing delivery, and alternative housing forms. AND FURTHER BE IT RESOLVED THAT Administration undertake direct engagement with CMHC, HICC, the Government of Alberta and the Government of Canada during the development of the Framework and report back to Council on any conditions, amendments, or flexibilities required to support Calgarys continued participation in the Housing Accelerator Fund and other grant streams offered by other orders of government that enable housing supply.",
-        "date": "2025/12/15",
-        "domain": "Community",
-        "vote": "No",
-        "direction": "Support",
-        "alignment": -1,
-        "earned": 0,
-        "possible": 3
-      },
-      {
-        "resolution": "That with respect to Report C2025-0901, the following amendment be adopted: That a new sub-bullet be inserted under Recommendation 1, as follows: With respect to Transit Fares, approving the following changes and using the $12.8 million in savings to reduce the $14.0 million ongoing operating costs to Increasing Transit Frequency on Key Routes as referenced on page 15 in attachment 2 and reduce the property tax increase accordingly: iii. Reverse the 2023 fare freeze and increase fares in addition to the previously approved increase to transit fares in 2026 ($4.0 million) and Approve Distribution 2, User Fee Table",
-        "date": "2025/11/10",
-        "domain": "Wellness",
-        "vote": "Yes",
-        "direction": "Oppose",
-        "alignment": -1,
-        "earned": 0,
-        "possible": 7
-      },
-      {
-        "resolution": "That with respect to Notice of Motion EC2025-0995, the Recommendations be amended by adding the following as new Recommendations: AND FURTHER BE IT RESOLVED that Administration be directed to prepare amendments to Bylaw 1P2007 land use maps to allow R-CG, R-G or H-GO zoning in Major and Community Activity Centres and within 600m of the Primary Transit Network as defined in the Municipal Development Plan.",
-        "date": "2025/12/15",
-        "domain": "Community",
-        "vote": "No",
-        "direction": "Support",
-        "alignment": -1,
-        "earned": 0,
-        "possible": 5.4
-      },
-      {
-        "resolution": "With respect to Report C2025-0901, the following amendment be adopted: That a new sub-bullet be inserted under Recommendation 1, as follows: Removing $6.0 million in ongoing operating funding from the Mental Health and Addictions Program under Community Services, and allocating $6.0 million in one-time operating funding to Community Services in 2026 for the Mental Health and Addictions Program, drawing from the Fiscal Stability Reserve",
-        "date": "2025/11/10",
-        "domain": "Wellness",
-        "vote": "No",
-        "direction": "Oppose",
-        "alignment": 1,
-        "earned": 7,
-        "possible": 7
-      },
-      {
-        "resolution": "That with respect to Notice of Motion EC2026-0039, the following be adopted:\nNOW THEREFORE BE IT RESOLVED that Council amend Council Policy CP2016-03 on the Governance and Appointments of Boards, Commissions and Committees by inserting the following as a new section 5.9.8:\n5.9.8 ; ; ; In order to be eligible for appointment as Public Members, Applicants must not have been employed in the Administration of The City of Calgary within the year prior to the date of their application, unless otherwise specified by the BCCs Governance Documents.",
-        "date": "2026/02/24",
-        "domain": "Governance",
-        "vote": "No",
-        "direction": "Support",
-        "alignment": -1,
-        "earned": 0,
-        "possible": 2
-      },
-      {
-        "resolution": "That with respect to Notice of Motion EC2026-0124, the following be adopted:\nNOW THEREFORE BE IT RESOLVED that Council direct Administration to come back to Council, through Executive Committee, no later than June 2026, and provide a proposed stable renewal funding mechanism (e.g. an infrastructure improvement fee, levy or other funding mechanism) to address the Citys immediate infrastructure funding deficit and support predictable, long-term renewal and risk reduction across Calgarys infrastructure assets, as identified in the Q1/Q2 2026 asset conditions, risk and capital needs reporting.",
-        "date": "2026/02/24",
-        "domain": "Governance",
-        "vote": "Yes",
-        "direction": "Support",
-        "alignment": 1,
-        "earned": 2,
-        "possible": 2
-      }
-    ],
-    "reviewedVotesMatched": 8,
-    "minimumVotesRequired": 15,
-    "isEligibleForPublicScore": false,
-    "alignmentScore": null,
-    "scoreStatus": "Score withheld pending sufficient reviewed vote history"
-  },
-  {
-    "name": "Kim Tyers",
-    "totalScore": 14,
-    "totalPossible": 40.4,
-    "matchedVotes": [
-      {
-        "resolution": "That with respect to Notice of Motion EC2025-0995, the Recommendations be amended by adding the following as new Recommendations: AND FURTHER BE IT RESOLVED that Administration be directed to prepare amendments to Bylaw 1P2007 land use maps to allow R-CG, R-G or H-GO zoning in Major and Community Activity Centres and within 600m of the Primary Transit Network as defined in the Municipal Development Plan.",
-        "date": "2025/12/15",
-        "domain": "Community",
-        "vote": "No",
-        "direction": "Support",
-        "alignment": -1,
-        "earned": 0,
-        "possible": 5.4
-      },
-      {
-        "resolution": "That with respect to Report C2025-0901, the following amendment be adopted: ;\nThat a new sub-bullet be inserted under Recommendation 1, as follows: ;\nAllocating ;$9.0 ;million in one-time operating funding to Community Services in 2026, to be funded from Fiscal Stability Reserve for the purpose of improving transit safety, and direct Administration to: ;\ni. Focus security enhancements on C-Train stations during afternoon rush hour (4 PM  8 PM), based on incident data;\nii. Implement Tiered Security Model as outlined in the Public Transit Safety Strategy:\n\n\n\n\n\nTransit Peace Officers (TPOs): Mobile patrols, enforcement, complex calls; provide rapid response and support to static guards;\nCorporate Security: Fixed posts at priority stations for observation, reporting, and customer assistance;\nContracted security guards: Scalable resource for ;additional ;fixed posts during expansion ;phase; ;\n\n\n\n\n\niii. Use phased approach to deploy security staff until additional peace officers are hired (aligned with growth strategy from 2024);\niv. Increase community outreach activities by adding six officers to the Community Outreach Team; and\nv. Report back to Council Q3 2026 with results to determine if public perceived C-train was safer as a result",
-        "date": "2025/12/02",
-        "domain": "Wellness",
-        "vote": "No",
-        "direction": "Support",
-        "alignment": -1,
-        "earned": 0,
-        "possible": 7
-      },
-      {
-        "resolution": "With respect to Report C2025-0901, the following amendment be adopted: That a new sub-bullet be inserted under Recommendation 1, as follows: Removing $6.0 million in ongoing operating funding from the Mental Health and Addictions Program under Community Services, and allocating $6.0 million in one-time operating funding to Community Services in 2026 for the Mental Health and Addictions Program, drawing from the Fiscal Stability Reserve",
-        "date": "2025/11/10",
-        "domain": "Wellness",
-        "vote": "Yes",
-        "direction": "Oppose",
-        "alignment": -1,
-        "earned": 0,
-        "possible": 7
-      },
-      {
-        "resolution": "That with respect to Report C2025-0901, the following amendment be adopted: That a new sub-bullet be inserted under Recommendation 1, as follows: With respect to Transit Fares, approving the following changes and using the $12.8 million in savings to reduce the $14.0 million ongoing operating costs to Increasing Transit Frequency on Key Routes as referenced on page 15 in attachment 2 and reduce the property tax increase accordingly: iii. Reverse the 2023 fare freeze and increase fares in addition to the previously approved increase to transit fares in 2026 ($4.0 million) and Approve Distribution 2, User Fee Table",
-        "date": "2025/11/10",
-        "domain": "Wellness",
-        "vote": "No",
-        "direction": "Oppose",
-        "alignment": 1,
-        "earned": 7,
-        "possible": 7
-      },
-      {
-        "resolution": "That with respect to Notice of Motion EC2025-0995, the following Motion Arising be adopted: WHEREAS City Council has directed Administration to prepare an amending bylaw to restore the Land Use Bylaw Districts in Bylaw 1P2007 and the land use designation of affected parcels to their state prior to third reading of Bylaw 21P2024, with defined exemptions, reporting timelines, and a return to Public Hearing in March 2026; AND WHEREAS City Council recognizes that maintaining housing supply and affordability requires continuity in housing approvals capacity and processing timelines, and that any repeal or modification of zoning regulations should be accompanied by appropriate transitional measures to ensure no net loss in housing approvals during the period of regulatory transition; AND WHEREAS additional direction is required to provide clarity on how Councils adopted amendments to city-wide residential rezoning will be implemented in a manner that maintains compliance with the requirements of federal housing and infrastructure funding programs, including the Housing Accelerator Fund and other applicable granting streams; THEREFORE BE IT RESOLVED THAT Administration be directed to develop and return to Council no later than Q2 2026 with a comprehensive Multi-Tool Zoning and Housing Enablement Framework that: Identifies and evaluates alternative zoning, planning, and approvals-based mechanisms capable of enabling missing-middle, multi-unit, and affordable housing at a scale sufficient to meet or exceed the Citys objectives in the Home is Here: The City of Calgarys Housing Strategy 2024-2030, including the delivery of affordable homes across all housing categories; Demonstrates how the proposed mechanisms will maintain Calgarys eligibility and compliance with funding programs offered by other orders of government, including housing supply outcomes, approvals-streamlining commitments, and growth-enabling regulatory reforms; Identifies any required amendments to the Municipal Development Plan, Land Use Bylaw 1P2007, Local Area Plans, or administrative processes necessary to implement the Framework; Provides Council with a comprehensive analysis of the housing supply, financial, legal, and intergovernmental implications of the Framework, including formal engagement with the Canada Mortgage and Housing Corporation (CMHC) and Housing, Infrastructure and Communities Canada (HICC) to confirm that the proposed mechanisms satisfy funding programs performance requirements; and Identifies any interim resourcing, capital, or programmatic requirements required to maintain housing supply momentum during the transition period between any repeal or modification of existing zoning regulations and the implementation of the Multi-Tool Zoning and Housing Enablement Framework, including the potential use of non-market and non-profit housing delivery mechanisms. Identifies any additional resourcing, staffing, or capital requirements necessary to accelerate implementation of non-Rezoning for Housing housing supply actions already approved within the Home is Here: The City of Calgarys Housing Strategy 20242030, including initiatives related to approvals streamlining, non-market housing delivery, and alternative housing forms. AND FURTHER BE IT RESOLVED THAT Administration undertake direct engagement with CMHC, HICC, the Government of Alberta and the Government of Canada during the development of the Framework and report back to Council on any conditions, amendments, or flexibilities required to support Calgarys continued participation in the Housing Accelerator Fund and other grant streams offered by other orders of government that enable housing supply.",
-        "date": "2025/12/15",
-        "domain": "Community",
-        "vote": "No",
-        "direction": "Support",
-        "alignment": -1,
-        "earned": 0,
-        "possible": 3
-      },
-      {
-        "resolution": "That with respect to Report C2025-0901, the following amendment be adopted: That a new sub-bullet be inserted under Recommendation 1, as follows: With respect to Transit Fares, approving the following changes and using the $12.8 million in savings to reduce the $14.0 million ongoing operating costs to Increasing Transit Frequency on Key Routes as referenced on page 15 in attachment 2 and reduce the property tax increase accordingly: Eliminate the Free Fares for Children 12 and Under program ($3.6 million), to take effect July 1, 2026;",
-        "date": "2025/11/10",
-        "domain": "Wellness",
-        "vote": "No",
-        "direction": "Oppose",
-        "alignment": 1,
-        "earned": 7,
-        "possible": 7
-      },
-      {
-        "resolution": "That with respect to Notice of Motion EC2026-0039, the following be adopted:\nNOW THEREFORE BE IT RESOLVED that Council amend Council Policy CP2016-03 on the Governance and Appointments of Boards, Commissions and Committees by inserting the following as a new section 5.9.8:\n5.9.8 ; ; ; In order to be eligible for appointment as Public Members, Applicants must not have been employed in the Administration of The City of Calgary within the year prior to the date of their application, unless otherwise specified by the BCCs Governance Documents.",
-        "date": "2026/02/24",
-        "domain": "Governance",
-        "vote": "No",
-        "direction": "Support",
-        "alignment": -1,
-        "earned": 0,
-        "possible": 2
-      },
-      {
-        "resolution": "That with respect to Notice of Motion EC2026-0124, the following be adopted:\nNOW THEREFORE BE IT RESOLVED that Council direct Administration to come back to Council, through Executive Committee, no later than June 2026, and provide a proposed stable renewal funding mechanism (e.g. an infrastructure improvement fee, levy or other funding mechanism) to address the Citys immediate infrastructure funding deficit and support predictable, long-term renewal and risk reduction across Calgarys infrastructure assets, as identified in the Q1/Q2 2026 asset conditions, risk and capital needs reporting.",
-        "date": "2026/02/24",
-        "domain": "Governance",
-        "vote": "No",
-        "direction": "Support",
-        "alignment": -1,
-        "earned": 0,
-        "possible": 2
-      }
-    ],
-    "reviewedVotesMatched": 8,
-    "minimumVotesRequired": 15,
-    "isEligibleForPublicScore": false,
-    "alignmentScore": null,
-    "scoreStatus": "Score withheld pending sufficient reviewed vote history"
-  },
-  {
-    "name": "Rob Ward",
-    "totalScore": 7,
-    "totalPossible": 40.4,
-    "matchedVotes": [
-      {
-        "resolution": "With respect to Report C2025-0901, the following amendment be adopted: That a new sub-bullet be inserted under Recommendation 1, as follows: Removing $6.0 million in ongoing operating funding from the Mental Health and Addictions Program under Community Services, and allocating $6.0 million in one-time operating funding to Community Services in 2026 for the Mental Health and Addictions Program, drawing from the Fiscal Stability Reserve",
-        "date": "2025/11/10",
-        "domain": "Wellness",
-        "vote": "Yes",
-        "direction": "Oppose",
-        "alignment": -1,
-        "earned": 0,
-        "possible": 7
-      },
-      {
-        "resolution": "That with respect to Report C2025-0901, the following amendment be adopted: ;\nThat a new sub-bullet be inserted under Recommendation 1, as follows: ;\nAllocating ;$9.0 ;million in one-time operating funding to Community Services in 2026, to be funded from Fiscal Stability Reserve for the purpose of improving transit safety, and direct Administration to: ;\ni. Focus security enhancements on C-Train stations during afternoon rush hour (4 PM  8 PM), based on incident data;\nii. Implement Tiered Security Model as outlined in the Public Transit Safety Strategy:\n\n\n\n\n\nTransit Peace Officers (TPOs): Mobile patrols, enforcement, complex calls; provide rapid response and support to static guards;\nCorporate Security: Fixed posts at priority stations for observation, reporting, and customer assistance;\nContracted security guards: Scalable resource for ;additional ;fixed posts during expansion ;phase; ;\n\n\n\n\n\niii. Use phased approach to deploy security staff until additional peace officers are hired (aligned with growth strategy from 2024);\niv. Increase community outreach activities by adding six officers to the Community Outreach Team; and\nv. Report back to Council Q3 2026 with results to determine if public perceived C-train was safer as a result",
-        "date": "2025/12/02",
-        "domain": "Wellness",
-        "vote": "No",
-        "direction": "Support",
-        "alignment": -1,
-        "earned": 0,
-        "possible": 7
-      },
-      {
-        "resolution": "That with respect to Notice of Motion EC2025-0995, the following Motion Arising be adopted: WHEREAS City Council has directed Administration to prepare an amending bylaw to restore the Land Use Bylaw Districts in Bylaw 1P2007 and the land use designation of affected parcels to their state prior to third reading of Bylaw 21P2024, with defined exemptions, reporting timelines, and a return to Public Hearing in March 2026; AND WHEREAS City Council recognizes that maintaining housing supply and affordability requires continuity in housing approvals capacity and processing timelines, and that any repeal or modification of zoning regulations should be accompanied by appropriate transitional measures to ensure no net loss in housing approvals during the period of regulatory transition; AND WHEREAS additional direction is required to provide clarity on how Councils adopted amendments to city-wide residential rezoning will be implemented in a manner that maintains compliance with the requirements of federal housing and infrastructure funding programs, including the Housing Accelerator Fund and other applicable granting streams; THEREFORE BE IT RESOLVED THAT Administration be directed to develop and return to Council no later than Q2 2026 with a comprehensive Multi-Tool Zoning and Housing Enablement Framework that: Identifies and evaluates alternative zoning, planning, and approvals-based mechanisms capable of enabling missing-middle, multi-unit, and affordable housing at a scale sufficient to meet or exceed the Citys objectives in the Home is Here: The City of Calgarys Housing Strategy 2024-2030, including the delivery of affordable homes across all housing categories; Demonstrates how the proposed mechanisms will maintain Calgarys eligibility and compliance with funding programs offered by other orders of government, including housing supply outcomes, approvals-streamlining commitments, and growth-enabling regulatory reforms; Identifies any required amendments to the Municipal Development Plan, Land Use Bylaw 1P2007, Local Area Plans, or administrative processes necessary to implement the Framework; Provides Council with a comprehensive analysis of the housing supply, financial, legal, and intergovernmental implications of the Framework, including formal engagement with the Canada Mortgage and Housing Corporation (CMHC) and Housing, Infrastructure and Communities Canada (HICC) to confirm that the proposed mechanisms satisfy funding programs performance requirements; and Identifies any interim resourcing, capital, or programmatic requirements required to maintain housing supply momentum during the transition period between any repeal or modification of existing zoning regulations and the implementation of the Multi-Tool Zoning and Housing Enablement Framework, including the potential use of non-market and non-profit housing delivery mechanisms. Identifies any additional resourcing, staffing, or capital requirements necessary to accelerate implementation of non-Rezoning for Housing housing supply actions already approved within the Home is Here: The City of Calgarys Housing Strategy 20242030, including initiatives related to approvals streamlining, non-market housing delivery, and alternative housing forms. AND FURTHER BE IT RESOLVED THAT Administration undertake direct engagement with CMHC, HICC, the Government of Alberta and the Government of Canada during the development of the Framework and report back to Council on any conditions, amendments, or flexibilities required to support Calgarys continued participation in the Housing Accelerator Fund and other grant streams offered by other orders of government that enable housing supply.",
-        "date": "2025/12/15",
-        "domain": "Community",
-        "vote": "No",
-        "direction": "Support",
-        "alignment": -1,
-        "earned": 0,
-        "possible": 3
-      },
-      {
-        "resolution": "That with respect to Notice of Motion EC2025-0995, the Recommendations be amended by adding the following as new Recommendations: AND FURTHER BE IT RESOLVED that Administration be directed to prepare amendments to Bylaw 1P2007 land use maps to allow R-CG, R-G or H-GO zoning in Major and Community Activity Centres and within 600m of the Primary Transit Network as defined in the Municipal Development Plan.",
-        "date": "2025/12/15",
-        "domain": "Community",
-        "vote": "No",
-        "direction": "Support",
-        "alignment": -1,
-        "earned": 0,
-        "possible": 5.4
-      },
-      {
-        "resolution": "That with respect to Report C2025-0901, the following amendment be adopted: That a new sub-bullet be inserted under Recommendation 1, as follows: With respect to Transit Fares, approving the following changes and using the $12.8 million in savings to reduce the $14.0 million ongoing operating costs to Increasing Transit Frequency on Key Routes as referenced on page 15 in attachment 2 and reduce the property tax increase accordingly: iii. Reverse the 2023 fare freeze and increase fares in addition to the previously approved increase to transit fares in 2026 ($4.0 million) and Approve Distribution 2, User Fee Table",
-        "date": "2025/11/10",
-        "domain": "Wellness",
-        "vote": "No",
-        "direction": "Oppose",
-        "alignment": 1,
-        "earned": 7,
-        "possible": 7
-      },
-      {
-        "resolution": "That with respect to Report C2025-0901, the following amendment be adopted: That a new sub-bullet be inserted under Recommendation 1, as follows: With respect to Transit Fares, approving the following changes and using the $12.8 million in savings to reduce the $14.0 million ongoing operating costs to Increasing Transit Frequency on Key Routes as referenced on page 15 in attachment 2 and reduce the property tax increase accordingly: Eliminate the Free Fares for Children 12 and Under program ($3.6 million), to take effect July 1, 2026;",
-        "date": "2025/11/10",
-        "domain": "Wellness",
-        "vote": "Yes",
-        "direction": "Oppose",
-        "alignment": -1,
-        "earned": 0,
-        "possible": 7
-      },
-      {
-        "resolution": "That with respect to Notice of Motion EC2026-0039, the following be adopted:\nNOW THEREFORE BE IT RESOLVED that Council amend Council Policy CP2016-03 on the Governance and Appointments of Boards, Commissions and Committees by inserting the following as a new section 5.9.8:\n5.9.8 ; ; ; In order to be eligible for appointment as Public Members, Applicants must not have been employed in the Administration of The City of Calgary within the year prior to the date of their application, unless otherwise specified by the BCCs Governance Documents.",
-        "date": "2026/02/24",
-        "domain": "Governance",
-        "vote": "No",
-        "direction": "Support",
-        "alignment": -1,
-        "earned": 0,
-        "possible": 2
-      },
-      {
-        "resolution": "That with respect to Notice of Motion EC2026-0124, the following be adopted:\nNOW THEREFORE BE IT RESOLVED that Council direct Administration to come back to Council, through Executive Committee, no later than June 2026, and provide a proposed stable renewal funding mechanism (e.g. an infrastructure improvement fee, levy or other funding mechanism) to address the Citys immediate infrastructure funding deficit and support predictable, long-term renewal and risk reduction across Calgarys infrastructure assets, as identified in the Q1/Q2 2026 asset conditions, risk and capital needs reporting.",
-        "date": "2026/02/24",
-        "domain": "Governance",
-        "vote": "No",
-        "direction": "Support",
-        "alignment": -1,
-        "earned": 0,
-        "possible": 2
-      }
-    ],
-    "reviewedVotesMatched": 8,
-    "minimumVotesRequired": 15,
-    "isEligibleForPublicScore": false,
-    "alignmentScore": null,
-    "scoreStatus": "Score withheld pending sufficient reviewed vote history"
-  },
-  {
-    "name": "DJ Kelly",
-    "totalScore": 26.4,
-    "totalPossible": 40.4,
-    "matchedVotes": [
-      {
-        "resolution": "That with respect to Notice of Motion EC2025-0995, the Recommendations be amended by adding the following as new Recommendations: AND FURTHER BE IT RESOLVED that Administration be directed to prepare amendments to Bylaw 1P2007 land use maps to allow R-CG, R-G or H-GO zoning in Major and Community Activity Centres and within 600m of the Primary Transit Network as defined in the Municipal Development Plan.",
-        "date": "2025/12/15",
-        "domain": "Community",
-        "vote": "Yes",
-        "direction": "Support",
-        "alignment": 1,
-        "earned": 5.4,
-        "possible": 5.4
-      },
-      {
-        "resolution": "That with respect to Report C2025-0901, the following amendment be adopted: ;\nThat a new sub-bullet be inserted under Recommendation 1, as follows: ;\nAllocating ;$9.0 ;million in one-time operating funding to Community Services in 2026, to be funded from Fiscal Stability Reserve for the purpose of improving transit safety, and direct Administration to: ;\ni. Focus security enhancements on C-Train stations during afternoon rush hour (4 PM  8 PM), based on incident data;\nii. Implement Tiered Security Model as outlined in the Public Transit Safety Strategy:\n\n\n\n\n\nTransit Peace Officers (TPOs): Mobile patrols, enforcement, complex calls; provide rapid response and support to static guards;\nCorporate Security: Fixed posts at priority stations for observation, reporting, and customer assistance;\nContracted security guards: Scalable resource for ;additional ;fixed posts during expansion ;phase; ;\n\n\n\n\n\niii. Use phased approach to deploy security staff until additional peace officers are hired (aligned with growth strategy from 2024);\niv. Increase community outreach activities by adding six officers to the Community Outreach Team; and\nv. Report back to Council Q3 2026 with results to determine if public perceived C-train was safer as a result",
-        "date": "2025/12/02",
-        "domain": "Wellness",
-        "vote": "Yes",
-        "direction": "Support",
-        "alignment": 1,
-        "earned": 7,
-        "possible": 7
-      },
-      {
-        "resolution": "With respect to Report C2025-0901, the following amendment be adopted: That a new sub-bullet be inserted under Recommendation 1, as follows: Removing $6.0 million in ongoing operating funding from the Mental Health and Addictions Program under Community Services, and allocating $6.0 million in one-time operating funding to Community Services in 2026 for the Mental Health and Addictions Program, drawing from the Fiscal Stability Reserve",
-        "date": "2025/11/10",
-        "domain": "Wellness",
-        "vote": "Yes",
-        "direction": "Oppose",
-        "alignment": -1,
-        "earned": 0,
-        "possible": 7
-      },
-      {
-        "resolution": "That with respect to Report C2025-0901, the following amendment be adopted: That a new sub-bullet be inserted under Recommendation 1, as follows: With respect to Transit Fares, approving the following changes and using the $12.8 million in savings to reduce the $14.0 million ongoing operating costs to Increasing Transit Frequency on Key Routes as referenced on page 15 in attachment 2 and reduce the property tax increase accordingly: Eliminate the Free Fares for Children 12 and Under program ($3.6 million), to take effect July 1, 2026;",
-        "date": "2025/11/10",
-        "domain": "Wellness",
-        "vote": "No",
-        "direction": "Oppose",
-        "alignment": 1,
-        "earned": 7,
-        "possible": 7
-      },
-      {
-        "resolution": "That with respect to Report C2025-0901, the following amendment be adopted: That a new sub-bullet be inserted under Recommendation 1, as follows: With respect to Transit Fares, approving the following changes and using the $12.8 million in savings to reduce the $14.0 million ongoing operating costs to Increasing Transit Frequency on Key Routes as referenced on page 15 in attachment 2 and reduce the property tax increase accordingly: iii. Reverse the 2023 fare freeze and increase fares in addition to the previously approved increase to transit fares in 2026 ($4.0 million) and Approve Distribution 2, User Fee Table",
-        "date": "2025/11/10",
-        "domain": "Wellness",
-        "vote": "Yes",
-        "direction": "Oppose",
-        "alignment": -1,
-        "earned": 0,
-        "possible": 7
-      },
-      {
-        "resolution": "That with respect to Notice of Motion EC2025-0995, the following Motion Arising be adopted: WHEREAS City Council has directed Administration to prepare an amending bylaw to restore the Land Use Bylaw Districts in Bylaw 1P2007 and the land use designation of affected parcels to their state prior to third reading of Bylaw 21P2024, with defined exemptions, reporting timelines, and a return to Public Hearing in March 2026; AND WHEREAS City Council recognizes that maintaining housing supply and affordability requires continuity in housing approvals capacity and processing timelines, and that any repeal or modification of zoning regulations should be accompanied by appropriate transitional measures to ensure no net loss in housing approvals during the period of regulatory transition; AND WHEREAS additional direction is required to provide clarity on how Councils adopted amendments to city-wide residential rezoning will be implemented in a manner that maintains compliance with the requirements of federal housing and infrastructure funding programs, including the Housing Accelerator Fund and other applicable granting streams; THEREFORE BE IT RESOLVED THAT Administration be directed to develop and return to Council no later than Q2 2026 with a comprehensive Multi-Tool Zoning and Housing Enablement Framework that: Identifies and evaluates alternative zoning, planning, and approvals-based mechanisms capable of enabling missing-middle, multi-unit, and affordable housing at a scale sufficient to meet or exceed the Citys objectives in the Home is Here: The City of Calgarys Housing Strategy 2024-2030, including the delivery of affordable homes across all housing categories; Demonstrates how the proposed mechanisms will maintain Calgarys eligibility and compliance with funding programs offered by other orders of government, including housing supply outcomes, approvals-streamlining commitments, and growth-enabling regulatory reforms; Identifies any required amendments to the Municipal Development Plan, Land Use Bylaw 1P2007, Local Area Plans, or administrative processes necessary to implement the Framework; Provides Council with a comprehensive analysis of the housing supply, financial, legal, and intergovernmental implications of the Framework, including formal engagement with the Canada Mortgage and Housing Corporation (CMHC) and Housing, Infrastructure and Communities Canada (HICC) to confirm that the proposed mechanisms satisfy funding programs performance requirements; and Identifies any interim resourcing, capital, or programmatic requirements required to maintain housing supply momentum during the transition period between any repeal or modification of existing zoning regulations and the implementation of the Multi-Tool Zoning and Housing Enablement Framework, including the potential use of non-market and non-profit housing delivery mechanisms. Identifies any additional resourcing, staffing, or capital requirements necessary to accelerate implementation of non-Rezoning for Housing housing supply actions already approved within the Home is Here: The City of Calgarys Housing Strategy 20242030, including initiatives related to approvals streamlining, non-market housing delivery, and alternative housing forms. AND FURTHER BE IT RESOLVED THAT Administration undertake direct engagement with CMHC, HICC, the Government of Alberta and the Government of Canada during the development of the Framework and report back to Council on any conditions, amendments, or flexibilities required to support Calgarys continued participation in the Housing Accelerator Fund and other grant streams offered by other orders of government that enable housing supply.",
-        "date": "2025/12/15",
-        "domain": "Community",
-        "vote": "Yes",
-        "direction": "Support",
-        "alignment": 1,
-        "earned": 3,
-        "possible": 3
-      },
-      {
-        "resolution": "That with respect to Notice of Motion EC2026-0039, the following be adopted:\nNOW THEREFORE BE IT RESOLVED that Council amend Council Policy CP2016-03 on the Governance and Appointments of Boards, Commissions and Committees by inserting the following as a new section 5.9.8:\n5.9.8 ; ; ; In order to be eligible for appointment as Public Members, Applicants must not have been employed in the Administration of The City of Calgary within the year prior to the date of their application, unless otherwise specified by the BCCs Governance Documents.",
-        "date": "2026/02/24",
-        "domain": "Governance",
-        "vote": "Yes",
-        "direction": "Support",
-        "alignment": 1,
-        "earned": 2,
-        "possible": 2
-      },
-      {
-        "resolution": "That with respect to Notice of Motion EC2026-0124, the following be adopted:\nNOW THEREFORE BE IT RESOLVED that Council direct Administration to come back to Council, through Executive Committee, no later than June 2026, and provide a proposed stable renewal funding mechanism (e.g. an infrastructure improvement fee, levy or other funding mechanism) to address the Citys immediate infrastructure funding deficit and support predictable, long-term renewal and risk reduction across Calgarys infrastructure assets, as identified in the Q1/Q2 2026 asset conditions, risk and capital needs reporting.",
-        "date": "2026/02/24",
-        "domain": "Governance",
-        "vote": "Yes",
-        "direction": "Support",
-        "alignment": 1,
-        "earned": 2,
-        "possible": 2
-      }
-    ],
-    "reviewedVotesMatched": 8,
-    "minimumVotesRequired": 15,
-    "isEligibleForPublicScore": false,
-    "alignmentScore": null,
-    "scoreStatus": "Score withheld pending sufficient reviewed vote history"
-  },
-  {
-    "name": "Mayor J. Farkas",
-    "totalScore": 26,
-    "totalPossible": 40.4,
-    "matchedVotes": [
-      {
-        "resolution": "That with respect to Report C2025-0901, the following amendment be adopted: That a new sub-bullet be inserted under Recommendation 1, as follows: With respect to Transit Fares, approving the following changes and using the $12.8 million in savings to reduce the $14.0 million ongoing operating costs to Increasing Transit Frequency on Key Routes as referenced on page 15 in attachment 2 and reduce the property tax increase accordingly: Eliminate the Free Fares for Children 12 and Under program ($3.6 million), to take effect July 1, 2026;",
-        "date": "2025/11/10",
-        "domain": "Wellness",
-        "vote": "Yes",
-        "direction": "Oppose",
-        "alignment": -1,
-        "earned": 0,
-        "possible": 7
-      },
-      {
-        "resolution": "That with respect to Report C2025-0901, the following amendment be adopted: That a new sub-bullet be inserted under Recommendation 1, as follows: With respect to Transit Fares, approving the following changes and using the $12.8 million in savings to reduce the $14.0 million ongoing operating costs to Increasing Transit Frequency on Key Routes as referenced on page 15 in attachment 2 and reduce the property tax increase accordingly: iii. Reverse the 2023 fare freeze and increase fares in addition to the previously approved increase to transit fares in 2026 ($4.0 million) and Approve Distribution 2, User Fee Table",
-        "date": "2025/11/10",
-        "domain": "Wellness",
-        "vote": "No",
-        "direction": "Oppose",
-        "alignment": 1,
-        "earned": 7,
-        "possible": 7
-      },
-      {
-        "resolution": "With respect to Report C2025-0901, the following amendment be adopted: That a new sub-bullet be inserted under Recommendation 1, as follows: Removing $6.0 million in ongoing operating funding from the Mental Health and Addictions Program under Community Services, and allocating $6.0 million in one-time operating funding to Community Services in 2026 for the Mental Health and Addictions Program, drawing from the Fiscal Stability Reserve",
-        "date": "2025/11/10",
-        "domain": "Wellness",
-        "vote": "No",
-        "direction": "Oppose",
-        "alignment": 1,
-        "earned": 7,
-        "possible": 7
-      },
-      {
-        "resolution": "That with respect to Report C2025-0901, the following amendment be adopted: ;\nThat a new sub-bullet be inserted under Recommendation 1, as follows: ;\nAllocating ;$9.0 ;million in one-time operating funding to Community Services in 2026, to be funded from Fiscal Stability Reserve for the purpose of improving transit safety, and direct Administration to: ;\ni. Focus security enhancements on C-Train stations during afternoon rush hour (4 PM  8 PM), based on incident data;\nii. Implement Tiered Security Model as outlined in the Public Transit Safety Strategy:\n\n\n\n\n\nTransit Peace Officers (TPOs): Mobile patrols, enforcement, complex calls; provide rapid response and support to static guards;\nCorporate Security: Fixed posts at priority stations for observation, reporting, and customer assistance;\nContracted security guards: Scalable resource for ;additional ;fixed posts during expansion ;phase; ;\n\n\n\n\n\niii. Use phased approach to deploy security staff until additional peace officers are hired (aligned with growth strategy from 2024);\niv. Increase community outreach activities by adding six officers to the Community Outreach Team; and\nv. Report back to Council Q3 2026 with results to determine if public perceived C-train was safer as a result",
-        "date": "2025/12/02",
-        "domain": "Wellness",
-        "vote": "Yes",
-        "direction": "Support",
-        "alignment": 1,
-        "earned": 7,
-        "possible": 7
-      },
-      {
-        "resolution": "That with respect to Notice of Motion EC2025-0995, the following Motion Arising be adopted: WHEREAS City Council has directed Administration to prepare an amending bylaw to restore the Land Use Bylaw Districts in Bylaw 1P2007 and the land use designation of affected parcels to their state prior to third reading of Bylaw 21P2024, with defined exemptions, reporting timelines, and a return to Public Hearing in March 2026; AND WHEREAS City Council recognizes that maintaining housing supply and affordability requires continuity in housing approvals capacity and processing timelines, and that any repeal or modification of zoning regulations should be accompanied by appropriate transitional measures to ensure no net loss in housing approvals during the period of regulatory transition; AND WHEREAS additional direction is required to provide clarity on how Councils adopted amendments to city-wide residential rezoning will be implemented in a manner that maintains compliance with the requirements of federal housing and infrastructure funding programs, including the Housing Accelerator Fund and other applicable granting streams; THEREFORE BE IT RESOLVED THAT Administration be directed to develop and return to Council no later than Q2 2026 with a comprehensive Multi-Tool Zoning and Housing Enablement Framework that: Identifies and evaluates alternative zoning, planning, and approvals-based mechanisms capable of enabling missing-middle, multi-unit, and affordable housing at a scale sufficient to meet or exceed the Citys objectives in the Home is Here: The City of Calgarys Housing Strategy 2024-2030, including the delivery of affordable homes across all housing categories; Demonstrates how the proposed mechanisms will maintain Calgarys eligibility and compliance with funding programs offered by other orders of government, including housing supply outcomes, approvals-streamlining commitments, and growth-enabling regulatory reforms; Identifies any required amendments to the Municipal Development Plan, Land Use Bylaw 1P2007, Local Area Plans, or administrative processes necessary to implement the Framework; Provides Council with a comprehensive analysis of the housing supply, financial, legal, and intergovernmental implications of the Framework, including formal engagement with the Canada Mortgage and Housing Corporation (CMHC) and Housing, Infrastructure and Communities Canada (HICC) to confirm that the proposed mechanisms satisfy funding programs performance requirements; and Identifies any interim resourcing, capital, or programmatic requirements required to maintain housing supply momentum during the transition period between any repeal or modification of existing zoning regulations and the implementation of the Multi-Tool Zoning and Housing Enablement Framework, including the potential use of non-market and non-profit housing delivery mechanisms. Identifies any additional resourcing, staffing, or capital requirements necessary to accelerate implementation of non-Rezoning for Housing housing supply actions already approved within the Home is Here: The City of Calgarys Housing Strategy 20242030, including initiatives related to approvals streamlining, non-market housing delivery, and alternative housing forms. AND FURTHER BE IT RESOLVED THAT Administration undertake direct engagement with CMHC, HICC, the Government of Alberta and the Government of Canada during the development of the Framework and report back to Council on any conditions, amendments, or flexibilities required to support Calgarys continued participation in the Housing Accelerator Fund and other grant streams offered by other orders of government that enable housing supply.",
-        "date": "2025/12/15",
-        "domain": "Community",
-        "vote": "Yes",
-        "direction": "Support",
-        "alignment": 1,
-        "earned": 3,
-        "possible": 3
-      },
-      {
-        "resolution": "That with respect to Notice of Motion EC2025-0995, the Recommendations be amended by adding the following as new Recommendations: AND FURTHER BE IT RESOLVED that Administration be directed to prepare amendments to Bylaw 1P2007 land use maps to allow R-CG, R-G or H-GO zoning in Major and Community Activity Centres and within 600m of the Primary Transit Network as defined in the Municipal Development Plan.",
-        "date": "2025/12/15",
-        "domain": "Community",
-        "vote": "No",
-        "direction": "Support",
-        "alignment": -1,
-        "earned": 0,
-        "possible": 5.4
-      },
-      {
-        "resolution": "That with respect to Notice of Motion EC2026-0124, the following be adopted:\nNOW THEREFORE BE IT RESOLVED that Council direct Administration to come back to Council, through Executive Committee, no later than June 2026, and provide a proposed stable renewal funding mechanism (e.g. an infrastructure improvement fee, levy or other funding mechanism) to address the Citys immediate infrastructure funding deficit and support predictable, long-term renewal and risk reduction across Calgarys infrastructure assets, as identified in the Q1/Q2 2026 asset conditions, risk and capital needs reporting.",
-        "date": "2026/02/24",
-        "domain": "Governance",
-        "vote": "Yes",
-        "direction": "Support",
-        "alignment": 1,
-        "earned": 2,
-        "possible": 2
-      },
-      {
-        "resolution": "That with respect to Notice of Motion EC2026-0039, the following be adopted:\nNOW THEREFORE BE IT RESOLVED that Council amend Council Policy CP2016-03 on the Governance and Appointments of Boards, Commissions and Committees by inserting the following as a new section 5.9.8:\n5.9.8 ; ; ; In order to be eligible for appointment as Public Members, Applicants must not have been employed in the Administration of The City of Calgary within the year prior to the date of their application, unless otherwise specified by the BCCs Governance Documents.",
-        "date": "2026/02/24",
-        "domain": "Governance",
-        "vote": "No",
-        "direction": "Support",
-        "alignment": -1,
-        "earned": 0,
-        "possible": 2
-      }
-    ],
-    "reviewedVotesMatched": 8,
-    "minimumVotesRequired": 15,
-    "isEligibleForPublicScore": false,
-    "alignmentScore": null,
-    "scoreStatus": "Score withheld pending sufficient reviewed vote history"
-  },
-  {
-    "name": "Andrew Yule",
-    "totalScore": 21,
-    "totalPossible": 40.4,
-    "matchedVotes": [
-      {
-        "resolution": "That with respect to Report C2025-0901, the following amendment be adopted: ;\nThat a new sub-bullet be inserted under Recommendation 1, as follows: ;\nAllocating ;$9.0 ;million in one-time operating funding to Community Services in 2026, to be funded from Fiscal Stability Reserve for the purpose of improving transit safety, and direct Administration to: ;\ni. Focus security enhancements on C-Train stations during afternoon rush hour (4 PM  8 PM), based on incident data;\nii. Implement Tiered Security Model as outlined in the Public Transit Safety Strategy:\n\n\n\n\n\nTransit Peace Officers (TPOs): Mobile patrols, enforcement, complex calls; provide rapid response and support to static guards;\nCorporate Security: Fixed posts at priority stations for observation, reporting, and customer assistance;\nContracted security guards: Scalable resource for ;additional ;fixed posts during expansion ;phase; ;\n\n\n\n\n\niii. Use phased approach to deploy security staff until additional peace officers are hired (aligned with growth strategy from 2024);\niv. Increase community outreach activities by adding six officers to the Community Outreach Team; and\nv. Report back to Council Q3 2026 with results to determine if public perceived C-train was safer as a result",
-        "date": "2025/12/02",
-        "domain": "Wellness",
-        "vote": "Yes",
-        "direction": "Support",
-        "alignment": 1,
-        "earned": 7,
-        "possible": 7
-      },
-      {
-        "resolution": "That with respect to Report C2025-0901, the following amendment be adopted: That a new sub-bullet be inserted under Recommendation 1, as follows: With respect to Transit Fares, approving the following changes and using the $12.8 million in savings to reduce the $14.0 million ongoing operating costs to Increasing Transit Frequency on Key Routes as referenced on page 15 in attachment 2 and reduce the property tax increase accordingly: iii. Reverse the 2023 fare freeze and increase fares in addition to the previously approved increase to transit fares in 2026 ($4.0 million) and Approve Distribution 2, User Fee Table",
-        "date": "2025/11/10",
-        "domain": "Wellness",
-        "vote": "Yes",
-        "direction": "Oppose",
-        "alignment": -1,
-        "earned": 0,
-        "possible": 7
-      },
-      {
-        "resolution": "That with respect to Notice of Motion EC2025-0995, the Recommendations be amended by adding the following as new Recommendations: AND FURTHER BE IT RESOLVED that Administration be directed to prepare amendments to Bylaw 1P2007 land use maps to allow R-CG, R-G or H-GO zoning in Major and Community Activity Centres and within 600m of the Primary Transit Network as defined in the Municipal Development Plan.",
-        "date": "2025/12/15",
-        "domain": "Community",
-        "vote": "No",
-        "direction": "Support",
-        "alignment": -1,
-        "earned": 0,
-        "possible": 5.4
-      },
-      {
-        "resolution": "With respect to Report C2025-0901, the following amendment be adopted: That a new sub-bullet be inserted under Recommendation 1, as follows: Removing $6.0 million in ongoing operating funding from the Mental Health and Addictions Program under Community Services, and allocating $6.0 million in one-time operating funding to Community Services in 2026 for the Mental Health and Addictions Program, drawing from the Fiscal Stability Reserve",
-        "date": "2025/11/10",
-        "domain": "Wellness",
-        "vote": "Yes",
-        "direction": "Oppose",
-        "alignment": -1,
-        "earned": 0,
-        "possible": 7
-      },
-      {
-        "resolution": "That with respect to Report C2025-0901, the following amendment be adopted: That a new sub-bullet be inserted under Recommendation 1, as follows: With respect to Transit Fares, approving the following changes and using the $12.8 million in savings to reduce the $14.0 million ongoing operating costs to Increasing Transit Frequency on Key Routes as referenced on page 15 in attachment 2 and reduce the property tax increase accordingly: Eliminate the Free Fares for Children 12 and Under program ($3.6 million), to take effect July 1, 2026;",
-        "date": "2025/11/10",
-        "domain": "Wellness",
-        "vote": "No",
-        "direction": "Oppose",
-        "alignment": 1,
-        "earned": 7,
-        "possible": 7
-      },
-      {
-        "resolution": "That with respect to Notice of Motion EC2025-0995, the following Motion Arising be adopted: WHEREAS City Council has directed Administration to prepare an amending bylaw to restore the Land Use Bylaw Districts in Bylaw 1P2007 and the land use designation of affected parcels to their state prior to third reading of Bylaw 21P2024, with defined exemptions, reporting timelines, and a return to Public Hearing in March 2026; AND WHEREAS City Council recognizes that maintaining housing supply and affordability requires continuity in housing approvals capacity and processing timelines, and that any repeal or modification of zoning regulations should be accompanied by appropriate transitional measures to ensure no net loss in housing approvals during the period of regulatory transition; AND WHEREAS additional direction is required to provide clarity on how Councils adopted amendments to city-wide residential rezoning will be implemented in a manner that maintains compliance with the requirements of federal housing and infrastructure funding programs, including the Housing Accelerator Fund and other applicable granting streams; THEREFORE BE IT RESOLVED THAT Administration be directed to develop and return to Council no later than Q2 2026 with a comprehensive Multi-Tool Zoning and Housing Enablement Framework that: Identifies and evaluates alternative zoning, planning, and approvals-based mechanisms capable of enabling missing-middle, multi-unit, and affordable housing at a scale sufficient to meet or exceed the Citys objectives in the Home is Here: The City of Calgarys Housing Strategy 2024-2030, including the delivery of affordable homes across all housing categories; Demonstrates how the proposed mechanisms will maintain Calgarys eligibility and compliance with funding programs offered by other orders of government, including housing supply outcomes, approvals-streamlining commitments, and growth-enabling regulatory reforms; Identifies any required amendments to the Municipal Development Plan, Land Use Bylaw 1P2007, Local Area Plans, or administrative processes necessary to implement the Framework; Provides Council with a comprehensive analysis of the housing supply, financial, legal, and intergovernmental implications of the Framework, including formal engagement with the Canada Mortgage and Housing Corporation (CMHC) and Housing, Infrastructure and Communities Canada (HICC) to confirm that the proposed mechanisms satisfy funding programs performance requirements; and Identifies any interim resourcing, capital, or programmatic requirements required to maintain housing supply momentum during the transition period between any repeal or modification of existing zoning regulations and the implementation of the Multi-Tool Zoning and Housing Enablement Framework, including the potential use of non-market and non-profit housing delivery mechanisms. Identifies any additional resourcing, staffing, or capital requirements necessary to accelerate implementation of non-Rezoning for Housing housing supply actions already approved within the Home is Here: The City of Calgarys Housing Strategy 20242030, including initiatives related to approvals streamlining, non-market housing delivery, and alternative housing forms. AND FURTHER BE IT RESOLVED THAT Administration undertake direct engagement with CMHC, HICC, the Government of Alberta and the Government of Canada during the development of the Framework and report back to Council on any conditions, amendments, or flexibilities required to support Calgarys continued participation in the Housing Accelerator Fund and other grant streams offered by other orders of government that enable housing supply.",
-        "date": "2025/12/15",
-        "domain": "Community",
-        "vote": "Yes",
-        "direction": "Support",
-        "alignment": 1,
-        "earned": 3,
-        "possible": 3
-      },
-      {
-        "resolution": "That with respect to Notice of Motion EC2026-0124, the following be adopted:\nNOW THEREFORE BE IT RESOLVED that Council direct Administration to come back to Council, through Executive Committee, no later than June 2026, and provide a proposed stable renewal funding mechanism (e.g. an infrastructure improvement fee, levy or other funding mechanism) to address the Citys immediate infrastructure funding deficit and support predictable, long-term renewal and risk reduction across Calgarys infrastructure assets, as identified in the Q1/Q2 2026 asset conditions, risk and capital needs reporting.",
-        "date": "2026/02/24",
-        "domain": "Governance",
-        "vote": "Yes",
-        "direction": "Support",
-        "alignment": 1,
-        "earned": 2,
-        "possible": 2
-      },
-      {
-        "resolution": "That with respect to Notice of Motion EC2026-0039, the following be adopted:\nNOW THEREFORE BE IT RESOLVED that Council amend Council Policy CP2016-03 on the Governance and Appointments of Boards, Commissions and Committees by inserting the following as a new section 5.9.8:\n5.9.8 ; ; ; In order to be eligible for appointment as Public Members, Applicants must not have been employed in the Administration of The City of Calgary within the year prior to the date of their application, unless otherwise specified by the BCCs Governance Documents.",
-        "date": "2026/02/24",
-        "domain": "Governance",
-        "vote": "Yes",
-        "direction": "Support",
-        "alignment": 1,
-        "earned": 2,
-        "possible": 2
-      }
-    ],
-    "reviewedVotesMatched": 8,
-    "minimumVotesRequired": 15,
-    "isEligibleForPublicScore": false,
-    "alignmentScore": null,
-    "scoreStatus": "Score withheld pending sufficient reviewed vote history"
-  },
-  {
-    "name": "Myke Atkinson",
-    "totalScore": 33,
-    "totalPossible": 40.4,
-    "matchedVotes": [
-      {
-        "resolution": "That with respect to Notice of Motion EC2025-0995, the Recommendations be amended by adding the following as new Recommendations: AND FURTHER BE IT RESOLVED that Administration be directed to prepare amendments to Bylaw 1P2007 land use maps to allow R-CG, R-G or H-GO zoning in Major and Community Activity Centres and within 600m of the Primary Transit Network as defined in the Municipal Development Plan.",
-        "date": "2025/12/15",
-        "domain": "Community",
-        "vote": "No",
-        "direction": "Support",
-        "alignment": -1,
-        "earned": 0,
-        "possible": 5.4
-      },
-      {
-        "resolution": "That with respect to Report C2025-0901, the following amendment be adopted: ;\nThat a new sub-bullet be inserted under Recommendation 1, as follows: ;\nAllocating ;$9.0 ;million in one-time operating funding to Community Services in 2026, to be funded from Fiscal Stability Reserve for the purpose of improving transit safety, and direct Administration to: ;\ni. Focus security enhancements on C-Train stations during afternoon rush hour (4 PM  8 PM), based on incident data;\nii. Implement Tiered Security Model as outlined in the Public Transit Safety Strategy:\n\n\n\n\n\nTransit Peace Officers (TPOs): Mobile patrols, enforcement, complex calls; provide rapid response and support to static guards;\nCorporate Security: Fixed posts at priority stations for observation, reporting, and customer assistance;\nContracted security guards: Scalable resource for ;additional ;fixed posts during expansion ;phase; ;\n\n\n\n\n\niii. Use phased approach to deploy security staff until additional peace officers are hired (aligned with growth strategy from 2024);\niv. Increase community outreach activities by adding six officers to the Community Outreach Team; and\nv. Report back to Council Q3 2026 with results to determine if public perceived C-train was safer as a result",
-        "date": "2025/12/02",
-        "domain": "Wellness",
-        "vote": "Yes",
-        "direction": "Support",
-        "alignment": 1,
-        "earned": 7,
-        "possible": 7
-      },
-      {
-        "resolution": "That with respect to Report C2025-0901, the following amendment be adopted: That a new sub-bullet be inserted under Recommendation 1, as follows: With respect to Transit Fares, approving the following changes and using the $12.8 million in savings to reduce the $14.0 million ongoing operating costs to Increasing Transit Frequency on Key Routes as referenced on page 15 in attachment 2 and reduce the property tax increase accordingly: Eliminate the Free Fares for Children 12 and Under program ($3.6 million), to take effect July 1, 2026;",
-        "date": "2025/11/10",
-        "domain": "Wellness",
-        "vote": "No",
-        "direction": "Oppose",
-        "alignment": 1,
-        "earned": 7,
-        "possible": 7
-      },
-      {
-        "resolution": "With respect to Report C2025-0901, the following amendment be adopted: That a new sub-bullet be inserted under Recommendation 1, as follows: Removing $6.0 million in ongoing operating funding from the Mental Health and Addictions Program under Community Services, and allocating $6.0 million in one-time operating funding to Community Services in 2026 for the Mental Health and Addictions Program, drawing from the Fiscal Stability Reserve",
-        "date": "2025/11/10",
-        "domain": "Wellness",
-        "vote": "No",
-        "direction": "Oppose",
-        "alignment": 1,
-        "earned": 7,
-        "possible": 7
-      },
-      {
-        "resolution": "That with respect to Report C2025-0901, the following amendment be adopted: That a new sub-bullet be inserted under Recommendation 1, as follows: With respect to Transit Fares, approving the following changes and using the $12.8 million in savings to reduce the $14.0 million ongoing operating costs to Increasing Transit Frequency on Key Routes as referenced on page 15 in attachment 2 and reduce the property tax increase accordingly: iii. Reverse the 2023 fare freeze and increase fares in addition to the previously approved increase to transit fares in 2026 ($4.0 million) and Approve Distribution 2, User Fee Table",
-        "date": "2025/11/10",
-        "domain": "Wellness",
-        "vote": "No",
-        "direction": "Oppose",
-        "alignment": 1,
-        "earned": 7,
-        "possible": 7
-      },
-      {
-        "resolution": "That with respect to Notice of Motion EC2025-0995, the following Motion Arising be adopted: WHEREAS City Council has directed Administration to prepare an amending bylaw to restore the Land Use Bylaw Districts in Bylaw 1P2007 and the land use designation of affected parcels to their state prior to third reading of Bylaw 21P2024, with defined exemptions, reporting timelines, and a return to Public Hearing in March 2026; AND WHEREAS City Council recognizes that maintaining housing supply and affordability requires continuity in housing approvals capacity and processing timelines, and that any repeal or modification of zoning regulations should be accompanied by appropriate transitional measures to ensure no net loss in housing approvals during the period of regulatory transition; AND WHEREAS additional direction is required to provide clarity on how Councils adopted amendments to city-wide residential rezoning will be implemented in a manner that maintains compliance with the requirements of federal housing and infrastructure funding programs, including the Housing Accelerator Fund and other applicable granting streams; THEREFORE BE IT RESOLVED THAT Administration be directed to develop and return to Council no later than Q2 2026 with a comprehensive Multi-Tool Zoning and Housing Enablement Framework that: Identifies and evaluates alternative zoning, planning, and approvals-based mechanisms capable of enabling missing-middle, multi-unit, and affordable housing at a scale sufficient to meet or exceed the Citys objectives in the Home is Here: The City of Calgarys Housing Strategy 2024-2030, including the delivery of affordable homes across all housing categories; Demonstrates how the proposed mechanisms will maintain Calgarys eligibility and compliance with funding programs offered by other orders of government, including housing supply outcomes, approvals-streamlining commitments, and growth-enabling regulatory reforms; Identifies any required amendments to the Municipal Development Plan, Land Use Bylaw 1P2007, Local Area Plans, or administrative processes necessary to implement the Framework; Provides Council with a comprehensive analysis of the housing supply, financial, legal, and intergovernmental implications of the Framework, including formal engagement with the Canada Mortgage and Housing Corporation (CMHC) and Housing, Infrastructure and Communities Canada (HICC) to confirm that the proposed mechanisms satisfy funding programs performance requirements; and Identifies any interim resourcing, capital, or programmatic requirements required to maintain housing supply momentum during the transition period between any repeal or modification of existing zoning regulations and the implementation of the Multi-Tool Zoning and Housing Enablement Framework, including the potential use of non-market and non-profit housing delivery mechanisms. Identifies any additional resourcing, staffing, or capital requirements necessary to accelerate implementation of non-Rezoning for Housing housing supply actions already approved within the Home is Here: The City of Calgarys Housing Strategy 20242030, including initiatives related to approvals streamlining, non-market housing delivery, and alternative housing forms. AND FURTHER BE IT RESOLVED THAT Administration undertake direct engagement with CMHC, HICC, the Government of Alberta and the Government of Canada during the development of the Framework and report back to Council on any conditions, amendments, or flexibilities required to support Calgarys continued participation in the Housing Accelerator Fund and other grant streams offered by other orders of government that enable housing supply.",
-        "date": "2025/12/15",
-        "domain": "Community",
-        "vote": "Yes",
-        "direction": "Support",
-        "alignment": 1,
-        "earned": 3,
-        "possible": 3
-      },
-      {
-        "resolution": "That with respect to Notice of Motion EC2026-0124, the following be adopted:\nNOW THEREFORE BE IT RESOLVED that Council direct Administration to come back to Council, through Executive Committee, no later than June 2026, and provide a proposed stable renewal funding mechanism (e.g. an infrastructure improvement fee, levy or other funding mechanism) to address the Citys immediate infrastructure funding deficit and support predictable, long-term renewal and risk reduction across Calgarys infrastructure assets, as identified in the Q1/Q2 2026 asset conditions, risk and capital needs reporting.",
-        "date": "2026/02/24",
-        "domain": "Governance",
-        "vote": "No",
-        "direction": "Support",
-        "alignment": -1,
-        "earned": 0,
-        "possible": 2
-      },
-      {
-        "resolution": "That with respect to Notice of Motion EC2026-0039, the following be adopted:\nNOW THEREFORE BE IT RESOLVED that Council amend Council Policy CP2016-03 on the Governance and Appointments of Boards, Commissions and Committees by inserting the following as a new section 5.9.8:\n5.9.8 ; ; ; In order to be eligible for appointment as Public Members, Applicants must not have been employed in the Administration of The City of Calgary within the year prior to the date of their application, unless otherwise specified by the BCCs Governance Documents.",
-        "date": "2026/02/24",
-        "domain": "Governance",
-        "vote": "Yes",
-        "direction": "Support",
-        "alignment": 1,
-        "earned": 2,
-        "possible": 2
-      }
-    ],
-    "reviewedVotesMatched": 8,
-    "minimumVotesRequired": 15,
-    "isEligibleForPublicScore": false,
-    "alignmentScore": null,
-    "scoreStatus": "Score withheld pending sufficient reviewed vote history"
+    "scoreStatus": "Verified Score"
   },
   {
     "name": "Mike Jamieson",
@@ -4326,8 +4350,9 @@
     "reviewedVotesMatched": 8,
     "minimumVotesRequired": 15,
     "isEligibleForPublicScore": false,
-    "alignmentScore": null,
-    "scoreStatus": "Score withheld pending sufficient reviewed vote history"
+    "scoreConfidence": "preliminary",
+    "alignmentScore": 5,
+    "scoreStatus": "Preliminary Score"
   },
   {
     "name": "Landon Johnston",
@@ -4418,7 +4443,8 @@
     "reviewedVotesMatched": 8,
     "minimumVotesRequired": 15,
     "isEligibleForPublicScore": false,
-    "alignmentScore": null,
-    "scoreStatus": "Score withheld pending sufficient reviewed vote history"
+    "scoreConfidence": "preliminary",
+    "alignmentScore": 0,
+    "scoreStatus": "Preliminary Score"
   }
 ]

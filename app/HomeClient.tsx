@@ -33,6 +33,7 @@ export type CouncillorScore = {
   reviewedVotesMatched: number;
   minimumVotesRequired: number;
   isEligibleForPublicScore: boolean;
+  scoreConfidence: "verified" | "preliminary" | "insufficient";
   alignmentScore: number | null;
   scoreStatus: string;
   scoringVotes: ScoringVote[] | null;
@@ -82,22 +83,34 @@ export default function HomeClient({
   const [loadingFor, setLoadingFor] = useState<string | null>(null);
   const [drawerData, setDrawerData] = useState<ReceiptsApiResponse | null>(null);
 
-  const rankedEligible = useMemo((): ScoredCouncillor[] => {
-    const weights: Record<string, number> = {};
-    domains.forEach((d, i) => {
-      weights[d.name] = 7 - i;
-    });
-    return councillorData
-      .filter((c) => c.isEligibleForPublicScore && c.scoringVotes !== null)
+  const weights = useMemo(() => {
+    const w: Record<string, number> = {};
+    domains.forEach((d, i) => { w[d.name] = 7 - i; });
+    return w;
+  }, [domains]);
+
+  const rankedVerified = useMemo((): ScoredCouncillor[] =>
+    councillorData
+      .filter((c) => c.scoreConfidence === "verified" && c.scoringVotes !== null)
       .map((c) => ({
         ...c,
         personalizedScore: computePersonalizedScore(c.scoringVotes!, weights),
       }))
-      .sort((a, b) => b.personalizedScore - a.personalizedScore);
-  }, [domains, councillorData]);
+      .sort((a, b) => b.personalizedScore - a.personalizedScore),
+  [weights, councillorData]);
 
-  const withheldCouncillors = useMemo(
-    () => councillorData.filter((c) => !c.isEligibleForPublicScore),
+  const rankedPreliminary = useMemo((): ScoredCouncillor[] =>
+    councillorData
+      .filter((c) => c.scoreConfidence === "preliminary" && c.scoringVotes !== null)
+      .map((c) => ({
+        ...c,
+        personalizedScore: computePersonalizedScore(c.scoringVotes!, weights),
+      }))
+      .sort((a, b) => b.personalizedScore - a.personalizedScore),
+  [weights, councillorData]);
+
+  const insufficientCouncillors = useMemo(
+    () => councillorData.filter((c) => c.scoreConfidence === "insufficient"),
     [councillorData]
   );
 
@@ -154,32 +167,23 @@ export default function HomeClient({
             onClick={handleFindMatch}
             className="mt-10 rounded-2xl bg-white px-8 py-4 text-sm font-semibold text-slate-950 transition hover:scale-[1.02]"
           >
-            View Alignment Scores →
+            Start Exploring →
           </button>
         </div>
       </section>
 
       <section className="border-b border-white/10">
         <div className="mx-auto max-w-7xl px-6 py-16">
-          <div className="mb-8 flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
-            <div>
-              <p className="mb-3 text-sm font-semibold uppercase tracking-[0.2em] text-red-300">
-                Step 1
-              </p>
-              <h2 className="text-3xl font-semibold">Rank Your Values</h2>
-              <p className="mt-3 max-w-3xl text-slate-400">
-                Drag to reorder. Your ranking changes the weight applied to
-                each domain — higher position means greater emphasis in the
-                alignment calculation below.
-              </p>
-            </div>
-
-            <button
-              onClick={handleFindMatch}
-              className="w-fit rounded-xl bg-red-500 px-5 py-3 text-sm font-semibold text-white transition hover:bg-red-400"
-            >
-              See Results →
-            </button>
+          <div className="mb-8">
+            <p className="mb-3 text-sm font-semibold uppercase tracking-[0.2em] text-red-300">
+              Step 1
+            </p>
+            <h2 className="text-3xl font-semibold">Rank Your Values</h2>
+            <p className="mt-3 max-w-3xl text-slate-400">
+              Drag to reorder. Your ranking changes the weight applied to
+              each domain — higher position means greater emphasis in the
+              alignment calculation below.
+            </p>
           </div>
 
           <div className="grid gap-3 md:grid-cols-7">
@@ -265,76 +269,129 @@ export default function HomeClient({
             </p>
           </div>
 
-          {/* Eligible councillors — scores live-recalculate on domain reorder */}
-          <div className="grid gap-6 md:grid-cols-3">
-            {rankedEligible.map((person) => (
-              <div
-                key={person.name}
-                className="rounded-2xl border border-white/10 bg-white/[0.04] p-6"
-              >
-                <p className="text-sm text-slate-400">
-                  {person.reviewedVotesMatched} reviewed votes matched
-                </p>
-
-                <h3 className="mt-2 text-2xl font-semibold">{person.name}</h3>
-
-                <div className="mt-6">
-                  <p className="text-sm text-slate-400">Alignment Score</p>
-                  <p className="text-5xl font-bold">
-                    {Math.round(person.personalizedScore)}%
-                  </p>
-                </div>
-
-                <div className="mt-5 h-2 overflow-hidden rounded-full bg-white/10">
-                  <div
-                    className="h-full rounded-full bg-red-400"
-                    style={{ width: `${Math.round(person.personalizedScore)}%` }}
-                  />
-                </div>
-
-                <p className="mt-6 text-sm leading-relaxed text-slate-400">
-                  Alignment uses reviewed public votes, weighted to your
-                  current domain priorities.
-                </p>
-
-                <button
-                  onClick={() => handleShowReceipts(person.name)}
-                  disabled={loadingFor === person.name}
-                  className="mt-5 text-sm font-semibold text-red-300 underline underline-offset-4 transition-colors hover:text-red-200 disabled:opacity-50"
-                >
-                  {loadingFor === person.name
-                    ? "Loading…"
-                    : "Show receipts →"}
-                </button>
-              </div>
-            ))}
-          </div>
-
-          {/* Withheld councillors */}
-          {withheldCouncillors.length > 0 && (
-            <div className="mt-14">
-              <p className="mb-1 text-sm font-semibold uppercase tracking-[0.2em] text-slate-500">
-                Score Pending
+          {/* Verified councillors */}
+          {rankedVerified.length > 0 && (
+            <div>
+              <p className="mb-1 text-xs font-semibold uppercase tracking-[0.2em] text-emerald-500">
+                Verified Score
               </p>
-              <p className="mb-6 text-sm text-slate-600">
-                Insufficient reviewed vote history to generate a public alignment score.
+              <p className="mb-6 text-xs text-slate-500">
+                15 or more reviewed votes matched.
               </p>
-
-              <div className="grid gap-3 sm:grid-cols-2 md:grid-cols-4">
-                {withheldCouncillors.map((person) => (
+              <div className="grid gap-6 md:grid-cols-3">
+                {rankedVerified.map((person) => (
                   <div
                     key={person.name}
-                    className="rounded-xl border border-white/[0.06] bg-white/[0.02] p-4"
+                    className="rounded-2xl border border-white/10 bg-white/[0.04] p-6"
                   >
-                    <p className="font-semibold text-slate-300">{person.name}</p>
-
-                    <p className="mt-2 text-xs leading-relaxed text-slate-500">
-                      {person.scoreStatus}
+                    <p className="text-sm text-slate-400">
+                      {person.reviewedVotesMatched} reviewed votes matched
                     </p>
 
+                    <h3 className="mt-2 text-2xl font-semibold">{person.name}</h3>
+
+                    <div className="mt-6">
+                      <p className="text-sm text-slate-400">Alignment Score</p>
+                      <p className="text-5xl font-bold">
+                        {Math.round(person.personalizedScore)}%
+                      </p>
+                    </div>
+
+                    <div className="mt-5 h-2 overflow-hidden rounded-full bg-white/10">
+                      <div
+                        className="h-full rounded-full bg-red-400"
+                        style={{ width: `${Math.round(person.personalizedScore)}%` }}
+                      />
+                    </div>
+
+                    <p className="mt-6 text-sm leading-relaxed text-slate-400">
+                      Alignment uses reviewed public votes, weighted to your
+                      current domain priorities.
+                    </p>
+
+                    <button
+                      onClick={() => handleShowReceipts(person.name)}
+                      disabled={loadingFor === person.name}
+                      className="mt-5 text-sm font-semibold text-red-300 underline underline-offset-4 transition-colors hover:text-red-200 disabled:opacity-50"
+                    >
+                      {loadingFor === person.name ? "Loading…" : "Show receipts →"}
+                    </button>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* Preliminary councillors */}
+          {rankedPreliminary.length > 0 && (
+            <div className="mt-14">
+              <p className="mb-1 text-xs font-semibold uppercase tracking-[0.2em] text-amber-500">
+                Preliminary Score
+              </p>
+              <p className="mb-6 text-xs text-slate-500">
+                5–14 reviewed votes matched. Score direction is early and may shift as more votes are reviewed.
+              </p>
+              <div className="grid gap-6 md:grid-cols-3">
+                {rankedPreliminary.map((person) => (
+                  <div
+                    key={person.name}
+                    className="rounded-2xl border border-amber-500/20 bg-white/[0.02] p-6"
+                  >
+                    <p className="text-sm text-slate-500">
+                      {person.reviewedVotesMatched} reviewed votes matched
+                    </p>
+
+                    <h3 className="mt-2 text-2xl font-semibold text-slate-200">{person.name}</h3>
+
+                    <div className="mt-6">
+                      <p className="text-sm text-slate-500">Alignment Score</p>
+                      <p className="text-5xl font-bold text-slate-300">
+                        {Math.round(person.personalizedScore)}%
+                      </p>
+                    </div>
+
+                    <div className="mt-5 h-2 overflow-hidden rounded-full bg-white/10">
+                      <div
+                        className="h-full rounded-full bg-amber-600/60"
+                        style={{ width: `${Math.round(person.personalizedScore)}%` }}
+                      />
+                    </div>
+
+                    <p className="mt-6 text-xs leading-relaxed text-slate-500">
+                      Preliminary — based on a limited sample. Score may change as more votes are reviewed.
+                    </p>
+
+                    <button
+                      onClick={() => handleShowReceipts(person.name)}
+                      disabled={loadingFor === person.name}
+                      className="mt-5 text-sm font-semibold text-slate-400 underline underline-offset-4 transition-colors hover:text-slate-300 disabled:opacity-50"
+                    >
+                      {loadingFor === person.name ? "Loading…" : "Show receipts →"}
+                    </button>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* Insufficient data councillors */}
+          {insufficientCouncillors.length > 0 && (
+            <div className="mt-14">
+              <p className="mb-1 text-xs font-semibold uppercase tracking-[0.2em] text-slate-500">
+                Insufficient Data
+              </p>
+              <p className="mb-6 text-xs text-slate-600">
+                Fewer than 5 reviewed votes matched. No score generated.
+              </p>
+              <div className="grid gap-3 sm:grid-cols-2 md:grid-cols-4">
+                {insufficientCouncillors.map((person) => (
+                  <div
+                    key={person.name}
+                    className="rounded-xl border border-white/[0.04] bg-white/[0.01] p-4"
+                  >
+                    <p className="font-semibold text-slate-500">{person.name}</p>
                     <p className="mt-3 text-xs text-slate-600">
-                      {person.reviewedVotesMatched} of{" "}
-                      {person.minimumVotesRequired} reviewed votes matched
+                      {person.reviewedVotesMatched} reviewed votes matched
                     </p>
                   </div>
                 ))}
