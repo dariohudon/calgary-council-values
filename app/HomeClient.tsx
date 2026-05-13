@@ -179,14 +179,57 @@ export default function HomeClient({
               Step 1
             </p>
             <h2 className="text-3xl font-semibold">Rank Your Values</h2>
-            <p className="mt-3 max-w-3xl text-slate-400">
-              Drag to reorder. Your ranking changes the weight applied to
-              each domain — higher position means greater emphasis in the
-              alignment calculation below.
+            <p className="mt-3 max-w-3xl text-slate-400 md:hidden">
+              Tap the arrows to reorder your priorities. Higher position means
+              greater emphasis in the alignment calculation below.
+            </p>
+            <p className="mt-3 hidden max-w-3xl text-slate-400 md:block">
+              Drag to reorder. Your ranking changes the weight applied to each
+              domain — higher position means greater emphasis in the alignment
+              calculation below.
             </p>
           </div>
 
-          <div className="grid gap-3 md:grid-cols-7">
+          {/* Mobile: arrow-based ranked list */}
+          <ol className="flex flex-col gap-2 md:hidden">
+            {domains.map((domain, index) => (
+              <li
+                key={domain.name}
+                className="flex items-center gap-4 rounded-xl border border-white/10 bg-white/[0.04] px-4 py-3"
+              >
+                <span className="w-6 shrink-0 text-sm font-semibold text-red-300">
+                  {String(index + 1).padStart(2, "0")}
+                </span>
+
+                <div className="min-w-0 flex-1">
+                  <p className="text-sm font-semibold leading-tight">{domain.name}</p>
+                  <p className="mt-0.5 text-xs text-slate-500">{domain.description}</p>
+                </div>
+
+                <div className="flex shrink-0 flex-col gap-1">
+                  <button
+                    onClick={() => moveDomain(index, index - 1)}
+                    disabled={index === 0}
+                    aria-label={`Move ${domain.name} up`}
+                    className="flex h-7 w-7 items-center justify-center rounded-md border border-white/10 text-slate-400 transition hover:border-red-300/40 hover:text-white disabled:pointer-events-none disabled:opacity-20"
+                  >
+                    ▲
+                  </button>
+                  <button
+                    onClick={() => moveDomain(index, index + 1)}
+                    disabled={index === domains.length - 1}
+                    aria-label={`Move ${domain.name} down`}
+                    className="flex h-7 w-7 items-center justify-center rounded-md border border-white/10 text-slate-400 transition hover:border-red-300/40 hover:text-white disabled:pointer-events-none disabled:opacity-20"
+                  >
+                    ▼
+                  </button>
+                </div>
+              </li>
+            ))}
+          </ol>
+
+          {/* Desktop: drag-and-drop grid */}
+          <div className="hidden gap-3 md:grid md:grid-cols-7">
             {domains.map((domain, index) => {
               const isFirst = index === 0;
 
