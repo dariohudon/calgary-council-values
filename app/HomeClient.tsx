@@ -325,46 +325,44 @@ export default function HomeClient({
           {/* Preliminary councillors */}
           {rankedPreliminary.length > 0 && (
             <div className="mt-14">
-              <p className="mb-1 text-xs font-semibold uppercase tracking-[0.2em] text-amber-500">
+              <p className="mb-1 text-xs font-semibold uppercase tracking-[0.2em] text-amber-600">
                 Preliminary Score
               </p>
-              <p className="mb-6 text-xs text-slate-500">
-                5–14 reviewed votes matched. Score direction is early and may shift as more votes are reviewed.
+              <p className="mb-2 text-sm text-slate-400">
+                Preliminary scores are based on a smaller number of reviewed votes and may change as more council voting records are reviewed.
               </p>
-              <div className="grid gap-6 md:grid-cols-3">
+              <p className="mb-6 text-xs text-slate-600">
+                5–14 reviewed votes matched.
+              </p>
+              <div className="grid gap-4 md:grid-cols-3">
                 {rankedPreliminary.map((person) => (
                   <div
                     key={person.name}
-                    className="rounded-2xl border border-amber-500/20 bg-white/[0.02] p-6"
+                    className="rounded-xl border border-amber-900/30 bg-white/[0.015] p-5"
                   >
-                    <p className="text-sm text-slate-500">
-                      {person.reviewedVotesMatched} reviewed votes matched
-                    </p>
+                    <h3 className="text-lg font-semibold text-slate-300">{person.name}</h3>
 
-                    <h3 className="mt-2 text-2xl font-semibold text-slate-200">{person.name}</h3>
-
-                    <div className="mt-6">
-                      <p className="text-sm text-slate-500">Alignment Score</p>
-                      <p className="text-5xl font-bold text-slate-300">
+                    <div className="mt-4">
+                      <p className="text-xs text-slate-600 uppercase tracking-wide">Preliminary Alignment</p>
+                      <p className="mt-1 text-3xl font-semibold text-slate-400">
                         {Math.round(person.personalizedScore)}%
+                      </p>
+                      <p className="mt-1 text-xs text-slate-600">
+                        Based on {person.reviewedVotesMatched} reviewed votes
                       </p>
                     </div>
 
-                    <div className="mt-5 h-2 overflow-hidden rounded-full bg-white/10">
+                    <div className="mt-4 h-1.5 overflow-hidden rounded-full bg-white/[0.06]">
                       <div
-                        className="h-full rounded-full bg-amber-600/60"
+                        className="h-full rounded-full bg-amber-800/50"
                         style={{ width: `${Math.round(person.personalizedScore)}%` }}
                       />
                     </div>
 
-                    <p className="mt-6 text-xs leading-relaxed text-slate-500">
-                      Preliminary — based on a limited sample. Score may change as more votes are reviewed.
-                    </p>
-
                     <button
                       onClick={() => handleShowReceipts(person.name)}
                       disabled={loadingFor === person.name}
-                      className="mt-5 text-sm font-semibold text-slate-400 underline underline-offset-4 transition-colors hover:text-slate-300 disabled:opacity-50"
+                      className="mt-5 text-xs font-semibold text-slate-500 underline underline-offset-4 transition-colors hover:text-slate-400 disabled:opacity-50"
                     >
                       {loadingFor === person.name ? "Loading…" : "Show receipts →"}
                     </button>
