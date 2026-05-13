@@ -91,10 +91,11 @@ function loadReviewedVotes() {
       .on("data", (row) => {
         if (!row.PrimaryDomain) return;
 
-        const key = normalizeResolution(row.Resolution);
+        const key = normalizeResolution(row.Resolution) + "|" + row.MeetingDate;
 
         reviewed.set(key, {
           resolution: row.Resolution,
+          date: row.MeetingDate,
           primaryDomain: row.PrimaryDomain,
           secondaryDomain: row.SecondaryDomain || null,
           voteType: row.VoteType,
@@ -117,7 +118,7 @@ function loadRawVotes(reviewed) {
     fs.createReadStream(rawVotesFile)
       .pipe(csv())
       .on("data", (row) => {
-        const key = normalizeResolution(row.Resolution);
+        const key = normalizeResolution(row.Resolution) + "|" + row.MeetingDate;
 
         if (!reviewed.has(key)) return;
 
@@ -156,6 +157,7 @@ function loadRawVotes(reviewed) {
 
         councillors[councillor].matchedVotes.push({
           resolution: review.resolution,
+          date: review.date,
           domain: review.primaryDomain,
           vote,
           direction: review.direction,

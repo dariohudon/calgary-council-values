@@ -19,6 +19,14 @@ export default function HomePage() {
     process.cwd(),
     "data/councillor_alignment_scores.json"
   );
+  const rosterPath = path.join(
+    process.cwd(),
+    "data/current_council_roster.json"
+  );
+
+  const currentRoster: Set<string> = new Set(
+    JSON.parse(fs.readFileSync(rosterPath, "utf8")) as string[]
+  );
 
   const raw: Array<{
     name: string;
@@ -34,7 +42,9 @@ export default function HomePage() {
     }>;
   }> = JSON.parse(fs.readFileSync(filePath, "utf8"));
 
-  const councillorData: CouncillorScore[] = raw.map((c) => ({
+  const councillorData: CouncillorScore[] = raw
+    .filter((c) => currentRoster.has(c.name))
+    .map((c) => ({
     name: c.name,
     reviewedVotesMatched: c.reviewedVotesMatched,
     minimumVotesRequired: c.minimumVotesRequired,

@@ -41,3 +41,6 @@ yarn-error.log*
 next-env.d.ts
 data/GOLD_STANDARD_REVIEW.backup-before-batch.csv
 data/GOLD_STANDARD_REVIEW_FILLED.csv
+data/*.bak.*
+data/GOLD_STANDARD_REVIEW.backup-before-batch.csv
+data/GOLD_STANDARD_REVIEW_FILLED.csv

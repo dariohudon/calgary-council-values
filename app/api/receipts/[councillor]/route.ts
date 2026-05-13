@@ -104,6 +104,7 @@ type EnrichmentData = {
 
 type MatchedVoteRaw = {
   resolution: string;
+  date?: string;
   domain: string;
   vote: string;
   direction: string;
@@ -133,7 +134,7 @@ function loadEnrichmentMap(): Map<string, EnrichmentData> {
 
   for (const row of csvRows) {
     if (!row.Resolution) continue;
-    const key = normalizeResolution(row.Resolution);
+    const key = normalizeResolution(row.Resolution) + "|" + (row.MeetingDate ?? "");
     map.set(key, {
       date: row.MeetingDate ?? "",
       confidence: row.Confidence ?? "",
@@ -175,7 +176,7 @@ export async function GET(
   const enrichmentMap = loadEnrichmentMap();
 
   const receipts = match.matchedVotes.map((v) => {
-    const key = normalizeResolution(v.resolution);
+    const key = normalizeResolution(v.resolution) + "|" + (v.date ?? "");
     const enrichment = enrichmentMap.get(key);
 
     return {
