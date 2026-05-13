@@ -120,3 +120,23 @@ Project path:
 
 ```text
 /var/www/calgary-council-values
+
+## Known Scoring Engine Limitation
+
+Current vote matching uses normalized resolution text as the unique identity key.
+
+Issue discovered during post-October 2025 expansion:
+some motions recur on different dates with identical or near-identical text.
+
+This can cause:
+- duplicate matchedVotes
+- inflated reviewed vote counts
+- distorted alignment scoring
+
+Future scoring engine hardening should migrate toward a composite vote identity using:
+- normalized resolution text
+- meeting date
+- report ID
+- possibly vote split
+
+This refactor is intentionally deferred until additional recurring-motion cases justify the migration risk.
