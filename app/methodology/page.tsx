@@ -1,6 +1,9 @@
+import MethodologyNav from "@/components/MethodologyNav";
+
 export default function MethodologyPage() {
   return (
     <main className="min-h-screen bg-[#070b18] text-white">
+      <MethodologyNav />
       <section className="mx-auto max-w-5xl px-6 py-20">
         <p className="mb-4 text-sm font-semibold uppercase tracking-[0.35em] text-[#ff4b4b]">
           Methodology
