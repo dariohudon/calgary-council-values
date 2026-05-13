@@ -9,9 +9,6 @@ export default function AboutPage() {
               Matching values, not talking points.
             </h1>
             <p className="mb-6">
-              A councillor can say all the right things. The real question is whether their voting record reflects those statements.
-            </p>
-            <p className="mb-6">
               Calgary Council Values exists to help residents compare public voting records against their own civic priorities — not campaign messaging, party branding, or political rhetoric.
             </p>
             <p className="mb-6">The platform asks a simple question first:</p>

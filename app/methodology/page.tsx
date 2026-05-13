@@ -28,7 +28,7 @@ export default function MethodologyPage() {
             ["4", "Receipts remain visible", "Scores must trace back to actual votes, dates, domains, and classifications."],
           ].map(([num, title, body]) => (
             <article key={num} className="rounded-2xl border border-white/10 bg-white/[0.04] p-6">
-              <div className="mb-4 text-sm font-bold text-[#ff4b4b]">{num}</div>
+              <div className="mb-4 text-2xl font-bold text-[#ff4b4b] md:text-sm">{num}</div>
               <h2 className="text-xl font-semibold">{title}</h2>
               <p className="mt-3 leading-7 text-slate-300">{body}</p>
             </article>

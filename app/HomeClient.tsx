@@ -191,15 +191,15 @@ export default function HomeClient({
             {domains.map((domain, index) => (
               <li
                 key={domain.name}
-                className="flex items-center gap-4 rounded-xl border border-white/10 bg-white/[0.04] px-4 py-3"
+                className="flex items-center gap-4 rounded-xl border border-white/10 bg-white/[0.04] px-4 py-4"
               >
-                <span className="w-6 shrink-0 text-sm font-semibold text-red-300">
+                <span className="w-8 shrink-0 text-xl font-bold text-red-300">
                   {String(index + 1).padStart(2, "0")}
                 </span>
 
                 <div className="min-w-0 flex-1">
-                  <p className="text-sm font-semibold leading-tight">{domain.name}</p>
-                  <p className="mt-0.5 text-xs text-slate-500">{domain.description}</p>
+                  <p className="text-base font-semibold leading-tight">{domain.name}</p>
+                  <p className="mt-1 text-xs text-slate-500">{domain.description}</p>
                 </div>
 
                 <div className="flex shrink-0 flex-col gap-1">
