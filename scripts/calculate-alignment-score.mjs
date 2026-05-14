@@ -86,10 +86,44 @@ function loadReviewedVotes() {
   return new Promise((resolve) => {
     const reviewed = new Map();
 
+    const warnings = [];
+
     fs.createReadStream(reviewedFile)
       .pipe(csv())
       .on("data", (row) => {
         if (!row.PrimaryDomain) return;
+
+        // Non-blocking validation warnings
+        if (row.VoteType && !(row.VoteType in VOTE_TYPE_WEIGHTS)) {
+          warnings.push(
+            `WARN [VoteType fallback] "${row.VoteType}" not in VOTE_TYPE_WEIGHTS — applying weight 0.5. ` +
+            `SourceReportID:${row.SourceReportID || "(missing)"} Date:${row.MeetingDate}`
+          );
+        }
+        if (!row.ReviewStatus) {
+          warnings.push(
+            `WARN [ReviewStatus missing] Row has no ReviewStatus. ` +
+            `SourceReportID:${row.SourceReportID || "(missing)"} Date:${row.MeetingDate}`
+          );
+        }
+        if (!row.SourceReportID) {
+          warnings.push(
+            `WARN [SourceReportID missing] Row has no SourceReportID. ` +
+            `Domain:${row.PrimaryDomain} Date:${row.MeetingDate}`
+          );
+        }
+        if (!row.Confidence) {
+          warnings.push(
+            `WARN [Confidence missing] Reviewed row has no Confidence — defaulting to Medium. ` +
+            `SourceReportID:${row.SourceReportID || "(missing)"} Date:${row.MeetingDate}`
+          );
+        }
+        if (!row.Notes && !row.ReviewNotes) {
+          warnings.push(
+            `WARN [Notes missing] Reviewed row has no Notes or ReviewNotes. ` +
+            `SourceReportID:${row.SourceReportID || "(missing)"} Date:${row.MeetingDate}`
+          );
+        }
 
         const key = normalizeResolution(row.Resolution) + "|" + row.MeetingDate;
 
@@ -107,7 +141,14 @@ function loadReviewedVotes() {
             VOTE_TYPE_WEIGHTS[row.VoteType] || 0.5,
         });
       })
-      .on("end", () => resolve(reviewed));
+      .on("end", () => {
+        if (warnings.length > 0) {
+          process.stderr.write("\n--- Validation Warnings ---\n");
+          warnings.forEach((w) => process.stderr.write(w + "\n"));
+          process.stderr.write(`Total warnings: ${warnings.length}\n\n`);
+        }
+        resolve(reviewed);
+      });
   });
 }
 
